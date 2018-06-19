@@ -900,7 +900,8 @@ body {
   font-family: "tauri", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  background-color: #fff;
+  background-color: #f5f7f9;
+  background: linear-gradient(to right,#757c75,#227722);
 }
 
 p{
@@ -4148,6 +4149,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: white;
   border-color: white;
+  width: 100%;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4161,7 +4163,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #124b8c;
+  color: #257a3f;
 }
  
 
@@ -4171,7 +4173,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #68a6da;
+  color: #1eb546;
  
 }
 .navbar-default .navbar-nav > .active > a,
@@ -6695,21 +6697,11 @@ hr {
 /*Dit zorgt ervoor dat het menu een animatie krijgt wanneer je met je muis erover heen gaat */
 
 .active2 {
-  transition: 0.4s ease;
-  color: #124b8c;
-  font-size: 20px;
-  text-decoration: none;
-  border-bottom: 4px Solid transparent;
-  padding: 20px 0;
-  margin: 0 20px;
+  font-size: 18px;
+  margin: 0 10px;
 
 }
 
-.active2:hover {
-border-bottom: 4px solid #68a6da;
-  padding: 4px 0; 
-    
-}
 
 
 /*voor onze pakketen op pagina diensten*/
@@ -6840,7 +6832,7 @@ li{
 
 
 
-footer { background-color:#124b8c; max-height:320px; font-family: 'Open Sans', sans-serif; }
+footer { background-color:#257a3f; max-height:320px; font-family: 'Open Sans', sans-serif; }
 .footer-col { margin-top:50px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
@@ -6853,7 +6845,7 @@ footer { background-color:#124b8c; max-height:320px; font-family: 'Open Sans', s
 .footer-ul i { margin-right:10px;}
 .footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
 
- .copyright { min-height:40px; background-color:#68a6da; position:absolute; width:100%}
+ .copyright { min-height:40px; background-color:grey; position:absolute; width:100%}
  .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0;}
  .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px; display:none;}
  .post p { font-size:12px; color:#FFF; line-height:20px; display:none;}
@@ -7291,4 +7283,42 @@ footer { background-color:#124b8c; max-height:320px; font-family: 'Open Sans', s
     margin-right: -15px;
     margin-left: -15px;
     margin-left: 8%;
+}
+
+.pt-box.pt-box-default {
+    background: #fff;
+    border-bottom: 3px solid #1eb546;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.pt-box.pt-box-2 {
+    background: #fff;
+    border-bottom: 3px solid #1eb546;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 500px;
+    min-height: 500px;
+}
+
+.pt-box {
+    border-radius: 3px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.ruimte {
+    padding: 200px;
+}
+
+.logo{
+    width: 10%;
+    margin-left: 20%;
+    margin-bottom: -10%;
+}
+
+.logomobile{
+    display:none;
 }
