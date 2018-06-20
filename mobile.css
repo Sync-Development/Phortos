@@ -1,0 +1,17 @@
+.pt-box.pt-box-2 {
+    background: #fff;
+    border-bottom: 5px solid #227722;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 650px;
+    min-height: 650px;
+}
+
+.pt-box.pt-box-3 {
+    background: #fff;
+    border-bottom: 5px solid #227722;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 720px;
+    min-height: 720px;
+}
