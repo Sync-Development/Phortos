@@ -945,6 +945,7 @@ body {
     color: snow;
 }
 
+
 .pt-page-header::after {
     background: #f5f7f9;
     content: '';
@@ -952,8 +953,8 @@ body {
     right: -50%;
     bottom: -150px;
     left: -50%;
-    -ms-transform: rotate(6deg);
-    transform: rotate(6deg);
+    -ms-transform: rotate(175deg);
+    transform: rotate(175deg);
     height: 300px;
 }
 
@@ -961,6 +962,12 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.pt-page-header .pt-page-header-wrapper.pt-full>div {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    text-align: center;
 }
 
 
@@ -993,6 +1000,16 @@ body {
     overflow-x: hidden;
 }
 
+.pt-page-header .pt-page-header-wrapper {
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 220px;
+}
+
 p{
     color: gray;
     font-family: 'Tauri', sans-serif;
@@ -1013,7 +1030,7 @@ body h1{
 }
 
 body h2{
-    color: #227722;
+    color: #30866f;
     font-family: 'Tauri', sans-serif;
 }
 
@@ -1041,12 +1058,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #42a560;
+  color: #30866f;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #22d658;
+  color: #42a560;
   text-decoration: underline;
 }
 a:focus {
@@ -1529,10 +1546,10 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 @media (min-width: 768px) {
   .container {
@@ -4252,7 +4269,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #257a3f;
+  color: #30866f;
 }
  
 
@@ -4262,7 +4279,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #1eb546;
+  color: #257a3f;
  
 }
 .navbar-default .navbar-nav > .active > a,
@@ -6877,7 +6894,7 @@ li{
 
 
 
-footer { background-color:#257a3f; max-height:320px; font-family: 'Open Sans', sans-serif; }
+footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', sans-serif; }
 .footer-col { margin-top:50px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
@@ -7211,106 +7228,7 @@ footer { background-color:#257a3f; max-height:320px; font-family: 'Open Sans', s
     margin: 0 auto;
         margin-left: -0%;
 }
-/*pakketten*/
-.panel
-{
-    text-align: center;
-}
-.panel:hover { box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(130, 130, 130, 0.35); }
-.panel-body
-{
-    padding: 0px;
-    text-align: center;
-}
 
-.the-price
-{
-    background-color: rgba(220,220,220,.17);
-    box-shadow: 0 1px 0 #dcdcdc, inset 0 1px 0 #fff;
-    padding: 20px;
-    margin: 0;
-}
-
-.the-price h1
-{
-    line-height: 1em;
-    padding: 0;
-    margin: 0;
-}
-
-
-/* CSS-only ribbon styles    */
-.cnrflash
-{
-    /*Position correctly within container*/
-    position: absolute;
-    top: -9px;
-    right: 4px;
-    z-index: 1; /*Set overflow to hidden, to mask inner square*/
-    overflow: hidden; /*Set size and add subtle rounding  		to soften edges*/
-    width: 100px;
-    height: 100px;
-    border-radius: 3px 5px 3px 0;
-}
-.cnrflash-inner
-{
-    /*Set position, make larger then 			container and rotate 45 degrees*/
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 145px;
-    height: 145px;
-    -ms-transform: rotate(45deg); /* IE 9 */
-    -o-transform: rotate(45deg); /* Opera */
-    -moz-transform: rotate(45deg); /* Firefox */
-    -webkit-transform: rotate(45deg); /* Safari and Chrome */
-    -webkit-transform-origin: 100% 100%; /*Purely decorative effects to add texture and stuff*/ /* Safari and Chrome */
-    -ms-transform-origin: 100% 100%;  /* IE 9 */
-    -o-transform-origin: 100% 100%; /* Opera */
-    -moz-transform-origin: 100% 100%; /* Firefox */
-    background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.1) 50%), linear-gradient(0deg, transparent 0%, rgba(1,1,1,.2) 50%);
-    background-size: 4px,auto, auto,auto;
-    background-color: #aa0101;
-    box-shadow: 0 3px 3px 0 rgba(1,1,1,.5), 0 1px 0 0 rgba(1,1,1,.5), inset 0 -1px 8px 0 rgba(255,255,255,.3), inset 0 -1px 0 0 rgba(255,255,255,.2);
-}
-.cnrflash-inner:before, .cnrflash-inner:after
-{
-    /*Use the border triangle trick to make  				it look like the ribbon wraps round it's 				container*/
-    content: " ";
-    display: block;
-    position: absolute;
-    bottom: -16px;
-    width: 0;
-    height: 0;
-    border: 8px solid #800000;
-}
-.cnrflash-inner:before
-{
-    left: 1px;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-}
-.cnrflash-inner:after
-{
-    right: 0;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-.cnrflash-label
-{
-    /*Make the label look nice*/
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    padding-bottom: 5px;
-    color: #fff;
-    text-shadow: 0 1px 1px rgba(1,1,1,.8);
-    font-size: 0.95em;
-    font-weight: bold;
-    text-align: center;
-}
 .panel-primary>.panel-heading {
     color: #fff;
     background-color: #124b8c;
@@ -7324,15 +7242,10 @@ footer { background-color:#257a3f; max-height:320px; font-family: 'Open Sans', s
     .panel-success {
     border-color: #74acca;
 }
-.row2 {
-    margin-right: -15px;
-    margin-left: -15px;
-    margin-left: 8%;
-}
 
 .pt-box.pt-box-default {
     background: #fff;
-    border-bottom: 5px solid #227722;
+    border-bottom: 5px solid #30866f;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
     max-height: 300px;
@@ -7341,7 +7254,7 @@ footer { background-color:#257a3f; max-height:320px; font-family: 'Open Sans', s
 
 .pt-box.pt-box-2 {
     background: #fff;
-    border-bottom: 5px solid #227722;
+    border-bottom: 5px solid #30866f;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
     max-height: 500px;
@@ -7350,7 +7263,7 @@ footer { background-color:#257a3f; max-height:320px; font-family: 'Open Sans', s
 
 .pt-box.pt-box-3 {
     background: #fff;
-    border-bottom: 5px solid #227722;
+    border-bottom: 5px solid #30866f;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
     max-height: 500px;
