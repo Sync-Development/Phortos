@@ -988,13 +988,26 @@ body {
 }
 
 .pt-rest .pt-globe {
-    background: url(../Phortos/images/Globe.png);
+    background: url(../Phortos/images/Logo.svg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: .04;
     position: absolute;
     top: -40px;
-    left: 0;
+    left: -80px;
+    width: 600px;
+    height: 600px;
+    overflow-x: hidden;
+}
+
+.pt-main .pt-globe-consult {
+    background: url(../Phortos/images/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .04;
+    position: absolute;
+    top: 150px;
+    left: -80px;
     width: 600px;
     height: 600px;
     overflow-x: hidden;
@@ -1040,7 +1053,7 @@ body h22{
 }
 
 body h3{
-    color: #124b8c;
+    color: #30866f;
     font-family: 'Tauri', sans-serif;
 }
 body h4{
@@ -1111,7 +1124,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 3px solid #eee;
 }
 .sr-only {
   position: absolute;
@@ -7270,6 +7283,13 @@ footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', s
     min-height: 500px;
 }
 
+.pt-box.pt-box-consult {
+    background: #fff;
+    border-bottom: 5px solid #30866f;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+}
+
 .pt-box {
     border-radius: 3px;
     margin-bottom: 10%;
@@ -7278,7 +7298,7 @@ footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', s
 
 
 .logo{
-    width: 40%;
+    width: 50%;
     margin-left: ;
     margin-bottom: ;
 }
