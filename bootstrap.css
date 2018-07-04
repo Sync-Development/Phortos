@@ -977,6 +977,12 @@ body {
     z-index: 1;
 }
 
+.pt-consult {
+    margin: -200px 0 0px;
+    position: relative;
+    z-index: 1;
+}
+
 .home .pt-main {
     margin-bottom: 0;
 }
@@ -1243,7 +1249,7 @@ h1,
 h2,
 .h2 {
   font-size: 30px;
-        margin-top: 6%;
+    padding-bottom: 30px;
 }
 h22,
 .h22 {
@@ -7270,8 +7276,8 @@ footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', s
     border-bottom: 5px solid #30866f;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
-    max-height: 500px;
-    min-height: 500px;
+    max-height: 560px;
+    min-height: 560px;
 }
 
 .pt-box.pt-box-3 {
@@ -7279,8 +7285,8 @@ footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', s
     border-bottom: 5px solid #30866f;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
-    max-height: 500px;
-    min-height: 500px;
+    max-height: 560px;
+    min-height: 560px;
 }
 
 .pt-box.pt-box-consult {
@@ -7288,6 +7294,7 @@ footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', s
     border-bottom: 5px solid #30866f;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
+    
 }
 
 .pt-box {
