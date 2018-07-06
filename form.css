@@ -22,7 +22,7 @@ color:red;
 
 .succes {
  
-color: #ff9966;
+color: #30866f;
 text-align: center;
 font-weight: bold;
 font-size: 14px;
@@ -32,14 +32,14 @@ font-size: 14px;
 body {
 	font-family:"Open Sans", Helvetica, Arial, sans-serif;
 	font-weight:300;
-	font-size: 12px;
+	font-size: 14px;
 	line-height:30px;
 	color:#777;
-	background:#0CF;
+	
 }
 
 .container {
-	max-width:400px;
+	max-width:700px;
 	width:100%;
 	margin:0 auto;
 	position:relative;
@@ -99,7 +99,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:#0CF;
+	background:#30866f;
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
@@ -117,17 +117,17 @@ fieldset {
 
 #contact input:focus, #contact textarea:focus {
 	outline:0;
-	border:1px solid #999;
+	border:1px solid #30866f;
 }
 ::-webkit-input-placeholder {
- color:#888;
+ color:#30866f;
 }
 :-moz-placeholder {
- color:#888;
+ color:#30866f;
 }
 ::-moz-placeholder {
- color:#888;
+ color:#30866f;
 }
 :-ms-input-placeholder {
- color:#888;
+ color:#30866f;
 }
