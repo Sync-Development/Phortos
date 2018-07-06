@@ -170,13 +170,12 @@ function filterFunction() {
 				
 					<div class="col-md-12">
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
-							<h2>Contact</h2>
 
                             
 <? include('form_process.php'); ?>                            
-<link rel="stylesheet" href="bootstrap.css" type="text/css">             <div class="container">  
+<link rel="stylesheet" href="form.css" type="text/css">             <div class="container">  
   <form id="contact" action="<?=$_SERVER['PHP_SELF']; ?>" method="post">
-    <h3>Direct Contact</h3>
+    <h2>Direct contact</h2>
     <h4>Wij nemen zo spoedig mogelijk contact met u op!</h4>
     <fieldset>
       <input placeholder="Uw naam" type="text" tabindex="1" name="name" value="<? $name ?>" autofocus> <span class="error"><?= $name_error ?></span>
@@ -201,11 +200,6 @@ function filterFunction() {
  
   
 </div>
-
-<p style="text-align: left;">Hier komt contact form
-                            </p>
-                            
-                            <p style="text-align: left;"><br><br><br><br><br><br><br><br><br><br><br><br></p>
                         </div>
 					</div>
                 
