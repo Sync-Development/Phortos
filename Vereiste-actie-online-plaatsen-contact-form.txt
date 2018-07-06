@@ -1,0 +1,1 @@
+Verander op alle pagina's in het navigatie menu contact.html naar contact.php
