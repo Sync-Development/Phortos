@@ -95,7 +95,7 @@ $(document).ready(function(){
  </li>
 
 <li>
-<a  class="active2" href="Contact.html"><strong>Contact</strong></a>
+<a  class="active2" href="Contact.php"><strong>Contact</strong></a>
  </li>
 
 </ul>
