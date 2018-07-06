@@ -7322,6 +7322,22 @@ footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', s
 	text-rendering:optimizeLegibility;
 }
 
+.error {
+
+color:red; 
+    
+    
+}
+
+.succes {
+ 
+color: #ff9966;
+text-align: center;
+font-weight: bold;
+font-size: 14px;
+    
+}
+
 body {
 	font-family:"Open Sans", Helvetica, Arial, sans-serif;
 	font-weight:300;
