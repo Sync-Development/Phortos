@@ -173,16 +173,22 @@ function filterFunction() {
 
                             
 <? include('form_process.php'); ?>                            
-<link rel="stylesheet" href="form.css" type="text/css">             <div class="container">  
+<link rel="stylesheet" href="form.css" type="text/css">             
+<div class="container">  
   <form id="contact" action="<?=$_SERVER['PHP_SELF']; ?>" method="post">
     <h2>Direct contact</h2>
     <h4>Wij nemen zo spoedig mogelijk contact met u op!</h4>
-    <fieldset>
-      <input placeholder="Uw naam" type="text" tabindex="1" name="name" value="<? $name ?>" autofocus> <span class="error"><?= $name_error ?></span>
+    <div class="row">
+    <div class="col-xs-6"><fieldset>
+    <input placeholder="Uw naam" type="text" tabindex="1" name="name" value="<? $name ?>" autofocus> <span class="error"><?= $name_error ?></span>
     </fieldset>
-    <fieldset>
-      <input placeholder="Uw E-mail" type="text" name="email" value="<? $email ?>"tabindex="2"> <span class="error"><?= $email_error ?></span>
+    </div>
+    
+    <div class="col-xs-6"><fieldset>
+    <input placeholder="Uw E-mail" type="text" name="email" value="<? $email ?>"tabindex="2"> <span class="error"><?= $email_error ?></span>
     </fieldset>
+    </div>
+      </div>
     <fieldset>
       <input placeholder="Telefoonnummer" type="text" name="phone" value="<? $phone ?>" tabindex="3"> <span class="error"><?= $phone_error ?></span>
     </fieldset>
@@ -193,7 +199,7 @@ function filterFunction() {
       <textarea placeholder="Schrijf hier uw bericht" type="text" name="message" value="<? $message ?>" tabindex="5"></textarea>
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Verstuur uw bericht</button>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Bericht verzenden</button>
     </fieldset>
     <div class ="success"><?= $success; ?></div>
   </form>
