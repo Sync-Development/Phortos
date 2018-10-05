@@ -13,8 +13,8 @@
 
 <meta charset="UTF-8">
 
-<meta name="keywords" content="waddinxveen website, website stijling, alphen website, gouda website, leiden website, website, website bouwen, goedkoop website, snel website, mobiel">
-<meta name="description" content="Sync Development is gelokaliseerd in Alphen ad Rijn met het 3 in 1 pakket voor de startende ondernemer, Niet naar 3 verschillende bedrijven hoeven te gaan voor deze diensten no nonsense!">      
+<meta name="keywords" content="phortos, netherlands consulting, phortos waddinxveen, fair, professional consulting, euretos, consulting, fair-training, fair-service">
+<meta name="description" content="Phortos Consultants: Professional consulting, training and services to help realise the Internet of FAIR Data & Services">      
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PhortosConsultants</title>
@@ -41,8 +41,7 @@
 <div class="navbar navbar-default navbar-static-top">
 <div class="container-fluid">
 <div class="navbar-header">
-    <a href="index.html"><img class="logo" src="images/Logo.svg"></a>
-    <a href="index.html"><img class="logomobile" src="images/Sync_Development_Alphen_ad_Rijn_Logo_icon_mobiel.png"></a>
+    <a href="index.php"><img class="logo" src="images/Logo.svg"></a>
 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 <div id="nav-icon3">
   <span></span>
@@ -66,36 +65,36 @@ $(document).ready(function(){
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
 <li>
-<a  class="active2" href="index.html"><strong>Home</strong></a>
+<a  class="active2" href="index.php"><strong>Home</strong></a>
 </li>
 <li class="dropdown">
    
 <li>
- <a  class="active2" href="Consulting.html"><strong>Consulting</strong></a>
+ <a  class="active2" href="Consulting.php"><strong>Consulting</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Fair-training.html"><strong>FAIR training</strong></a>
+<a  class="active2" href="Fair-training.php"><strong>FAIR training</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Fair-services.html"><strong>FAIR services</strong></a>
+<a  class="active2" href="Fair-services.php"><strong>FAIR services</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Euretos.html"><strong>Euretos</strong></a>
+<a  class="active2" href="Euretos.php"><strong>Euretos</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Customers.html"><strong>Customers</strong></a>
+<a  class="active2" href="Customers.php"><strong>Customers</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="About-us.html"><strong>About Us</strong></a>
+<a  class="active2" href="About-us.php"><strong>About Us</strong></a>
  </li>
 
 <li>
-<a  class="active2" href="Contact.html"><strong>Contact</strong></a>
+<a  class="active2" href="Contact.php"><strong>Contact</strong></a>
  </li>
 
 </ul>
@@ -130,24 +129,6 @@ function filterFunction() {
 }
 </script>
     
-<script>
-   
-    $(".carousel").on("touchstart", function(event){
-        var xClick = event.originalEvent.touches[0].pageX;
-    $(this).one("touchmove", function(event){
-        var xMove = event.originalEvent.touches[0].pageX;
-        if( Math.floor(xClick - xMove) > 5 ){
-            $(".carousel").carousel('next');
-        }
-        else if( Math.floor(xClick - xMove) < -5 ){
-            $(".carousel").carousel('prev');
-        }
-    });
-    $(".carousel").on("touchend", function(){
-            $(this).off("touchmove");
-    });
-});
-    </script>
     <div class="pt-page-header">
 	<div class="container">
 		<div class="pt-page-header-wrapper pt-full">
@@ -170,14 +151,11 @@ function filterFunction() {
 				
 					<div class="col-md-12">
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
-							<h2>About us</h2>
+							<h2>About Us</h2>
                             
 							<p style="text-align: left;">Phortos Consultants was founded in 2012 by its two senior partners, Arie Baak MscBA, LLM, BTh and  Albert Mons Msc. They have been involved in Big Data Consulting from the company’s inception building upon many years of prior experience in the same field. In our perspective proper data stewardship is key to many aspects of the goals of institutions and corporations.</p>
-                            
+                            <hr>
                             <p style="text-align: left;">Good data stewardship is rapidly becoming recognized as an essential component of modern science and thus innovation.  It is essential for automated modes of data integration and knowledge discovery. To generate value for society, funding agencies are increasingly setting requirements for proper data stewardship of research data. Beyond proper collection, annotation, and archival, data stewardship includes the ‘long-term care’ of research data, with the goal that they can be found and reused in downstream studies in applications that in many cases are beyond the intended use. To facilitate good data stewardship, a broad community of international stakeholders has developed the <a href="https://www.go-fair.org/fair-principles/" style="color:#3fc19f">FAIR Data principles</a>. FAIR stands for ‘Findable, Accessible, Interoperable, and Reusable’.</p>
-                            <hr> 
-                            
-                            <p style="text-align: left;">Phortos Consultants (PC) has project managed several government funded projects in this real, i.e. <a href="https://www.openphacts.org/" style="color:#3fc19f">OpenPHACTS</a>, <a href="https://www.dtls.nl/2015/02/09/parties-signed-odex4all-project-ready-go/" style="color:#3fc19f">ODEX4ALL</a> and <a href="https://www.dtls.nl/fair-data/fair-dict/" style="color:#3fc19f">FAIRdICT</a> and subsequently has been instrumental in developing the <a href="https://www.go-fair.org/" style="color:#3fc19f">GO FAIR initiative</a>, a kick-start implementation process for the European Open Science Cloud.</p>
                         </div>
 					</div>
                 
@@ -207,7 +185,7 @@ function filterFunction() {
     <div class="col-md-6">
         
   
-    <p>  © 2017 - Sync-development </p>
+    <p>  © 2018 - Phortos Consultants </p>
      <ul class="footer-social1">
           <li> <a target="_blank" href="https://www.linkedin.com/company/25033050/"><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
           <li> <a target="_blank" href="https://www.facebook.com/sync4webdevelopment/"><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
@@ -219,22 +197,6 @@ function filterFunction() {
        <div class="col-md-3 col-sm-6 footer-col">
         <h6 class="heading7">Social Media</h6>
            
-    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"><img class="scrollup" src="images/Sync_Development_Alphen_ad_Rijn_Scroll.png"> </i></a>
-<script>
-// When the user scrolls down 30px from the top of the document, show the button
-$(window).scroll(function() {
-    if ($(this).scrollTop() >= 10) {        // If page is scrolled more than 50px
-        $('#return-to-top').fadeIn(200);    // Fade in the arrow
-    } else {
-        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
-    }
-});
-$('#return-to-top').click(function() {      // When arrow is clicked
-    $('body,html').animate({
-        scrollTop : 0                       // Scroll to top of body
-    }, 500);
-});
-           </script>
        
     <div class="col-md-6">
       <ul class="bottom_ul">

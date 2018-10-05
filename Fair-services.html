@@ -13,8 +13,8 @@
 
 <meta charset="UTF-8">
 
-<meta name="keywords" content="waddinxveen website, website stijling, alphen website, gouda website, leiden website, website, website bouwen, goedkoop website, snel website, mobiel">
-<meta name="description" content="Sync Development is gelokaliseerd in Alphen ad Rijn met het 3 in 1 pakket voor de startende ondernemer, Niet naar 3 verschillende bedrijven hoeven te gaan voor deze diensten no nonsense!">      
+<meta name="keywords" content="phortos, netherlands consulting, phortos waddinxveen, fair, professional consulting, euretos, consulting, fair-training, fair-service">
+<meta name="description" content="Phortos Consultants: Professional consulting, training and services to help realise the Internet of FAIR Data & Services">      
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PhortosConsultants</title>
@@ -41,8 +41,7 @@
 <div class="navbar navbar-default navbar-static-top">
 <div class="container-fluid">
 <div class="navbar-header">
-    <a href="index.html"><img class="logo" src="images/Logo.svg"></a>
-    <a href="index.html"><img class="logomobile" src="images/Sync_Development_Alphen_ad_Rijn_Logo_icon_mobiel.png"></a>
+    <a href="index.php"><img class="logo" src="images/Logo.svg"></a>
 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 <div id="nav-icon3">
   <span></span>
@@ -66,36 +65,36 @@ $(document).ready(function(){
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
 <li>
-<a  class="active2" href="index.html"><strong>Home</strong></a>
+<a  class="active2" href="index.php"><strong>Home</strong></a>
 </li>
 <li class="dropdown">
    
 <li>
- <a  class="active2" href="Consulting.html"><strong>Consulting</strong></a>
+ <a  class="active2" href="Consulting.php"><strong>Consulting</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Fair-training.html"><strong>FAIR training</strong></a>
+<a  class="active2" href="Fair-training.php"><strong>FAIR training</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Fair-services.html"><strong>FAIR services</strong></a>
+<a  class="active2" href="Fair-services.php"><strong>FAIR services</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Euretos.html"><strong>Euretos</strong></a>
+<a  class="active2" href="Euretos.php"><strong>Euretos</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Customers.html"><strong>Customers</strong></a>
+<a  class="active2" href="Customers.php"><strong>Customers</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="About-us.html"><strong>About Us</strong></a>
+<a  class="active2" href="About-us.php"><strong>About Us</strong></a>
  </li>
 
 <li>
-<a  class="active2" href="Contact.html"><strong>Contact</strong></a>
+<a  class="active2" href="Contact.php"><strong>Contact</strong></a>
  </li>
 
 </ul>
@@ -130,32 +129,15 @@ function filterFunction() {
 }
 </script>
     
-<script>
-   
-    $(".carousel").on("touchstart", function(event){
-        var xClick = event.originalEvent.touches[0].pageX;
-    $(this).one("touchmove", function(event){
-        var xMove = event.originalEvent.touches[0].pageX;
-        if( Math.floor(xClick - xMove) > 5 ){
-            $(".carousel").carousel('next');
-        }
-        else if( Math.floor(xClick - xMove) < -5 ){
-            $(".carousel").carousel('prev');
-        }
-    });
-    $(".carousel").on("touchend", function(){
-            $(this).off("touchmove");
-    });
-});
-    </script>
     <div class="pt-page-header">
 	<div class="container">
-		<div class="pt-page-header-wrapper pt-full">
+		<div class="pt-page-header-wrapper">
 			<div class="pt-header-content">
 				<h1 class="page-title">
-					FAIR-services</h1>
+					 Transforming data for the Internet of FAIR Data &amp; Services </h1>
 
 				<div class="page-description">
+                    <p class="page-description">FAIRification services and demonstrating FAIR data value to end user</p>
 				</div>
 			</div>
        </div>
@@ -177,11 +159,19 @@ function filterFunction() {
                             <p style="text-align: left;">1. The format of your data will be determined and a semantic model will be created<br>
                             2. Your data will be turned into FAIR Compliant RDF with reference to public domain identifiers<br>
                             3. The results will be published as a (private or pubic) FAIR Data Point<br>
-                                4. If so desired, in addition, your FAIR data can be integrated in the <a href="http://www.euretos.com/euretos-ai-platform-for-target-and-biomarker-discovery-and-validation.php" style="color:#3fc19f">Euretos AI Platform</a> for knowledge discovery.
+                            4. If so desired, in addition, your FAIR data can be integrated in the <a href="http://www.euretos.com/euretos-ai-platform-for-target-and-biomarker-discovery-and-validation.php" style="color:#3fc19f">Euretos AI Platform</a> for knowledge discovery.
                             </p>
-                            <hr>
+                            <h2>FAIR Data Value Event</h2>
+                            <p style="text-align: left;">An essential aspect in making FAIR data pervasive is the question: what is the value to the end user? FAIR data is an IT concept and far removed from the reality of the researcher.  In order to demonstrate the value of FAIR data, it’s impact needs to be experienced as early as possible in any FAIR data implementation program.</p>
                             
-                            <p style="text-align: left;">For more information and pricing please contact us [Hier een link naar de Webform] (zie beneden)</p>
+                            <p style="text-align: left;">To enable this value demonstration, Phortos Consultants, in collaboration with FAIR service provider Euretos, offers a so-called ‘FAIR data value demonstration event’ within the context of multi-omics, data driven target &amp; biomarker research. With limited preparation a selection of raw data sources are processed and output as FAIR data and, more importantly, automatically integrated into the Euretos AI platform for end user access. Both data specialists as researchers can then experience the value of FAIR data.</p>
+                            
+                            <hr>
+                            <a href="./images/Outline%20proposal%20FAIR%20Data%20Value%20event.pdf" download>Download PDF here</a>
+                            <hr>
+                            <p style="text-align: left;">For more information and pricing please contact us [link naar de Webform]</p>
+                            
+
                         </div>
 					</div>
                 
@@ -211,7 +201,7 @@ function filterFunction() {
     <div class="col-md-6">
         
   
-    <p>  © 2017 - Sync-development </p>
+    <p> © 2018 - Phortos Consultants </p>
      <ul class="footer-social1">
           <li> <a target="_blank" href="https://www.linkedin.com/company/25033050/"><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
           <li> <a target="_blank" href="https://www.facebook.com/sync4webdevelopment/"><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
@@ -224,21 +214,6 @@ function filterFunction() {
         <h6 class="heading7">Social Media</h6>
            
     <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"><img class="scrollup" src="images/Sync_Development_Alphen_ad_Rijn_Scroll.png"> </i></a>
-<script>
-// When the user scrolls down 30px from the top of the document, show the button
-$(window).scroll(function() {
-    if ($(this).scrollTop() >= 10) {        // If page is scrolled more than 50px
-        $('#return-to-top').fadeIn(200);    // Fade in the arrow
-    } else {
-        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
-    }
-});
-$('#return-to-top').click(function() {      // When arrow is clicked
-    $('body,html').animate({
-        scrollTop : 0                       // Scroll to top of body
-    }, 500);
-});
-           </script>
        
     <div class="col-md-6">
       <ul class="bottom_ul">

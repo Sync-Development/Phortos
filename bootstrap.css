@@ -935,7 +935,7 @@ body {
 }
 
 .page-title {
-    font-size: 54px;
+    font-size: 45px;
     font-weight: 900;
 }
 
@@ -1047,19 +1047,12 @@ body h2{
     font-family: 'Tauri', sans-serif;
 }
 
-body h22{
-    color: #124b8c;
+body h3{
+    color: snow;
     font-family: 'Tauri', sans-serif;
+    font-size: 12px;
 }
 
-body h3{
-    color: #30866f;
-    font-family: 'Tauri', sans-serif;
-}
-body h4{
-    color: #124b8c;
-    font-family: 'Tauri', sans-serif;
-}
 
 
 input,
