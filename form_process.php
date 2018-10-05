@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $message_body .=  "$key: $value\n";
       }
       
-      $to = 'albert.mons@phortosconsultants.com';
+      $to = 'Tim.Uittenbogaard1997@gmail.com';
       $subject = 'Contact Form Submit';
       if (mail($to, $subject, $message)){
           $success = "Bericht verstuurd, bedankt voor uw bericht!";
