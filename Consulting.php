@@ -65,7 +65,7 @@ $(document).ready(function(){
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
 <li>
-<a  class="active2" href="index.php"><strong>Home</strong></a>
+<a  class="active2" href="index"><strong>Home</strong></a>
 </li>
 <li class="dropdown">
    
