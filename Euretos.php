@@ -41,7 +41,7 @@
 <div class="navbar navbar-default navbar-static-top">
 <div class="container-fluid">
 <div class="navbar-header">
-    <a href="index.php"><img class="logo" src="images/Logo.svg"></a>
+    <a href="index"><img class="logo" src="images/Logo.svg"></a>
 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 <div id="nav-icon3">
   <span></span>
@@ -70,31 +70,31 @@ $(document).ready(function(){
 <li class="dropdown">
    
 <li>
- <a  class="active2" href="Consulting.php"><strong>Consulting</strong></a>
+ <a  class="active2" href="Consulting"><strong>Consulting</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Fair-training.php"><strong>FAIR training</strong></a>
+<a  class="active2" href="Fair-training"><strong>FAIR training</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Fair-services.php"><strong>FAIR services</strong></a>
+<a  class="active2" href="Fair-services"><strong>FAIR services</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Euretos.php"><strong>Euretos</strong></a>
+<a  class="active2" href="Euretos"><strong>Euretos</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Customers.php"><strong>Customers</strong></a>
+<a  class="active2" href="Customers"><strong>Customers</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="About-us.php"><strong>About Us</strong></a>
+<a  class="active2" href="About-us"><strong>About Us</strong></a>
  </li>
 
 <li>
-<a  class="active2" href="Contact.php"><strong>Contact</strong></a>
+<a  class="active2" href="Contact"><strong>Contact</strong></a>
  </li>
 
 </ul>
