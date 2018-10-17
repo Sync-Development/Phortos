@@ -67,18 +67,17 @@ $(document).ready(function(){
 <li>
 <a  class="active2" href="index"><strong>Home</strong></a>
 </li>
-<li class="dropdown">
    
 <li>
- <a  class="active2" href="Consulting"><strong>Consulting</strong></a>
+ <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Fair-training"><strong>FAIR training</strong></a>
+<a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Fair-services"><strong>FAIR services</strong></a>
+<a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
 <li>
@@ -133,7 +132,7 @@ function filterFunction() {
 		<div class="pt-page-header-wrapper">
 			<div class="pt-header-content">
 				<h1 class="page-title">
-					Consultants: your partner in FAIR</h1>
+					Phortos Consultants: your partner in FAIR</h1>
 
 				<div class="page-description">
 					<p class="page-description">Professional consulting, training and services to help realise the Internet of FAIR Data &amp; Services </p><br><br><br>
@@ -150,9 +149,11 @@ function filterFunction() {
 				
 					<div class="col-md-6">
 						<div class="pt-box pt-box-default text-center pt-equal" style="">
+                             <img class="icon" src="images/Logo.png" width="80" height="80" alt="Sync_development_Alphen_ad_Rijn_Online_marketing">
 							<h2>Vision</h2>
-
-                            <p style="text-align: left;">It is our vision to help establish the global <a href="https://www.go-fair.org/technology/internet-fair-data-services/" style="color:#3fc19f">Internet of FAIR Data &amp; Services (IFDS)</a> as a common environment for data-driven life sciences research and innovation around the world. </p>
+                            <br>
+                            
+                            <p style="text-align: left;">It is our vision to help establish the global <a href="https://www.go-fair.org/technology/internet-fair-data-services/" style="color:#68baa5">Internet of FAIR Data &amp; Services (IFDS)</a> as a common environment for data-driven research and innovation around the world. </p>
 
 							
                         </div>
@@ -162,7 +163,9 @@ function filterFunction() {
 					<div class="col-md-6">
 						<div class="pt-box pt-box-default text-center pt-equal" style="">
 							<h2>Mission</h2>
-                            <p  style="text-align: left;">Phortos Consultants contributes to the development of the Internet of FAIR Data &amp; Services through professional strategic consulting, training and data FAIRification services.</p>
+                            <br>
+                            
+                            <p  style="text-align: left;">Phortos Consultants contributes to the development of the Internet of FAIR Data &amp; Services through professional strategic consulting, training and data services.</p>
                             
                         </div>
 					</div>
@@ -181,7 +184,10 @@ function filterFunction() {
 							<h2>Strategy</h2>
                             <br>
 
-                            <p style="text-align: left;">Phortos Consultant’s strategy for its continued support to develop elements of the Internet of FAir Data and Services is to provide <a href="Consulting" style="color:#3fc19f">FAIR data consulting</a>, <a href="Fair-training" style="color:#3fc19f">FAIR Data Stewardship courses</a> and <a href="Fair-services" style="color:#3fc19f">data FAIRification Services</a>. We are supporting the <a href="https://www.nature.com/articles/sdata201618" style="color:#3fc19f">FAIR Principles</a> and adhere to  the <a href="https://www.go-fair.org/" style="color:#3fc19f">GO FAIR</a> recommended Implementation choices. To facilitate coherence and avoid reinventing of wheels we are a member of several GO FAIR  <a href="https://www.go-fair.org/implementation-networks/" style="color:#3fc19f">Implementation Networks</a>.</p>
+                            <p style="text-align: left;">Phortos Consultant’s strategy for its continued support to develop elements of the Internet of FAir Data and Services is to provide <a href="Consulting" style="color:#68baa5">FAIR data consulting</a>, <a href="Fair-training" style="color:#68baa5">FAIR Data Training</a> and <a href="Fair-services" style="color:#68baa5">Data FAIRification Services</a>.
+                            <br>    
+                            <br>
+                            We are supporting the <a href="https://www.nature.com/articles/sdata201618" style="color:#68baa5">FAIR Principles</a> and adhere to  the <a href="https://www.go-fair.org/" style="color:#68baa5">GO FAIR</a> recommended Implementation choices. To facilitate coherence and avoid reinventing of wheels we are a member of several GO FAIR  <a href="https://www.go-fair.org/implementation-networks/" style="color:#68baa5">Implementation Networks</a>.</p>
                             
 							
                         </div>
@@ -189,16 +195,19 @@ function filterFunction() {
                 
                  <div class="col-md-6">
 						<div class="pt-box pt-box-2 text-center pt-equal" style="">
-							<h2>Mission</h2>
+							<h2>Services</h2>
                             <br>
 
-                            <p style="text-align: left;">Phortos Consultants offers a variety of services ranging from strategic consulting, end user training and services to actively making data FAIR, all providing the basis for effectively enabling analytics driven capabilities.</p>
+                            <p style="text-align: left;">Phortos Consultants offers a variety of services ranging from strategic consulting, end user training and services to actively making data FAIR, providing the basis for analytics driven capabilities.</p>
                                 
-                            <p style="text-align: left;">1. Consulting - Enabling organisations to leverage the Internet of FAIR Data &amp; Services<br>
-                               <br> 
-                            2. FAIR Training - Training the next generation of enablers of the Internet of FAIR Data &amp; Services <br>
-                                <br>
-                            3. FAIR Services - Transforming data for the Internet of FAIR Data &amp; Services</p>
+                        
+                            <ul class="Fair-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                              <li>FAIR Consulting - Enabling organisations to leverage the IFDS</li>
+                             
+                              <li>FAIR Training - Training the next generation of enablers of the IFDS</li>
+                             
+                              <li>FAIR Services - Transforming data for the IFDS</li>      
+                            </ul>
                             
 
                         </div>
@@ -216,7 +225,6 @@ function filterFunction() {
     <div class="row">
       <div class="col-md-3 col-sm-6 footer-col">
         <div class="logofooter">Contact: </div>
-          <br>
         <h3><i class="fa fa-map-pin"></i> You can contact us via our email</h3>
         <h3><i class="fa fa-envelope"></i> E-mail: albert.mons@phortosconsultants.com</h3>
           <br>

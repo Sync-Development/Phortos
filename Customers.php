@@ -65,20 +65,19 @@ $(document).ready(function(){
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
 <li>
-<a  class="active2" href="index.php"><strong>Home</strong></a>
+<a  class="active2" href="index"><strong>Home</strong></a>
 </li>
-<li class="dropdown">
    
 <li>
- <a  class="active2" href="Consulting"><strong>Consulting</strong></a>
+ <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Fair-training"><strong>FAIR training</strong></a>
+<a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Fair-services"><strong>FAIR services</strong></a>
+<a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
 <li>
@@ -157,25 +156,30 @@ function filterFunction() {
                             
                             <p style="text-align: left;">Some of our references include: </p>
                             
-                            
-                            <p style="text-align: left;">1 - The <a href="https://www.dtls.nl/" style="color:#3fc19f">establishment of the Dutch Techcenter for Lifesciences</a><br><br>
-                                
-                            2 - The organisation of various conferences such as the:<br>
-                            - <a href="https://www.elixir-europe.org/news/elixir-nodes-came-together-technical-workshop" style="color:#3fc19f">Elixir March 2013 conference</a> <br>
-                            - <a href="https://www.dtls.nl/2013/11/01/summary-ngls-workshop/" style="color:#3fc19f">DTL Next Generation Life Sciences workshop</a><br>
-                            - <a href="http://www.lorentzcenter.nl/lc/web/2014/602/info.php3?wsid=602" style="color:#3fc19f">Fairport 2014 Lorentz Conference</a><br><br>
-                                
-                            3 - A 'big data' path finder project with the <a href="https://www.esciencecenter.nl/?/projects/path-finding-projects/odex4all/" style="color:#3fc19f">Netherlands eScience Center</a><br><br>
-
-                            4 - The co-founding of the <a href="http://www.euretos.com/" style="color:#3fc19f">Euretos knowledge discovery venture</a><br><br>
-                                
-                            5 - The establishment of the <a href="https://www.go-fair.org/go-fair-initiative/governance/go-fair-international-support-coordination-office/" style="color:#3fc19f">GO FAIR International Coordination and Support Office</a> (GFISCO)<br><br>
-                            
-                            6 - FAIR Data Stewardship Training for the Irish Health Research Board<br><br>
-                            
-                            7 - Internet of FAIR Data &amp; Services pilot with Zorg Instituut Nederland (Dutch Health Care Institute)<br><br>
-                            
-                            8 - FAIR Awareness training at Bayer</p>
+                             <ul class="Customer-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                              <li>The <a href="https://www.dtls.nl/" style="color:#68baa5">establishment of the Dutch Techcenter for Lifesciences</a></li>
+                             
+                              <li class="Sidebullet">The organisation of various conferences such as the:
+                                 <ul class="Fair-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                     <li><a href="https://www.elixir-europe.org/news/elixir-nodes-came-together-technical-workshop" style="color:#68baa5">Elixir March 2013 conference</a></li>
+                                     
+                                     <li><a href="https://www.dtls.nl/2013/11/01/summary-ngls-workshop/" style="color:#68baa5">DTL Next Generation Life Sciences workshop</a></li>
+                                     
+                                     <li><a href="http://www.lorentzcenter.nl/lc/web/2014/602/info.php3?wsid=602" style="color:#68baa5">Fairport 2014 Lorentz Conference</a></li>
+                                 </ul></li>
+                                 
+                              <li>A 'big data' path finder project with the <a href="https://www.esciencecenter.nl/?/projects/path-finding-projects/odex4all/" style="color:#68baa5">Netherlands eScience Center</a></li>      
+                                 
+                              <li>The co-founding of the <a href="http://www.euretos.com/" style="color:#68baa5">Euretos knowledge discovery venture</a></li>
+                                 
+                              <li>The establishment of the <a href="https://www.go-fair.org/go-fair-initiative/governance/go-fair-international-support-coordination-office/" style="color:#68baa5">GO FAIR International Coordination and Support Office</a> (GFISCO)</li>
+                                 
+                              <li>FAIR Data Stewardship Training for the <a href="http://www.hrb.ie/" style="color:#68baa5">Irish Health Research Board</a></li>
+                               
+                              <li>Internet of FAIR Data &amp; Services pilot with <a href="https://www.zorginstituutnederland.nl/" style="color:#68baa5">Zorg Instituut Nederland</a> (Dutch Health Care Institute) ‘and a course on Ontology modeling for FAIR Data Interoperability’</li>
+                                 
+                              <li>FAIR Awareness training at <a href="https://www.bayer.com/" style="color:#68baa5">Bayer</a></li>
+                            </ul>
                         </div>
 					</div>
                 

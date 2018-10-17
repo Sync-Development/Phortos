@@ -65,20 +65,19 @@ $(document).ready(function(){
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
 <li>
-<a  class="active2" href="index.php"><strong>Home</strong></a>
+<a  class="active2" href="index"><strong>Home</strong></a>
 </li>
-<li class="dropdown">
    
 <li>
- <a  class="active2" href="Consulting"><strong>Consulting</strong></a>
+ <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Fair-training"><strong>FAIR training</strong></a>
+<a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Fair-services"><strong>FAIR services</strong></a>
+<a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
 <li>
@@ -152,9 +151,9 @@ function filterFunction() {
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
 							<h2>About Us</h2>
                             
-							<p style="text-align: left;">Phortos Consultants was founded in 2012 by its two senior partners, Arie Baak MscBA, LLM, BTh and  Albert Mons Msc. They have been involved in Big Data Consulting from the company’s inception building upon many years of prior experience in the same field. In our perspective proper data stewardship is key to many aspects of the goals of institutions and corporations.</p>
+							<p style="text-align: left;">Phortos Consultants was founded in 2012 by its two senior partners, Arie Baak MscBA, LLM, BTh and  Albert Mons Msc. They have been involved in Big Data Consulting from the company’s inception building upon many years of prior experience in the same field. In our perspective data stewardship is key to many aspects of the goals of institutions and corporations.</p>
                             <hr>
-                            <p style="text-align: left;">Good data stewardship is rapidly becoming recognized as an essential component of modern science and thus innovation.  It is essential for automated modes of data integration and knowledge discovery. To generate value for society, funding agencies are increasingly setting requirements for proper data stewardship of research data. Beyond proper collection, annotation, and archival, data stewardship includes the ‘long-term care’ of research data, with the goal that they can be found and reused in downstream studies in applications that in many cases are beyond the intended use. To facilitate good data stewardship, a broad community of international stakeholders has developed the <a href="https://www.go-fair.org/fair-principles/" style="color:#3fc19f">FAIR Data principles</a>. FAIR stands for ‘Findable, Accessible, Interoperable, and Reusable’.</p>
+                            <p style="text-align: left;">Good data stewardship is rapidly becoming recognized as an essential component of modern science and thus innovation.  It is essential for automated modes of data integration and knowledge discovery. To generate value for society, funding agencies are increasingly setting requirements for data stewardship of research data. Beyond collection, annotation, and archival, data stewardship includes the ‘long-term care’ of research data, with the goal that they can be found and reused in downstream studies in applications that in many cases are beyond the intended use. To facilitate good data stewardship, a broad community of international stakeholders has developed the <a href="https://www.go-fair.org/fair-principles/" style="color:#68baa5">FAIR Data principles</a>. FAIR stands for ‘Findable, Accessible, Interoperable, and Reusable’.</p>
                         </div>
 					</div>
                 
@@ -170,6 +169,7 @@ function filterFunction() {
         <div class="logofooter">Contact: </div>
           <br>
         <h3><i class="fa fa-map-pin"></i> You can contact us via our email</h3>
+          <br>
         <h3><i class="fa fa-envelope"></i> E-mail: albert.mons@phortosconsultants.com</h3>
           <br>
           

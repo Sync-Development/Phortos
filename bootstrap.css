@@ -920,7 +920,7 @@ body {
 }
 
 .pt-page-header::before {
-    background-image: url(../images/Backg.jpg);
+    background-image: url(../Phortos/images/Backg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -942,7 +942,7 @@ body {
 .page-description {
     font-size: 25px;
     font-weight: 300;
-    color: snow;
+    color: #f0eaea;
 }
 
 
@@ -1039,7 +1039,7 @@ p2{
 
 
 body h1{
-    color: Snow;
+    color: #f0eaea;
 }
 
 body h2{
@@ -1053,7 +1053,33 @@ body h3{
     font-size: 12px;
 }
 
+ul.Fair-list li{
+	padding: 15px 0px 5px 32px;
+	list-style: none;
+	background-image: url("images/Logo.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 25px;
+}
 
+ul.Customer-list li{
+	padding: 2px 0px 5px 32px;
+	list-style: none;
+	background-image: url("images/Logo.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 25px;
+}
+
+
+ul.Customer-list li.Sidebullet{
+	padding: 8px 0px -1px 32px;
+	list-style: none;
+	background-image: url("images/Logo.svg");
+	background-repeat: no-repeat;
+    background-position: left top;
+	background-size: 25px;
+}
 
 input,
 button,
@@ -1392,12 +1418,12 @@ ol ol {
 }
 .list-unstyled {
   padding-left: 0;
-  list-style: none;
+  list-style-image: url('images/Logo.png');
 }
 .list-inline {
   padding-left: 0;
   margin-left: -5px;
-  list-style: none;
+
 }
 .list-inline > li {
   display: inline-block;
@@ -1911,6 +1937,7 @@ pre code {
   }
   .col-md-12 {
     width: 100%;
+    margin-bottom: -5%;
   }
   .col-md-11 {
     width: 91.66666667%;
@@ -4287,7 +4314,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #257a3f;
+  color: #68baa5;
  
 }
 .navbar-default .navbar-nav > .active > a,
@@ -6802,7 +6829,7 @@ carousel.less:193
 
 .active2:hover {
     
-border-bottom: 4px solid #1eb546;
+border-bottom: 4px solid #68baa5;
     
 }
 
@@ -6892,14 +6919,6 @@ margin-top: -43px;
 /*Footer*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-ul,li{
-    padding:0;
-    margin:0;
-}
-li{
-    list-style-type:none;
-}
-
 
 
 footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', sans-serif; }
@@ -7283,6 +7302,15 @@ footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', s
     border-bottom: 5px solid #30866f;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
+}
+
+.pt-box.pt-box-consult2 {
+    background: #fff;
+    border-bottom: 5px solid #30866f;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 400px;
+    min-height: 400px;
 }
 
 .pt-box {

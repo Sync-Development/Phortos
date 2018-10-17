@@ -67,18 +67,17 @@ $(document).ready(function(){
 <li>
 <a  class="active2" href="index"><strong>Home</strong></a>
 </li>
-<li class="dropdown">
    
 <li>
- <a  class="active2" href="Consulting"><strong>Consulting</strong></a>
+ <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Fair-training"><strong>FAIR training</strong></a>
+<a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Fair-services"><strong>FAIR services</strong></a>
+<a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
 <li>
@@ -134,7 +133,7 @@ function filterFunction() {
 		<div class="pt-page-header-wrapper pt-full">
 			<div class="pt-header-content">
 				<h1 class="page-title">
-					Customers</h1>
+					Contact Us</h1>
 
 				<div class="page-description">
 				</div>
@@ -157,8 +156,7 @@ function filterFunction() {
 <link rel="stylesheet" href="form.css" type="text/css">             
 <div class="container">  
   <form id="contact" action="<?=$_SERVER['PHP_SELF']; ?>" method="post">
-    <h2>Direct contact</h2>
-    <h4>Wij nemen zo spoedig mogelijk contact met u op!</h4>
+    <h4> Please fill out this form and we will contact you as soon as possible.</h4>
     <div class="row">
     <div class="col-xs-6"><fieldset>
     <input placeholder="Uw naam" type="text" tabindex="1" name="name" value="<? $name ?>" autofocus> <span class="error"><?= $name_error ?></span>

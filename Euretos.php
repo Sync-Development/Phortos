@@ -65,20 +65,19 @@ $(document).ready(function(){
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
 <li>
-<a  class="active2" href="index.php"><strong>Home</strong></a>
+<a  class="active2" href="index"><strong>Home</strong></a>
 </li>
-<li class="dropdown">
    
 <li>
- <a  class="active2" href="Consulting"><strong>Consulting</strong></a>
+ <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Fair-training"><strong>FAIR training</strong></a>
+<a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Fair-services"><strong>FAIR services</strong></a>
+<a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
 <li>
@@ -154,12 +153,12 @@ function filterFunction() {
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
 							<h2>Euretos</h2>
                             
-							<p style="text-align: left;">Euretos, (www.euretos.com) founded in 2012 in the Netherlands, provides an AI platform mainly used by pre & early-clinical researchers for in-silico discovery &amp; validation of targets and biomarkers. The platform enables a systems biology approach where researchers discover how x-omics molecular mechanisms influence cell and tissue functions, and in turn mediate phenotypes and disease pathology. Cellular disease mechanisms are unravelled through deconvolution of differential expression profiles leveraging Euretos’ extensive cell type expression library to identify cellular interactions. </p>
+                            <p style="text-align: left;"><a href="http://www.euretos.com/" style="color:#68baa5">Euretos</a>, founded in 2012 in the Netherlands, provides an AI platform mainly used by pre &amp; early-clinical researchers for in-silico discovery &amp; validation of targets and biomarkers. The platform enables a systems biology approach where researchers discover how x-omics molecular mechanisms influence cell and tissue functions, and in turn mediate phenotypes and disease pathology. Cellular disease mechanisms are unravelled through deconvolution of differential expression profiles leveraging Euretos’ extensive cell type expression library to identify cellular interactions. </p>
                             
                             <p style="text-align: left;">By FAIR integration of over 250 different public databases, the platform provides the largest single environment in which the latest multi omics data is interlinked to literature, experimental and clinical evidence. The data integrated in the platform include genetic, genomic and proteomic annotations, expression profiles, experimental and animal models, diseases, phenotypes, pathways, small molecules - covering metabolites, food ingredients, as well as therapeutic agents (antibodies and peptides). Company proprietary data can be integrated into the platform for even more optimal results and hosted in a secure cloud environment or installed on-site. </p>
                             
                             <hr>
-                            <p style="text-align: left;">More information is available at <a href="http://www.euretos.com/" style="color:#3fc19f">www.euretos.com.</a></p>
+                            <p style="text-align: left;">More information is available at <a href="http://www.euretos.com/" style="color:#68baa5">www.euretos.com.</a></p>
                         </div>
 					</div>
                 

@@ -67,18 +67,17 @@ $(document).ready(function(){
 <li>
 <a  class="active2" href="index"><strong>Home</strong></a>
 </li>
-<li class="dropdown">
    
 <li>
- <a  class="active2" href="Consulting"><strong>Consulting</strong></a>
+ <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Fair-training"><strong>FAIR training</strong></a>
+<a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Fair-services"><strong>FAIR services</strong></a>
+<a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
 <li>
@@ -154,29 +153,25 @@ function filterFunction() {
 				
 					<div class="col-md-12">
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
-							<h2>FAIR-training</h2>
+							<h2>FAIR Training</h2>
 
-							<p style="text-align: left;">We believe that training up a new generation of data specialists as enablers and supporters for researchers is a key element of a achieving the transition to pervasive FAIR data. </p>
+							<p style="text-align: left;">A key element of the transition to pervasive FAIR data is training up a new generation of data specialists that enable and support researchers. Phortos Consultants has developed curriculums for  the following key positions in this FAIR Data ecosystem:</p>
                             
-                            <p style="text-align: left;">Phortos Consultants has developed curriculums for several key positions that enable participants to take up their respective roles in the the FAIR Data ecosystem:</p>
                             
-                            <ul style="text-align: left;">
-                            <li><p>FAIR Readiness Program Manager - oversees the end-to-end readiness program that is executed when organisations decide to implement a FAIR Data approach.</p></li>
-                                
-                            <li><p>FAIR Data Steward - Oversees the data life cycle in general and those of specific projects once a FAIR data approach is operational.</p></li>
+                             <ul class="Training-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                              <li><strong style="font-size: 17px;">FAIR Readiness Program Manager</strong> - oversees the end-to-end readiness program that is executed when organisations decide to implement a FAIR Data approach.</li>
+                             
+                              <li><strong style="font-size: 17px;">FAIR Data Steward</strong> - Oversees the data life cycle in general and those of specific projects once a FAIR data approach is operational.</li>
+                             
+                              <li><strong style="font-size: 17px;">FAIR Data &amp; Services Operator</strong> - Operationally manages and executes FAIR data tooling.</li>  
+                                 
+                              <li><strong style="font-size: 17px;">The FAIR Data &amp; Services Engineer</strong> - Develops tooling &amp; apps</li>  
+                                 
                             
-                            <li><p>FAIR Data &amp; Services Operator - Operationally manages and executes FAIR data tooling.</p></li>
-                            
-                            <li><p>The FAIR Data &amp; Services Engineer - Develops tooling &amp; apps</p></li>
-                            </ul>
-                            
-
+                            <p style="text-align: left;">For each of these roles the following types of training are available. More information, including dates and booking details, are available by clicking on the course title.</p>
 							
                         </div>
 					</div>
-
-				
-				
             </div>
         </div>
    </section>             

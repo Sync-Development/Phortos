@@ -67,18 +67,17 @@ $(document).ready(function(){
 <li>
 <a  class="active2" href="index"><strong>Home</strong></a>
 </li>
-<li class="dropdown">
    
 <li>
- <a  class="active2" href="Consulting"><strong>Consulting</strong></a>
+ <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Fair-training"><strong>FAIR training</strong></a>
+<a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Fair-services"><strong>FAIR services</strong></a>
+<a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
 <li>
@@ -96,7 +95,6 @@ $(document).ready(function(){
 <li>
 <a  class="active2" href="Contact"><strong>Contact</strong></a>
  </li>
-
 </ul>
    <!--De class zort ervoor dat dit menu wordt gelinked met de animatie in de css-->
 </div>
@@ -145,30 +143,53 @@ function filterFunction() {
 </div>
     
     <section class="pt-main">
-        <div class="pt-globe-consult"></div>
 		<div class="container">
 			
 			<div class="row pt-block-grid pt-equals">
 				
 					<div class="col-md-12">
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
-							<h2>Consulting</h2>
-
-							<p style="text-align: middle;">Phortos Consultants provides a wide range of services in the Big Data Domain. Our main focus though has been FAIR data Services and FAIR Readiness Implementation.</p>
-                            <hr>
+							<h2>FAIR Consulting</h2>
+                            <br>
+							<p style="text-align: middle;">“Our main focus though has been FAIR data Services and FAIR Readiness Implementation.” moet worden:  Our main in this domain has been on strategic consulting for organisational FAIR Readiness in all its aspects.</p>   
                             
-                            <h2>FAIR Data Integration</h2>
-                            <p style="text-align: middle;">PC has been instrumental in the process of developing the FAIR principles through moderating the first FAIR UNConference at the Lorentz center in 2014. Since then Phortos Consultants was intricately involved in the birth of  <a href="https://www.go-fair.org/" style="color:#3fc19f">GO FAIR</a> as a kick start implementation process for the European Open Science Cloud (EOSC).</p>
-                            <hr>      
                             
-                            <h2>FAIR Readiness for institutions and corporations</h2>
-                            <p style="text-align: middle;">We now offer a full fledged FAIR Readiness program for institutions and corporation intending to join the GO FAIR ecosystem. This program involve training of internal teams, organizational adoption of the FAIR principles, FAIRification of data and a unique use case drive FAIR Value demonstration program.</p>
                         </div>
 					</div>
                 
             </div>
         </div>
-   </section>             
+   </section> 
+    
+     <section class="pt-rest">
+                
+                <div class="pt-globe"></div>
+                <div class="container">
+			
+			<div class="row pt-block-grid pt-equals">
+                    
+                  <div class="col-md-6">
+						<div class="pt-box pt-box-consult2 text-center pt-equal" style="">
+							<h2>FAIR Data Integration</h2>
+                            <br>
+                            <p style="text-align: middle;">PC has been instrumental in the process of developing the FAIR principles through moderating the first FAIR UNConference at the Lorentz center in 2014. Since then Phortos Consultants was intricately involved in the birth of  <a href="https://www.go-fair.org/" style="color:#68baa5">GO FAIR</a> as a kick start implementation process for the European Open Science Cloud (EOSC).</p>
+                            
+							
+                        </div>
+					</div>
+                
+                 <div class="col-md-6">
+						<div class="pt-box pt-box-consult2 text-center pt-equal" style="">
+                            <h2>Organisational FAIR readiness</h2>
+                            <br>
+                            <p style="text-align: middle;">We offer a fully fledged FAIR Readiness program for institutions and corporations intending to join the GO FAIR ecosystem. This program involve <a href="Fair-training" style="color:#68baa5">training of internal teams</a> and organizational adoption of the FAIR principles as well as <a href="Fair-services" style="color:#68baa5">enabling services</a> such as FAIRification of data and a unique use case driven FAIR Value demonstration program.</p>
+                        </div>
+					</div>
+            </div>
+		</div>
+	</section>
+    
+<br> <br> <br>
 <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 <!--footer start from here-->
 <footer>
@@ -178,6 +199,7 @@ function filterFunction() {
         <div class="logofooter">Contact: </div>
           <br>
         <h3><i class="fa fa-map-pin"></i> You can contact us via our email</h3>
+          <br>
         <h3><i class="fa fa-envelope"></i> E-mail: albert.mons@phortosconsultants.com</h3>
           <br>
           

@@ -65,20 +65,19 @@ $(document).ready(function(){
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
 <li>
-<a  class="active2" href="index.php"><strong>Home</strong></a>
+<a  class="active2" href="index"><strong>Home</strong></a>
 </li>
-<li class="dropdown">
    
 <li>
- <a  class="active2" href="Consulting"><strong>Consulting</strong></a>
+ <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
 <li>
-<a  class="active2" href="Fair-training"><strong>FAIR training</strong></a>
+<a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="Fair-services"><strong>FAIR services</strong></a>
+<a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
 <li>
@@ -96,7 +95,6 @@ $(document).ready(function(){
 <li>
 <a  class="active2" href="Contact"><strong>Contact</strong></a>
  </li>
-
 </ul>
    <!--De class zort ervoor dat dit menu wordt gelinked met de animatie in de css-->
 </div>
@@ -152,25 +150,29 @@ function filterFunction() {
 				
 					<div class="col-md-12">
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
-                            <h2>FAIR-services</h2>
+                            <h2>FAIR Services</h2>
                             
-							<p style="text-align: left;">Phortos Consultants, in collaboration with <a href="http://www.euretos.com/" style="color:#3fc19f">Euretos</a>, provides full FAIRification services of your data compliant with the GO FAIR principles (soon to be a GO FAIR certified Service. This process usually includes the following steps:</p>
+							<p style="text-align: left;">Phortos Consultants, in collaboration with partners, provides a FAIRification service of your data compliant with the GO FAIR principles (soon to be a GO FAIR certified Service). This process usually includes the following steps:</p>
                             
-                            <p style="text-align: left;">1. The format of your data will be determined and a semantic model will be created<br>
-                            2. Your data will be turned into FAIR Compliant RDF with reference to public domain identifiers<br>
-                            3. The results will be published as a (private or pubic) FAIR Data Point<br>
-                            4. If so desired, in addition, your FAIR data can be integrated in the <a href="http://www.euretos.com/euretos-ai-platform-for-target-and-biomarker-discovery-and-validation.php" style="color:#3fc19f">Euretos AI Platform</a> for knowledge discovery.
-                            </p>
+                             <ul class="Fair-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                              <li>The format of the  data will be determined and a semantic (meta)data  model will be created</li>
+                             
+                              <li>Your data will be turned into FAIR Compliant RDF with reference to public domain identifiers</li>
+                             
+                              <li>The results will be published as a (private or public) FAIR Data Point</li>  
+                                 
+                              <li>In case of life sciences data, your FAIR data can be integrated in the <a href="http://www.euretos.com/euretos-ai-platform-for-target-and-biomarker-discovery-and-validation.php" style="color:#68baa5">Euretos AI Platform</a> for knowledge discovery.</li>  
+                            </ul>
+                            
                             <h2>FAIR Data Value Event</h2>
-                            <p style="text-align: left;">An essential aspect in making FAIR data pervasive is the question: what is the value to the end user? FAIR data is an IT concept and far removed from the reality of the researcher.  In order to demonstrate the value of FAIR data, it’s impact needs to be experienced as early as possible in any FAIR data implementation program.</p>
+                            <p style="text-align: left;">An essential aspect in making FAIR data pervasive is the question: what is the value to the end user? FAIR data is an IT concept and far removed from the reality of the researcher. In order to demonstrate the value of FAIR data, its impact needs to be experienced as early as possible in any FAIR data implementation program.</p>
                             
-                            <p style="text-align: left;">To enable this value demonstration, Phortos Consultants, in collaboration with FAIR service provider Euretos, offers a so-called ‘FAIR data value demonstration event’ within the context of multi-omics, data driven target &amp; biomarker research. With limited preparation a selection of raw data sources are processed and output as FAIR data and, more importantly, automatically integrated into the Euretos AI platform for end user access. Both data specialists as researchers can then experience the value of FAIR data.</p>
+                            <p style="text-align: left;">To enable this value demonstration, Phortos Consultants, in collaboration with FAIR service provider Euretos, offers a so-called ‘FAIR data value demonstration event’ within the context of multi-omics, data driven target &amp; biomarker research. With limited preparation a selection of raw data sources are processed and output as FAIR data and, more importantly, automatically integrated into the Euretos AI platform for end user access. Both data specialists and researchers can then experience the value of FAIR data.
+</p>
                             
                             <hr>
                             <a href="./images/Outline%20proposal%20FAIR%20Data%20Value%20event.pdf" download>Download PDF here</a>
                             <hr>
-                            <p style="text-align: left;">For more information and pricing please contact us [link naar de Webform]</p>
-                            
 
                         </div>
 					</div>
