@@ -189,6 +189,7 @@ td,
 th {
   padding: 0;
 }
+
 @media print {
   * {
     color: #000 !important;
@@ -1007,6 +1008,19 @@ body {
     opacity: .04;
     position: absolute;
     top: 150px;
+    left: -80px;
+    width: 600px;
+    height: 600px;
+    overflow-x: hidden;
+}
+
+.pt-main .pt-globe-about {
+    background: url(../images/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .04;
+    position: absolute;
+    top: 10px;
     left: -80px;
     width: 600px;
     height: 600px;
@@ -6601,7 +6615,6 @@ button.close {
 .icon{
 	text-align:center;
 	line-height:9;
-    margin-top: 10%;
 }
 .metro .tile .tile-content icon { 
 	margin:auto;
@@ -6840,75 +6853,8 @@ strong{
     text-align: center;
 } 
 
-.scrollup{
-    width: 25%;
-    float:right;
-}
-
-#return-to-top {
-    position: fixed;
-    bottom: 90px;
-    right: 20px;
-   
-    width: 15%;
-    height: 35px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-#return-to-top i {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-    
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-#myBtn:hover {
-
-}
-
 .caption{
     background-color: white;
-}
-
-.copyright{
-    text-align: center;
-}
-iframe{
- width: 100%;
-height: 400px;
-margin-top: -43px;
 }
 
 
@@ -6916,62 +6862,42 @@ margin-top: -43px;
     display:none;
 }	
 
-/*Footer*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+ .copyright { padding-left:100px; min-height:40px; background-color:grey; position:absolute; width:100%}
+ .copyright p {color:#FFF; padding:10px 0; margin-bottom:0;}
+ .copyright a {color:#68baa5}
 
-
-footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', sans-serif; }
-.footer-col { margin-top:50px; }
-.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
-
-.footer-col p { color:#fff; font-size:12px; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
-.footer-col p i { width:20px; color:#999;}
-
-.footer-ul { list-style-type:none;  padding-left:0; margin-left:2px;}
-.footer-ul li { line-height:29px; font-size:12px; display:none;}
-.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
-.footer-ul i { margin-right:10px;}
-.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
-
- .copyright { min-height:40px; background-color:grey; position:absolute; width:100%}
- .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0;}
- .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px; display:none;}
- .post p { font-size:12px; color:#FFF; line-height:20px; display:none;}
- .post p span { display:block; color:#8f8f8f; display:none;}
- .bottom_ul { list-style-type:none; float:right; margin-bottom:0;display:none;}
- .bottom_ul li { float:left; line-height:40px;}
- .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
- .bottom_ul li a { color:#FFF;  font-size:12px;}
-.social-icon {
-    width: 30px;
-    height: 30px;
-    font-size: 15px;
-    background-color: blue;
-    color: #fff;
-    text-align: center;
-    margin-right: 10px;
-    padding-top: 7px;
-    border-radius: 50%;
+footer {
+    position: relative;
+    width: 100%;
+    height: 165px;
+    text-align: left;
+    margin: auto;
+    font-size: 14px;
+    background-color: #30866f;
+    color: #382549;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    margin-top: 15px;
+    box-sizing: content-box;
 }
-.footer-social1{
-    display:none;
+
+footer ul {
+    height: 100%;
+    width: 25%;
+    list-style: none;
+    float: left;
 }
- .footer-social li{
-     float:left;
- }
- .linked-in{
-     background-color:#007bb6;
- }
- .facebook{
-     background-color:#3b5998;
- }
- .twitter{
-     background-color:#1da1f2;
- }
- .google{
-     background-color:#f63e28;
- }
+
+footer li {
+    margin-top: 20px;
+    color: snow;
+}
+
+footer a {
+    color: snow;
+}
 
 .flag{
         margin-left: -36%;
@@ -7275,8 +7201,8 @@ footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', s
     border-bottom: 5px solid #30866f;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
-    max-height: 300px;
-    min-height: 300px;
+    max-height: 340px;
+    min-height: 340px;
 }
 
 .pt-box.pt-box-2 {
@@ -7301,7 +7227,8 @@ footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', s
     background: #fff;
     border-bottom: 5px solid #30866f;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
+    
 }
 
 .pt-box.pt-box-consult2 {
@@ -7311,6 +7238,13 @@ footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', s
     padding: 30px;
     max-height: 400px;
     min-height: 400px;
+}
+
+.pt-box.pt-box-Customer {
+    background: #fff;
+    border-bottom: 5px solid #30866f;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
 }
 
 .pt-box {
@@ -7330,3 +7264,32 @@ footer { background-color:#30866f; max-height:320px; font-family: 'Open Sans', s
     display:none;
 }
 
+/*voor de tabel*/
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    color: black;
+}
+
+table#t01 tr {
+    border: none;
+}
+
+table#t01 th {
+    color: #30866f;
+}
+
+#banner-text{
+    margin-top: 14%;
+}
+.send {
+    margin-right: 20%;
+}

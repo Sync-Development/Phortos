@@ -148,16 +148,16 @@ function filterFunction() {
 			<div class="row pt-block-grid pt-equals">
 				
 					<div class="col-md-12">
-						<div class="pt-box pt-box-consult text-center pt-equal" style="">
+						<div class="pt-box pt-box-Customer text-center pt-equal" style="">
                             
-							<p style="text-align: left;">Our customers include private, academic and public organisations and institutions. Phortos Consultants has project managed several government funded projects in including OpenPHACTS, ODEX4ALL and FAIRdICT and subsequently has been instrumental in developing the GO FAIR initiative, a kick-start implementation process for the European Open Science Cloud.
+							<p style="text-align: left;">Our customers include private, academic and public organisations and institutions. Phortos Consultants has project managed several government funded projects including OpenPHACTS, ODEX4ALL and FAIRdICT and subsequently has been instrumental in developing the GO FAIR initiative, a kick-start implementation process for the European Open Science Cloud.
 
                             </p>
                             
                             <p style="text-align: left;">Some of our references include: </p>
                             
                              <ul class="Customer-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>The <a href="https://www.dtls.nl/" style="color:#68baa5">establishment of the Dutch Techcenter for Lifesciences</a></li>
+                              <li>The <a href="https://www.dtls.nl/" style="color:#68baa5">establishment of the Dutch Techcenter for Lifesciences</a></li><br>
                              
                               <li class="Sidebullet">The organisation of various conferences such as the:
                                  <ul class="Fair-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
@@ -166,19 +166,19 @@ function filterFunction() {
                                      <li><a href="https://www.dtls.nl/2013/11/01/summary-ngls-workshop/" style="color:#68baa5">DTL Next Generation Life Sciences workshop</a></li>
                                      
                                      <li><a href="http://www.lorentzcenter.nl/lc/web/2014/602/info.php3?wsid=602" style="color:#68baa5">Fairport 2014 Lorentz Conference</a></li>
-                                 </ul></li>
+                                 </ul></li><br>
                                  
-                              <li>A 'big data' path finder project with the <a href="https://www.esciencecenter.nl/?/projects/path-finding-projects/odex4all/" style="color:#68baa5">Netherlands eScience Center</a></li>      
+                              <li>A 'big data' path finder project with the <a href="https://www.esciencecenter.nl/?/projects/path-finding-projects/odex4all/" style="color:#68baa5">Netherlands eScience Center</a></li><br>      
                                  
-                              <li>The co-founding of the <a href="http://www.euretos.com/" style="color:#68baa5">Euretos knowledge discovery venture</a></li>
+                              <li>The co-founding of the <a href="http://www.euretos.com/" style="color:#68baa5">Euretos knowledge discovery venture</a></li><br>
                                  
-                              <li>The establishment of the <a href="https://www.go-fair.org/go-fair-initiative/governance/go-fair-international-support-coordination-office/" style="color:#68baa5">GO FAIR International Coordination and Support Office</a> (GFISCO)</li>
+                              <li>The establishment of the <a href="https://www.go-fair.org/go-fair-initiative/governance/go-fair-international-support-coordination-office/" style="color:#68baa5">GO FAIR International Coordination and Support Office</a> (GFISCO)</li><br>
                                  
-                              <li>FAIR Data Stewardship Training for the <a href="http://www.hrb.ie/" style="color:#68baa5">Irish Health Research Board</a></li>
+                              <li>FAIR Data Stewardship Training for the <a href="http://www.hrb.ie/" style="color:#68baa5">Irish Health Research Board</a></li><br>
                                
-                              <li>Internet of FAIR Data &amp; Services pilot with <a href="https://www.zorginstituutnederland.nl/" style="color:#68baa5">Zorg Instituut Nederland</a> (Dutch Health Care Institute) ‘and a course on Ontology modeling for FAIR Data Interoperability’</li>
+                              <li>Internet of FAIR Data &amp; Services pilot with <a href="https://www.zorginstituutnederland.nl/" style="color:#68baa5">Zorg Instituut Nederland</a> (Dutch Health Care Institute) ‘and a course on Ontology modeling for FAIR Data Interoperability’</li><br>
                                  
-                              <li>FAIR Awareness training at <a href="https://www.bayer.com/" style="color:#68baa5">Bayer</a></li>
+                              <li>FAIR Awareness training at <a href="https://www.bayer.com/" style="color:#68baa5">Bayer</a></li><br>
                             </ul>
                         </div>
 					</div>
@@ -189,53 +189,37 @@ function filterFunction() {
 <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 <!--footer start from here-->
 <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-sm-6 footer-col">
-        <div class="logofooter">Contact: </div>
-          <br>
-        <h3><i class="fa fa-map-pin"></i> You can contact us via our email</h3>
-        <h3><i class="fa fa-envelope"></i> E-mail: albert.mons@phortosconsultants.com</h3>
-          <br>
-    </div>
-   </div>     
-  </div>
+    <ul>
+       
+            <li><strong>Home</strong></li>
+        <li><a href="index">Phortos Consultants</a></li>
+    </ul>
+    <ul>
+        <li><strong>FAIR Data</strong></li>
+        <li><a href="Consulting">FAIR Consulting</a></li>
+        <li><a href="Fair-training">FAIR Training</a></li>
+        <li><a href="Fair-services">FAIR Services</a></li>
+    </ul>
+    <ul>
+        <li><strong>About Us</strong></li>
+        <li><a href="Customers">Customer</a></li>
+        <li><a href="Euretos">Euretos</a></li>
+        <li><a href="About-us">About Us</a></li>
+    </ul>
+    <ul>
+        <li><strong>Contact Us</strong></li>
+        <li><a href="about.php">Email Us</a></li>
+        <li><a href="Contact">Send a Message</a></li>
+        <li><a href="https://www.linkedin.com/company/phortos-consultants/">Follow Us</a></li>
+    </ul>
 </footer>
 <!--footer start from here-->
-<div class="copyright3">
+
 <div class="copyright">
-  <div class="container"  >
-    <div class="col-md-6">
         
   
-    <p>  © 2018 - Phortos Consultants </p>
-     <ul class="footer-social1">
-          <li> <a target="_blank" href="https://www.linkedin.com/company/25033050/"><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
-          <li> <a target="_blank" href="https://www.facebook.com/sync4webdevelopment/"><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
-          <li><i class="fa fa-twitter social-icon twitter" aria-hidden="true"></i></li>
-          <li><i class="fa fa-google-plus social-icon google" aria-hidden="true"></i></li>
-        </ul>
-      </div>
-    </div>
-       <div class="col-md-3 col-sm-6 footer-col">
-        <h6 class="heading7">Social Media</h6>
-           
-    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"><img class="scrollup" src="images/Sync_Development_Alphen_ad_Rijn_Scroll.png"> </i></a>
-       
-    <div class="col-md-6">
-      <ul class="bottom_ul">
-        <li><a href="#">prabuuideveloper.com</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Faq's</a></li>
-        <li><a href="#">Contact us</a></li>
-        <li><a href="#">Site Map</a></li>
-      </ul>
-    </div>
-  </div>
+    <p> <a href="https://creativecommons.org/licenses/by/4.0/ ">CC BY</a> 2018 - Phortos Consultants | Created by <a href="http://www.sync-development.nl/">Sync Development</a></p>
 </div>
-
-    </div>
 
 
 

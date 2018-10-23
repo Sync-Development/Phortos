@@ -151,6 +151,7 @@ function filterFunction() {
 				
 					<div class="col-md-12">
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
+                            
 							<h2>Euretos</h2>
                             
                             <p style="text-align: left;"><a href="http://www.euretos.com/" style="color:#68baa5">Euretos</a>, founded in 2012 in the Netherlands, provides an AI platform mainly used by pre &amp; early-clinical researchers for in-silico discovery &amp; validation of targets and biomarkers. The platform enables a systems biology approach where researchers discover how x-omics molecular mechanisms influence cell and tissue functions, and in turn mediate phenotypes and disease pathology. Cellular disease mechanisms are unravelled through deconvolution of differential expression profiles leveraging Euretos’ extensive cell type expression library to identify cellular interactions. </p>
@@ -168,54 +169,37 @@ function filterFunction() {
 <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 <!--footer start from here-->
 <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-sm-6 footer-col">
-        <div class="logofooter">Contact: </div>
-          <br>
-        <h3><i class="fa fa-map-pin"></i> You can contact us via our email</h3>
-        <h3><i class="fa fa-envelope"></i> E-mail: albert.mons@phortosconsultants.com</h3>
-          <br>
-          
-    </div>
-   </div>     
-  </div>
+    <ul>
+       
+            <li><strong>Home</strong></li>
+        <li><a href="index">Phortos Consultants</a></li>
+    </ul>
+    <ul>
+        <li><strong>FAIR Data</strong></li>
+        <li><a href="Consulting">FAIR Consulting</a></li>
+        <li><a href="Fair-training">FAIR Training</a></li>
+        <li><a href="Fair-services">FAIR Services</a></li>
+    </ul>
+    <ul>
+        <li><strong>About Us</strong></li>
+        <li><a href="Customers">Customer</a></li>
+        <li><a href="Euretos">Euretos</a></li>
+        <li><a href="About-us">About Us</a></li>
+    </ul>
+    <ul>
+        <li><strong>Contact Us</strong></li>
+        <li><a href="about.php">Email Us</a></li>
+        <li><a href="Contact">Send a Message</a></li>
+        <li><a href="https://www.linkedin.com/company/phortos-consultants/">Follow Us</a></li>
+    </ul>
 </footer>
 <!--footer start from here-->
-<div class="copyright3">
+
 <div class="copyright">
-  <div class="container"  >
-    <div class="col-md-6">
         
   
-    <p>  © 2018 - Phortos Consultants </p>
-     <ul class="footer-social1">
-          <li> <a target="_blank" href="https://www.linkedin.com/company/25033050/"><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
-          <li> <a target="_blank" href="https://www.facebook.com/sync4webdevelopment/"><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
-          <li><i class="fa fa-twitter social-icon twitter" aria-hidden="true"></i></li>
-          <li><i class="fa fa-google-plus social-icon google" aria-hidden="true"></i></li>
-        </ul>
-      </div>
-    </div>
-       <div class="col-md-3 col-sm-6 footer-col">
-        <h6 class="heading7">Social Media</h6>
-           
-    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"><img class="scrollup" src="images/Sync_Development_Alphen_ad_Rijn_Scroll.png"> </i></a>
-       
-    <div class="col-md-6">
-      <ul class="bottom_ul">
-        <li><a href="#">prabuuideveloper.com</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Faq's</a></li>
-        <li><a href="#">Contact us</a></li>
-        <li><a href="#">Site Map</a></li>
-      </ul>
-    </div>
-  </div>
+    <p> <a href="https://creativecommons.org/licenses/by/4.0/ ">CC BY</a> 2018 - Phortos Consultants | Created by <a href="http://www.sync-development.nl/">Sync Development</a></p>
 </div>
-
-    </div>
 
 
 

@@ -154,11 +154,11 @@ function filterFunction() {
 					<div class="col-md-12">
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
 							<h2>FAIR Training</h2>
-
+                            <br>
 							<p style="text-align: left;">A key element of the transition to pervasive FAIR data is training up a new generation of data specialists that enable and support researchers. Phortos Consultants has developed curriculums for  the following key positions in this FAIR Data ecosystem:</p>
                             
                             
-                             <ul class="Training-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                             <ul class="Fair-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li><strong style="font-size: 17px;">FAIR Readiness Program Manager</strong> - oversees the end-to-end readiness program that is executed when organisations decide to implement a FAIR Data approach.</li>
                              
                               <li><strong style="font-size: 17px;">FAIR Data Steward</strong> - Oversees the data life cycle in general and those of specific projects once a FAIR data approach is operational.</li>
@@ -166,69 +166,101 @@ function filterFunction() {
                               <li><strong style="font-size: 17px;">FAIR Data &amp; Services Operator</strong> - Operationally manages and executes FAIR data tooling.</li>  
                                  
                               <li><strong style="font-size: 17px;">The FAIR Data &amp; Services Engineer</strong> - Develops tooling &amp; apps</li>  
-                                 
-                            
+                            </ul>
+                            <br>
                             <p style="text-align: left;">For each of these roles the following types of training are available. More information, including dates and booking details, are available by clicking on the course title.</p>
-							
-                        </div>
-					</div>
+                            <br>
+                            
+                             <table id="t01">
+                              <tr>
+                                <th colspan="3">Course Description</th>
+                                <th>Duration</th> 
+                                <th>Program Manager</th>
+                                <th>Data Steward</th>
+                                <th>Service Operator</th>
+                                <th>Service Engineer</th>
+                              </tr>
+                              <tr>
+                               <td colspan="3">1 - FAIR Awareness</td>
+                                <td>1 day</td>
+                                <td bgcolor="#1C9233";></td>
+                                <td bgcolor="#1C9233";></td>
+                                <td bgcolor="#1C9233";></td>
+                                <td bgcolor="#1C9233";></td>
+                              </tr>
+                              <tr>
+                               <td colspan="3">2 - FAIR Data Stewardship &amp; Management</td>
+                                <td>5 days</td>
+                                <td bgcolor="#1C9233";></td>
+                                <td bgcolor="#1C9233";></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td colspan="3">3 - FAIR Ontology &amp; Data Modelling</td>
+                                <td>5 days</td>
+                                <td>Optional</td>
+                                <td>Optional</td>
+                                <td bgcolor="#1C9233";></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td colspan="3">4 - FAIRification Processes &amp; Tools</td>
+                                <td>5 days</td>
+                                <td></td>
+                                <td></td>
+                                <td bgcolor="#1C9233";></td>
+                                <td bgcolor="#1C9233";></td>
+                              </tr>
+                            </table> 
+                            
+                          <br>
+				
+                        <p style="text-align: left;">The 5 days courses include the 1-day Fair Awareness course</p>
+                    </div>
+				</div>
             </div>
         </div>
-   </section>             
+    <br> <br> <br>
+</section>             
               
           
-<br> <br> <br>
+
   
 <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 <!--footer start from here-->
 <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-sm-6 footer-col">
-        <div class="logofooter">Contact: </div>
-          <br>
-        <h3><i class="fa fa-map-pin"></i> You can contact us via our email</h3>
-        <h3><i class="fa fa-envelope"></i> E-mail: albert.mons@phortosconsultants.com</h3>
-          <br>
-    </div>
-   </div>     
-  </div>
+    <ul>
+       
+        <li><strong>Home</strong></li>
+        <li><a href="index">Phortos Consultants</a></li>
+    </ul>
+    <ul>
+        <li><strong>FAIR Data</strong></li>
+        <li><a href="Consulting">FAIR Consulting</a></li>
+        <li><a href="Fair-training">FAIR Training</a></li>
+        <li><a href="Fair-services">FAIR Services</a></li>
+    </ul>
+    <ul>
+        <li><strong>About Us</strong></li>
+        <li><a href="Customers">Customer</a></li>
+        <li><a href="Euretos">Euretos</a></li>
+        <li><a href="About-us">About Us</a></li>
+    </ul>
+    <ul>
+        <li><strong>Contact Us</strong></li>
+        <li><a href="about.php">Email Us</a></li>
+        <li><a href="Contact">Send a Message</a></li>
+        <li><a href="https://www.linkedin.com/company/phortos-consultants/">Follow Us</a></li>
+    </ul>
 </footer>
 <!--footer start from here-->
-<div class="copyright3">
+
 <div class="copyright">
-  <div class="container"  >
-    <div class="col-md-6">
         
   
-    <p>  © 2018 - Phortos Consultants </p>
-     <ul class="footer-social1">
-          <li> <a target="_blank" href="https://www.linkedin.com/company/25033050/"><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
-          <li> <a target="_blank" href="https://www.facebook.com/sync4webdevelopment/"><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
-          <li><i class="fa fa-twitter social-icon twitter" aria-hidden="true"></i></li>
-          <li><i class="fa fa-google-plus social-icon google" aria-hidden="true"></i></li>
-        </ul>
-      </div>
-    </div>
-       <div class="col-md-3 col-sm-6 footer-col">
-        <h6 class="heading7">Social Media</h6>
-           
-    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"><img class="scrollup" src="images/Sync_Development_Alphen_ad_Rijn_Scroll.png"> </i></a>
-       
-    <div class="col-md-6">
-      <ul class="bottom_ul">
-        <li><a href="#">prabuuideveloper.com</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Faq's</a></li>
-        <li><a href="#">Contact us</a></li>
-        <li><a href="#">Site Map</a></li>
-      </ul>
-    </div>
-  </div>
+    <p> <a href="https://creativecommons.org/licenses/by/4.0/ ">CC BY</a> 2018 - Phortos Consultants | Created by <a href="http://www.sync-development.nl/">Sync Development</a></p>
 </div>
-
-    </div>
 
 
 

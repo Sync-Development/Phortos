@@ -142,78 +142,58 @@ function filterFunction() {
 </div>
     
     <section class="pt-main">
-        <div class="pt-globe-consult"></div>
+        <div class="pt-globe-about"></div>
 		<div class="container">
 			
 			<div class="row pt-block-grid pt-equals">
 				
 					<div class="col-md-12">
-						<div class="pt-box pt-box-consult text-center pt-equal" style="">
-							<h2>About Us</h2>
-                            
+						<div class="pt-box pt-box-Customer text-center pt-equal" style="">
+							<br>
 							<p style="text-align: left;">Phortos Consultants was founded in 2012 by its two senior partners, Arie Baak MscBA, LLM, BTh and  Albert Mons Msc. They have been involved in Big Data Consulting from the company’s inception building upon many years of prior experience in the same field. In our perspective data stewardship is key to many aspects of the goals of institutions and corporations.</p>
                             <hr>
-                            <p style="text-align: left;">Good data stewardship is rapidly becoming recognized as an essential component of modern science and thus innovation.  It is essential for automated modes of data integration and knowledge discovery. To generate value for society, funding agencies are increasingly setting requirements for data stewardship of research data. Beyond collection, annotation, and archival, data stewardship includes the ‘long-term care’ of research data, with the goal that they can be found and reused in downstream studies in applications that in many cases are beyond the intended use. To facilitate good data stewardship, a broad community of international stakeholders has developed the <a href="https://www.go-fair.org/fair-principles/" style="color:#68baa5">FAIR Data principles</a>. FAIR stands for ‘Findable, Accessible, Interoperable, and Reusable’.</p>
+                            <br>
+                            <p style="text-align: left;">Good data stewardship is rapidly becoming recognized as an essential component of modern science and thus innovation.  It is essential for automated modes of data integration and knowledge discovery. To generate value for society, funding agencies are increasingly setting requirements for data stewardship of research data. Beyond collection, annotation, and archival, data stewardship includes the ‘long-term care’ of research data, with the goal that they can be found and reused in downstream studies in applications that in many cases are beyond the intended use. To facilitate good data stewardship, a broad community of international stakeholders has developed the <a href="https://www.go-fair.org/fair-principles/" style="color:#68baa5">FAIR Data principles</a>.</p><br>
                         </div>
 					</div>
                 
             </div>
         </div>
-   </section>             
+   </section>    <br><br><br>     
 <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 <!--footer start from here-->
 <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-sm-6 footer-col">
-        <div class="logofooter">Contact: </div>
-          <br>
-        <h3><i class="fa fa-map-pin"></i> You can contact us via our email</h3>
-          <br>
-        <h3><i class="fa fa-envelope"></i> E-mail: albert.mons@phortosconsultants.com</h3>
-          <br>
-          
-    </div>
-   </div>     
-  </div>
+    <ul>
+       
+        <li><strong>Home</strong></li>
+        <li><a href="index">Phortos Consultants</a></li>
+    </ul>
+    <ul>
+        <li><strong>FAIR Data</strong></li>
+        <li><a href="Consulting">FAIR Consulting</a></li>
+        <li><a href="Fair-training">FAIR Training</a></li>
+        <li><a href="Fair-services">FAIR Services</a></li>
+    </ul>
+    <ul>
+        <li><strong>About Us</strong></li>
+        <li><a href="Customers">Customer</a></li>
+        <li><a href="Euretos">Euretos</a></li>
+        <li><a href="About-us">About Us</a></li>
+    </ul>
+    <ul>
+        <li><strong>Contact Us</strong></li>
+        <li><a href="about.php">Email Us</a></li>
+        <li><a href="Contact">Send a Message</a></li>
+        <li><a href="https://www.linkedin.com/company/phortos-consultants/">Follow Us</a></li>
+    </ul>
 </footer>
 <!--footer start from here-->
-<div class="copyright3">
+
 <div class="copyright">
-  <div class="container"  >
-    <div class="col-md-6">
         
   
-    <p>  © 2018 - Phortos Consultants </p>
-     <ul class="footer-social1">
-          <li> <a target="_blank" href="https://www.linkedin.com/company/25033050/"><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
-          <li> <a target="_blank" href="https://www.facebook.com/sync4webdevelopment/"><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
-          <li><i class="fa fa-twitter social-icon twitter" aria-hidden="true"></i></li>
-          <li><i class="fa fa-google-plus social-icon google" aria-hidden="true"></i></li>
-        </ul>
-      </div>
-    </div>
-       <div class="col-md-3 col-sm-6 footer-col">
-        <h6 class="heading7">Social Media</h6>
-           
-       
-    <div class="col-md-6">
-      <ul class="bottom_ul">
-        <li><a href="#">prabuuideveloper.com</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Faq's</a></li>
-        <li><a href="#">Contact us</a></li>
-        <li><a href="#">Site Map</a></li>
-      </ul>
-    </div>
-  </div>
+    <p> <a href="https://creativecommons.org/licenses/by/4.0/ ">CC BY</a> 2018 - Phortos Consultants | Created by <a href="http://www.sync-development.nl/">Sync Development</a></p>
 </div>
-
-    </div>
-
-
-
          
 </div>
 </body>   
