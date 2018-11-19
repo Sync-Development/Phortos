@@ -64,37 +64,42 @@ $(document).ready(function(){
 
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
-<li>
+<li class="list">
 <a  class="active2" href="index"><strong>Home</strong></a>
 </li>
    
-<li>
+<li class="list">
  <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
-<li>
+<li class="list">
 <a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
-<li>
+<li class="list"> <a  class="active2" href="#"><strong>About Us</strong></a>
+<ul class="submenu">
+<li class="list">
 <a  class="active2" href="Euretos"><strong>Euretos</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="Customers"><strong>Customers</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="About-us"><strong>About Us</strong></a>
  </li>
-
-<li>
+</ul>   
+</li>
+    
+<li class="list">
 <a  class="active2" href="Contact"><strong>Contact</strong></a>
  </li>
+
 </ul>
    <!--De class zort ervoor dat dit menu wordt gelinked met de animatie in de css-->
 </div>
@@ -151,7 +156,7 @@ function filterFunction() {
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
 							<h2>FAIR Consulting</h2>
                             <br>
-							<p style="text-align: middle;">Our main in this domain has been on strategic consulting for organisational FAIR Readiness in all its aspects.</p>   
+							<p style="text-align: middle;">Our main focus in this domain has been on strategic consulting for organisational FAIR Readiness in all its aspects.</p>   
                             
                             
                         </div>
@@ -182,7 +187,7 @@ function filterFunction() {
 						<div class="pt-box pt-box-consult2 text-center pt-equal" style="">
                             <h2>Organisational FAIR Readiness</h2>
                             <br>
-                            <p style="text-align: left;">We offer a fully fledged FAIR Readiness program for institutions and corporations intending to join the GO FAIR ecosystem. This program involve <a href="Fair-training" style="color:#68baa5">training of internal teams</a> and organizational adoption of the FAIR principles as well as <a href="Fair-services" style="color:#68baa5">enabling services</a> such as FAIRification of data and a unique use case driven FAIR Value demonstration program.</p>
+                            <p style="text-align: left;">We offer a fully fledged FAIR Readiness program for institutions and corporations intending to join the GO FAIR ecosystem. This program involves <a href="Fair-training" style="color:#68baa5">training of internal teams</a> and organizational adoption of the FAIR principles as well as <a href="Fair-services" style="color:#68baa5">enabling services</a> such as FAIRification of data and a unique use case driven FAIR Value demonstration program.</p>
                         </div>
 					</div>
             </div>
@@ -206,13 +211,13 @@ function filterFunction() {
     </ul>
     <ul>
         <li><strong>About Us</strong></li>
-        <li><a href="Customers">Customer</a></li>
+        <li><a href="Customers">Customers</a></li>
         <li><a href="Euretos">Euretos</a></li>
         <li><a href="About-us">About Us</a></li>
     </ul>
     <ul>
         <li><strong>Contact Us</strong></li>
-        <li><a href="about.php">Email Us</a></li>
+        <li><a href="mailto:info@phortosconsultants.com">Email Us</a></li>
         <li><a href="Contact">Send a Message</a></li>
         <li><a href="https://www.linkedin.com/company/phortos-consultants/">Follow Us</a></li>
     </ul>

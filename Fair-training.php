@@ -64,35 +64,39 @@ $(document).ready(function(){
 
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
-<li>
+<li class="list">
 <a  class="active2" href="index"><strong>Home</strong></a>
 </li>
    
-<li>
+<li class="list">
  <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
-<li>
+<li class="list">
 <a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
-<li>
+<li class="list"> <a  class="active2" href="#"><strong>About Us</strong></a>
+<ul class="submenu">
+<li class="list">
 <a  class="active2" href="Euretos"><strong>Euretos</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="Customers"><strong>Customers</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="About-us"><strong>About Us</strong></a>
  </li>
-
-<li>
+</ul>   
+</li>
+    
+<li class="list">
 <a  class="active2" href="Contact"><strong>Contact</strong></a>
  </li>
 
@@ -165,7 +169,7 @@ function filterFunction() {
                              
                               <li><strong style="font-size: 17px;">FAIR Data &amp; Services Operator</strong> - Operationally manages and executes FAIR data tooling.</li>  
                                  
-                              <li><strong style="font-size: 17px;">The FAIR Data &amp; Services Engineer</strong> - Develops tooling &amp; apps</li>  
+                              <li><strong style="font-size: 17px;">The FAIR Data &amp; Services Engineer</strong> - Develops tooling &amp; apps.</li>  
                             </ul>
                             <br>
                             <p style="text-align: left;">For each of these roles the following types of training are available. More information, including dates and booking details, are available by clicking on the course title.</p>
@@ -243,13 +247,13 @@ function filterFunction() {
     </ul>
     <ul>
         <li><strong>About Us</strong></li>
-        <li><a href="Customers">Customer</a></li>
+        <li><a href="Customers">Customers</a></li>
         <li><a href="Euretos">Euretos</a></li>
         <li><a href="About-us">About Us</a></li>
     </ul>
     <ul>
         <li><strong>Contact Us</strong></li>
-        <li><a href="about.php">Email Us</a></li>
+        <li><a href="mailto:info@phortosconsultants.com">Email Us</a></li>
         <li><a href="Contact">Send a Message</a></li>
         <li><a href="https://www.linkedin.com/company/phortos-consultants/">Follow Us</a></li>
     </ul>

@@ -64,35 +64,39 @@ $(document).ready(function(){
 
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
-<li>
+<li class="list">
 <a  class="active2" href="index"><strong>Home</strong></a>
 </li>
    
-<li>
+<li class="list">
  <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
-<li>
+<li class="list">
 <a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
-<li>
+<li class="list"> <a  class="active2" href="#"><strong>About Us</strong></a>
+<ul class="submenu">
+<li class="list">
 <a  class="active2" href="Euretos"><strong>Euretos</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="Customers"><strong>Customers</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="About-us"><strong>About Us</strong></a>
  </li>
-
-<li>
+</ul>   
+</li>
+    
+<li class="list">
 <a  class="active2" href="Contact"><strong>Contact</strong></a>
  </li>
 
@@ -157,7 +161,7 @@ function filterFunction() {
                             <p style="text-align: left;">Some of our references include: </p>
                             
                              <ul class="Customer-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>The <a href="https://www.dtls.nl/" style="color:#68baa5">establishment of the Dutch Techcenter for Lifesciences</a></li><br>
+                              <li>Supported the <a href="https://www.dtls.nl/" style="color:#68baa5"> establishment of the Dutch Techcenter for Lifesciences</a></li><br>
                              
                               <li class="Sidebullet">The organisation of various conferences such as the:
                                  <ul class="Fair-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
@@ -172,7 +176,7 @@ function filterFunction() {
                                  
                               <li>The co-founding of the <a href="http://www.euretos.com/" style="color:#68baa5">Euretos knowledge discovery venture</a></li><br>
                                  
-                              <li>The establishment of the <a href="https://www.go-fair.org/go-fair-initiative/governance/go-fair-international-support-coordination-office/" style="color:#68baa5">GO FAIR International Coordination and Support Office</a> (GFISCO)</li><br>
+                              <li>Support the establishment of the <a href="https://www.go-fair.org/go-fair-initiative/governance/go-fair-international-support-coordination-office/" style="color:#68baa5">GO FAIR International Coordination and Support Office</a> (GFISCO)</li><br>
                                  
                               <li>FAIR Data Stewardship Training for the <a href="http://www.hrb.ie/" style="color:#68baa5">Irish Health Research Board</a></li><br>
                                
@@ -202,13 +206,13 @@ function filterFunction() {
     </ul>
     <ul>
         <li><strong>About Us</strong></li>
-        <li><a href="Customers">Customer</a></li>
+        <li><a href="Customers">Customers</a></li>
         <li><a href="Euretos">Euretos</a></li>
         <li><a href="About-us">About Us</a></li>
     </ul>
     <ul>
         <li><strong>Contact Us</strong></li>
-        <li><a href="about.php">Email Us</a></li>
+        <li><a href="mailto:info@phortosconsultants.com">Email Us</a></li>
         <li><a href="Contact">Send a Message</a></li>
         <li><a href="https://www.linkedin.com/company/phortos-consultants/">Follow Us</a></li>
     </ul>

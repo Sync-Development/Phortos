@@ -64,35 +64,39 @@ $(document).ready(function(){
 
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
-<li>
+<li class="list">
 <a  class="active2" href="index"><strong>Home</strong></a>
 </li>
    
-<li>
+<li class="list">
  <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
 </li>
 
-<li>
+<li class="list">
 <a  class="active2" href="Fair-training"><strong>FAIR Training</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
-<li>
+<li class="list"> <a  class="active2" href="#"><strong>About Us</strong></a>
+<ul class="submenu">
+<li class="list">
 <a  class="active2" href="Euretos"><strong>Euretos</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="Customers"><strong>Customers</strong></a>
 </li>
     
-<li>
+<li class="list">
 <a  class="active2" href="About-us"><strong>About Us</strong></a>
  </li>
-
-<li>
+</ul>   
+</li>
+    
+<li class="list">
 <a  class="active2" href="Contact"><strong>Contact</strong></a>
  </li>
 
@@ -129,7 +133,7 @@ function filterFunction() {
 </script>
     <div class="pt-page-header">
 	<div class="container">
-		<div class="pt-page-header-wrapper">
+		<div class="pt-page-header-wrapper pt-full">
 			<div class="pt-header-content">
 				<h1 class="page-title">
 					Phortos Consultants: your partner in FAIR</h1>
@@ -186,7 +190,7 @@ function filterFunction() {
 							<h2>Strategy</h2>
                             <br>
 
-                            <p style="text-align: left;">Phortos Consultant’s strategy for its continued support to develop elements of the Internet of FAir Data and Services is to provide <a href="Consulting" style="color:#68baa5">FAIR data consulting</a>, <a href="Fair-training" style="color:#68baa5">FAIR Data Training</a> and <a href="Fair-services" style="color:#68baa5">Data FAIRification Services</a>.
+                            <p style="text-align: left;">Phortos Consultant’s strategy for its continued support to develop elements of the Internet of FAir Data and Services is to provide <a href="Consulting" style="color:#68baa5">FAIR consulting</a>, <a href="Fair-training" style="color:#68baa5">FAIR Training</a> and <a href="Fair-services" style="color:#68baa5">FAIRification Services</a>.
                             <br>    
                             <br>
                             We are supporting the <a href="https://www.nature.com/articles/sdata201618" style="color:#68baa5">FAIR Principles</a> and adhere to  the <a href="https://www.go-fair.org/" style="color:#68baa5">GO FAIR</a> recommended Implementation choices. To facilitate coherence and avoid reinventing of wheels we are a member of several GO FAIR  <a href="https://www.go-fair.org/implementation-networks/" style="color:#68baa5">Implementation Networks</a>.</p>
@@ -205,11 +209,11 @@ function filterFunction() {
                                 
                         
                             <ul class="Fair-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>FAIR Consulting - Empowering organisations to leverage the IFDS</li>
+                              <li>FAIR Consulting - Empowering organisations to leverage the IFDS.</li>
                              
-                              <li>FAIR Training - Training enablers of the IFDS</li>
+                              <li>FAIR Training - Training enablers of the IFDS.</li>
                              
-                              <li>FAIR Services - Transforming data for the IFDS</li>      
+                              <li>FAIR Services - Transforming data for the IFDS.</li>      
                             </ul>
                             
 
@@ -237,13 +241,13 @@ function filterFunction() {
     </ul>
     <ul>
         <li><strong>About Us</strong></li>
-        <li><a href="Customers">Customer</a></li>
+        <li><a href="Customers">Customers</a></li>
         <li><a href="Euretos">Euretos</a></li>
         <li><a href="About-us">About Us</a></li>
     </ul>
     <ul>
         <li><strong>Contact Us</strong></li>
-        <li><a href="about.php">Email Us</a></li>
+        <li><a href="mailto:info@phortosconsultants.com">Email Us</a></li>
         <li><a href="Contact">Send a Message</a></li>
         <li><a href="https://www.linkedin.com/company/phortos-consultants/">Follow Us</a></li>
     </ul>
