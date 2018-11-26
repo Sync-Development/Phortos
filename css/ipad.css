@@ -8,3 +8,12 @@
 strong{
     font-size: 18px;
 }
+
+  .navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+    margin-top: -80px;
+  }
+
+footer {
+    padding-left: 10px;
+}

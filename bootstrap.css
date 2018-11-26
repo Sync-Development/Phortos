@@ -1276,7 +1276,7 @@ h1,
 h2,
 .h2 {
   font-size: 30px;
-        margin-top: 6%;
+    margin-top: 6%;
 }
 h22,
 .h22 {
@@ -4179,7 +4179,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-bottom: 15px;
   }
   .navbar-nav.navbar-right:last-child {
-    margin-right: -15px;
+    margin-right: 150px;
   }
 }
 @media (min-width: 768px) {
@@ -6778,6 +6778,20 @@ border-bottom: 4px solid #68baa5;
     
 }
 
+.dropactive {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 20px;
+
+}
+
+.dropactive:hover {
+    
+border-bottom: 4px solid #68baa5;
+    
+}
+
 
 
 strong{
@@ -7201,14 +7215,14 @@ table {
     width: 100%;
 }
 table, th, td {
-    border: 3px solid black;
+    border: 3px solid grey;
     border-collapse: collapse;
     font-size: 20px;
 }
 th, td {
     padding: 5px;
     text-align: left;
-    color: black;
+    color: grey;
 }
 
 table#t01 tr {
@@ -7236,11 +7250,11 @@ table#t01 th {
 
 
 
-ul li ul {
+ul li ul  {
     background:white;
     visibility: hidden;
     opacity: 0;
-    min-width: 5rem;
+    min-width: 12rem;
     position: absolute;
     transition: all 0.5s ease;
     margin-top: 1rem;

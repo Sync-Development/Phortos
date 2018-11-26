@@ -5,3 +5,12 @@
   margin-top: 0px;
 
 }
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+footer {
+    padding-left: 70px;
+}

@@ -26,8 +26,8 @@
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
 <link rel="stylesheet"  media="(max-width: 690px) and (orientation: portrait)" href="mobile.css">
 <link rel="stylesheet" media="(max-width: 750px) and (orientation: landscape)" href="css/mobile-landscape.css">
-<link rel="stylesheet" media="(min-width: 760px) and (orientation: portrait)" href="css/ipad.css">
-
+<link rel="stylesheet" media="(max-width: 780px) and (orientation: portrait)" href="css/ipad.css">
+<link rel="stylesheet" media="(min-width: 790px) and (orientation: portrait)" href="css/ipad-pro.css">
 <link rel="stylesheet" media="(max-width: 1370px) and (orientation: landscape)" href="css/Ipad-landscape.css">
 <link href="https://fonts.googleapis.com/css?family=Tauri" rel="stylesheet"> 
 </head>
@@ -83,15 +83,15 @@ $(document).ready(function(){
 <li class="list"> <a  class="active2" href="#"><strong>About Us</strong></a>
 <ul class="submenu">
 <li class="list">
-<a  class="active2" href="Euretos"><strong>Euretos</strong></a>
+<a  class="dropactive" href="Euretos"><strong>Euretos</strong></a>
 </li>
     
 <li class="list">
-<a  class="active2" href="Customers"><strong>Customers</strong></a>
+<a  class="dropactive" href="Customers"><strong>Customers</strong></a>
 </li>
     
 <li class="list">
-<a  class="active2" href="About-us"><strong>About Us</strong></a>
+<a  class="dropactive" href="About-us"><strong>About Us</strong></a>
  </li>
 </ul>   
 </li>
@@ -155,7 +155,7 @@ function filterFunction() {
 				
 					<div class="col-md-12">
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
-                            <h2 style="margin-top: 3%;">FAIR Services</h2>
+                            <h2>FAIR Services</h2>
                             <br>
 							<p style="text-align: left;">Phortos Consultants, in collaboration with partners, provides a FAIRification service of your data compliant with the GO FAIR principles (to be a GO FAIR certified Service soon). This process usually includes the following steps:</p>
                             

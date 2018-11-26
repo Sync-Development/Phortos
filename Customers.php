@@ -26,8 +26,8 @@
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
 <link rel="stylesheet"  media="(max-width: 690px) and (orientation: portrait)" href="mobile.css">
 <link rel="stylesheet" media="(max-width: 750px) and (orientation: landscape)" href="css/mobile-landscape.css">
-<link rel="stylesheet" media="(min-width: 760px) and (orientation: portrait)" href="css/ipad.css">
-
+<link rel="stylesheet" media="(max-width: 780px) and (orientation: portrait)" href="css/ipad.css">
+<link rel="stylesheet" media="(min-width: 790px) and (orientation: portrait)" href="css/ipad-pro.css">
 <link rel="stylesheet" media="(max-width: 1370px) and (orientation: landscape)" href="css/Ipad-landscape.css">
 <link href="https://fonts.googleapis.com/css?family=Tauri" rel="stylesheet"> 
 </head>
@@ -83,17 +83,17 @@ $(document).ready(function(){
 <li class="list"> <a  class="active2" href="#"><strong>About Us</strong></a>
 <ul class="submenu">
 <li class="list">
-<a  class="active2" href="Euretos"><strong>Euretos</strong></a>
+<a  class="dropactive" href="Euretos"><strong>Euretos</strong></a>
 </li>
     
 <li class="list">
-<a  class="active2" href="Customers"><strong>Customers</strong></a>
+<a  class="dropactive" href="Customers"><strong>Customers</strong></a>
 </li>
     
 <li class="list">
-<a  class="active2" href="About-us"><strong>About Us</strong></a>
+<a  class="dropactive" href="About-us"><strong>About Us</strong></a>
  </li>
-</ul>   
+</ul> 
 </li>
     
 <li class="list">
@@ -163,14 +163,9 @@ function filterFunction() {
                              <ul class="Customer-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Supported the <a href="https://www.dtls.nl/" style="color:#68baa5"> establishment of the Dutch Techcenter for Lifesciences</a></li><br>
                              
-                              <li class="Sidebullet">The organisation of various conferences such as the:
-                                 <ul class="Fair-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                                     <li><a href="https://www.elixir-europe.org/news/elixir-nodes-came-together-technical-workshop" style="color:#68baa5">Elixir March 2013 conference</a></li>
-                                     
-                                     <li><a href="https://www.dtls.nl/2013/11/01/summary-ngls-workshop/" style="color:#68baa5">DTL Next Generation Life Sciences workshop</a></li>
-                                     
-                                     <li><a href="http://www.lorentzcenter.nl/lc/web/2014/602/info.php3?wsid=602" style="color:#68baa5">Fairport 2014 Lorentz Conference</a></li>
-                                 </ul></li><br>
+                              <li class="Sidebullet">The organisation of various conferences such as the: 
+                                 <a href="https://www.elixir-europe.org/news/elixir-nodes-came-together-technical-workshop" style="color:#68baa5">Elixir March 2013 conference</a>,  <a href="https://www.dtls.nl/2013/11/01/summary-ngls-workshop/" style="color:#68baa5">DTL Next Generation Life Sciences workshop</a> and the <a href="http://www.lorentzcenter.nl/lc/web/2014/602/info.php3?wsid=602" style="color:#68baa5">Fairport 2014 Lorentz Conference</a></li>
+                                 <br>
                                  
                               <li>A 'big data' path finder project with the <a href="https://www.esciencecenter.nl/?/projects/path-finding-projects/odex4all/" style="color:#68baa5">Netherlands eScience Center</a></li><br>      
                                  

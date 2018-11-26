@@ -26,8 +26,8 @@
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
 <link rel="stylesheet"  media="(max-width: 690px) and (orientation: portrait)" href="mobile.css">
 <link rel="stylesheet" media="(max-width: 750px) and (orientation: landscape)" href="css/mobile-landscape.css">
-<link rel="stylesheet" media="(min-width: 760px) and (orientation: portrait)" href="css/ipad.css">
-
+<link rel="stylesheet" media="(max-width: 780px) and (orientation: portrait)" href="css/ipad.css">
+<link rel="stylesheet" media="(min-width: 790px) and (orientation: portrait)" href="css/ipad-pro.css">
 <link rel="stylesheet" media="(max-width: 1370px) and (orientation: landscape)" href="css/Ipad-landscape.css">
 <link href="https://fonts.googleapis.com/css?family=Tauri" rel="stylesheet"> 
 </head>
@@ -83,17 +83,17 @@ $(document).ready(function(){
 <li class="list"> <a  class="active2" href="#"><strong>About Us</strong></a>
 <ul class="submenu">
 <li class="list">
-<a  class="active2" href="Euretos"><strong>Euretos</strong></a>
+<a  class="dropactive" href="Euretos"><strong>Euretos</strong></a>
 </li>
     
 <li class="list">
-<a  class="active2" href="Customers"><strong>Customers</strong></a>
+<a  class="dropactive" href="Customers"><strong>Customers</strong></a>
 </li>
     
 <li class="list">
-<a  class="active2" href="About-us"><strong>About Us</strong></a>
+<a  class="dropactive" href="About-us"><strong>About Us</strong></a>
  </li>
-</ul>   
+</ul>  
 </li>
     
 <li class="list">
@@ -187,16 +187,16 @@ function filterFunction() {
                               <tr>
                                <td colspan="3">1 - FAIR Awareness</td>
                                 <td>1 day</td>
-                                <td bgcolor="#1C9233";></td>
-                                <td bgcolor="#1C9233";></td>
-                                <td bgcolor="#1C9233";></td>
-                                <td bgcolor="#1C9233";></td>
+                                <td bgcolor="#30866f";></td>
+                                <td bgcolor="#30866f";></td>
+                                <td bgcolor="#30866f";></td>
+                                <td bgcolor="#30866f";></td>
                               </tr>
                               <tr>
                                <td colspan="3">2 - FAIR Data Stewardship &amp; Management</td>
                                 <td>5 days</td>
-                                <td bgcolor="#1C9233";></td>
-                                <td bgcolor="#1C9233";></td>
+                                <td bgcolor="#30866f";></td>
+                                <td bgcolor="#30866f";></td>
                                 <td></td>
                                 <td></td>
                               </tr>
@@ -205,7 +205,7 @@ function filterFunction() {
                                 <td>5 days</td>
                                 <td>Optional</td>
                                 <td>Optional</td>
-                                <td bgcolor="#1C9233";></td>
+                                <td bgcolor="#30866f";></td>
                                 <td></td>
                               </tr>
                               <tr>
@@ -213,8 +213,8 @@ function filterFunction() {
                                 <td>5 days</td>
                                 <td></td>
                                 <td></td>
-                                <td bgcolor="#1C9233";></td>
-                                <td bgcolor="#1C9233";></td>
+                                <td bgcolor="#30866f";></td>
+                                <td bgcolor="#30866f";></td>
                               </tr>
                             </table> 
                             
