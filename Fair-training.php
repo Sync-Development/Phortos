@@ -177,40 +177,40 @@ function filterFunction() {
                             
                              <table id="t01">
                               <tr>
-                                <th colspan="3">Course Description</th>
-                                <th>Duration</th> 
-                                <th>Program Manager</th>
-                                <th>Data Steward</th>
-                                <th>Service Operator</th>
-                                <th>Service Engineer</th>
+                                <th colspan="3" style="font-size: 17px;">Course Description</th>
+                                <th style="font-size: 17px;">Duration</th> 
+                                <th style="font-size: 17px;">Program Manager</th>
+                                <th style="font-size: 17px;">Data Steward</th>
+                                <th style="font-size: 17px;">Service Operator</th>
+                                <th style="font-size: 17px;">Service Engineer</th>
                               </tr>
                               <tr>
-                               <td colspan="3">1 - FAIR Awareness</td>
-                                <td>1 day</td>
+                                  <td colspan="3" style="font-size: 17px;"><a href="Fair-awareness" style="color:#68baa5"> 1 - FAIR Awareness</a></td>
+                                <td style="font-size: 17px;">1 day</td>
                                 <td bgcolor="#30866f";></td>
                                 <td bgcolor="#30866f";></td>
                                 <td bgcolor="#30866f";></td>
                                 <td bgcolor="#30866f";></td>
                               </tr>
                               <tr>
-                               <td colspan="3">2 - FAIR Data Stewardship &amp; Management</td>
-                                <td>5 days</td>
+                                  <td colspan="3" style="font-size: 17px;"><a href="Fair-management" style="color:#68baa5">2 - FAIR Data Stewardship &amp; Management</a></td>
+                                <td style="font-size: 17px;">5 days</td>
                                 <td bgcolor="#30866f";></td>
                                 <td bgcolor="#30866f";></td>
                                 <td></td>
                                 <td></td>
                               </tr>
                               <tr>
-                                <td colspan="3">3 - FAIR Ontology &amp; Data Modelling</td>
-                                <td>5 days</td>
-                                <td>Optional</td>
-                                <td>Optional</td>
+                                  <td colspan="3" style="font-size: 17px;"><a href="Fair-ontology" style="color:#68baa5">3 - FAIR Ontology &amp; Data Modelling</a></td>
+                                <td style="font-size: 17px;">5 days</td>
+                                <td style="font-size: 17px;">Optional</td>
+                                <td style="font-size: 17px;">Optional</td>
                                 <td bgcolor="#30866f";></td>
                                 <td></td>
                               </tr>
                               <tr>
-                                <td colspan="3">4 - FAIRification Processes &amp; Tools</td>
-                                <td>5 days</td>
+                                  <td colspan="3" style="font-size: 17px;"><a href="#" style="color:#68baa5">4 - FAIRification Processes &amp; Tools</a></td>
+                                <td style="font-size: 17px;">5 days</td>
                                 <td></td>
                                 <td></td>
                                 <td bgcolor="#30866f";></td>

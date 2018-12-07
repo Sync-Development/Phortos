@@ -1076,6 +1076,16 @@ ul.Fair-list li{
 	background-size: 25px;
 }
 
+ul.Ontology-list li{
+	padding: 5px 0px 0px 32px;
+	list-style: none;
+	background-image: url("images/Logo.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 25px;
+    margin-left: 5%;
+}
+
 ul.Customer-list li{
 	padding: 2px 0px 5px 32px;
 	list-style: none;
@@ -1159,6 +1169,7 @@ hr {
   border: 0;
   border-top: 3px solid #eee;
 }
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1290,7 +1301,9 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 20px;
+  font-size: 19px;
+  color: gray;
+    margin-top: 5%;
 }
 h5,
 .h5 {
@@ -3060,8 +3073,9 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: #fff;
-  background-color: #124b8c;
-  border-color: #124b8c;
+  background-color: #30866f;
+  border-color: #30866f;
+  padding: 14px 40px;
 }
 .btn-success:hover,
 .btn-success:focus,
@@ -3069,8 +3083,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #fff;
-  background-color: #68a6da;
-  border-color: #68a6da;
+  background-color: #68baa5;
+  border-color: #68baa5;
 }
 .btn-success:active,
 .btn-success.active,
@@ -7123,10 +7137,6 @@ footer a {
   left: 8px;
 }
 
-#button-1 {
-    margin: 0 auto;
-        margin-left: -0%;
-}
 
 .panel-primary>.panel-heading {
     color: #fff;
