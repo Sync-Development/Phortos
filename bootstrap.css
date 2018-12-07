@@ -7225,7 +7225,7 @@ table {
     width: 100%;
 }
 table, th, td {
-    border: 3px solid grey;
+    border: 2px solid grey;
     border-collapse: collapse;
     font-size: 20px;
 }
