@@ -168,12 +168,12 @@ function filterFunction() {
     </div>
     
     <div class="col-xs-6"><fieldset>
-    <input placeholder="Last Name" type="text" name="email" value="<? $email ?>"tabindex="2"> <span class="error"><?= $email_error ?></span>
+    <input placeholder="Last Name" type="text" name="name" value="<? $name ?>"tabindex="2"> <span class="error"><?= $name_error ?></span>
     </fieldset>
     </div>
       </div>
     <fieldset>
-      <input placeholder="E-mail" type="text" name="phone" value="<? $phone ?>" tabindex="3"> <span class="error"><?= $phone_error ?></span>
+      <input placeholder="E-mail" type="text" name="email" value="<? $email ?>" tabindex="3"> <span class="error"><?= $email_error ?></span>
     </fieldset>
     <fieldset>
       <textarea placeholder="Write your message here.." type="text" name="message" value="<? $message ?>" tabindex="5"></textarea>

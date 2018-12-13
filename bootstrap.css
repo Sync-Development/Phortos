@@ -921,7 +921,7 @@ body {
 }
 
 .pt-page-header::before {
-    background-image: url(../Phortos/images/Backg.jpg);
+    background-image: url(../images/Backg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
