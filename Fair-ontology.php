@@ -160,7 +160,7 @@ function filterFunction() {
 						
                             <h4 style="text-align: left;"><b>FAIR ontology &amp; Data modelling training</b></h4>
                             <br>
-                          <p style="text-align: left;"><b>Topics -</b> The FAIR Ontology &amp; Data Modelling course provides an in-depth training on the fundamentals of analysing data and transforming it into FAIR data using foundational ontological and semantic approaches and technologies. It covers the following topics:</p><br>
+                          <p style="text-align: left;"><b>Overview -</b> This course provides a solid introduction to the subjects related to semantics in FAIR. It starts with the basics of  ontology-driven conceptual modeling providing the foundational knowledge for creating good conceptual models/ontologies. Once the ontologies are created and validated using a foundational ontology language the participants will learn how to make them computer-actionable using Semantic Web technologies such as OWL/RDF. Then the participants will learn how to semantically enrich and make data linkable by applying the ontologies to data. In addition, defining validation rules for the datasets are taught allowing for the data to be validated against both the syntax and semantics. Lastly the course will introduce the FAIR metadata approach so the FAIR/RDF data will be well described with their metadata.</p><br>
                           
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Introduction to FAIR Data and GO FAIR</li>
@@ -182,7 +182,9 @@ function filterFunction() {
                               <li>FAIR Data Points</li>  
                             </ul>
                           <br>
-                          <p style="text-align: left;"><b>Who should attend -</b> Anyone that wants to understand the underlying ontological and semantic principles that underpins FAIR Data. Relevant for anyone that is involved in analysing data with a view to creating FAIR data.<br><br>
+                          <p style="text-align: left;"><b>Who should attend -</b>This course is aimed at data scientists in interdisciplinary teams within large organisations who are dealing with an ever growing complexity of data integration. Currently data technicians/ICTers spend between 70 and 80 percent of their time on data wrangling such as, dealing with format issues, identifiers, ontologies, etc. massaging the data so that it is ready for big data analysis.  For larger organisations choosing to GO FAIR, Integration and re-use of datasets becomes less labor intensive, leaving more time to dive into more complex data analysis. However, the FAIR data approach requires tight collaboration between domain experts, computer scientists and FAIR data experts.<br><br>
+                              
+                          This course is intended for professionals involved in data intensive organisations or consultants working in the field of change management or big-data trajectories such as data-intensive domain experts, ICT specialists / programmers, statisticians, data scientists, data modelers, data Architects, systems architects, IT executives, project managers, A.I. specialists, database architects.<br><br>
                           
                           <b>Duration -</b> 5 day course starting at 10:00 on day 1 to accommodate traveling attendees. The morning of the first day covers the main topics that are discussed in the FAIR Awareness training. Attending the morning session on the first day is therefore not mandatory for attendees that have already followed the FAIR awareness training. The sessions contain regular breaks for coffee and networking.</p>
                           
@@ -366,6 +368,13 @@ function filterFunction() {
                             <br>            
                         
                             <p style="text-align: left;"> Other European and US venues are also available.</p>
+                         <br>
+                         
+                         <p style="text-align: left;"><b>Upcoming Events (click event to book)</b></p>
+                         <br>
+                         
+                         <p  style="text-align: left;">
+                         <a href="https://www.eventbrite.com/e/an-ontology-driven-approach-for-fair-data-interoperability-tickets-53585136586">San Diego: Feb 11-15, 2019</a></p>
                    </div>
               </div>
           </div>

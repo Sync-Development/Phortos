@@ -201,7 +201,7 @@ function filterFunction() {
                                 <td></td>
                               </tr>
                               <tr>
-                                  <td colspan="3" style="font-size: 17px;"><a href="Fair-ontology" style="color:#68baa5">3 - FAIR Ontology &amp; Data Modelling</a></td>
+                                  <td colspan="3" style="font-size: 17px;"><a href="Fair-ontology" style="color:#68baa5">3 - FAIR Ontology &amp; Data Modeling</a></td>
                                 <td style="font-size: 17px;">5 days</td>
                                 <td style="font-size: 17px;">Optional</td>
                                 <td style="font-size: 17px;">Optional</td>

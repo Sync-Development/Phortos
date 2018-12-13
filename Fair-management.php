@@ -160,7 +160,7 @@ function filterFunction() {
 						
                             <h4 style="text-align: left;"><b>FAIR Data Stewardship &amp; Management training</b></h4>
                             <br>
-                          <p style="text-align: left;"><b>Topics -</b>The FAIR Data &amp; Management course provides an in-depth training on the the approaches to FAIRify data and the processes required to manage the FAIR data life cycle. It covers the following topics:</p><br>
+                          <p style="text-align: left;"><b>Overview -</b> FAIR Data Stewardship, as a new profession, is rapidly gaining momentum. New requirements from national and international funders are driving the need for training of competent, professional data stewards and data managers with knowledge of  the FAIR principles and their application. This course introduces the required knowledge and skills in a broader data stewardship context, including topics like semantic data modeling, metadata modeling, the FAIRification process, publishing FAIR Data Points, and other topics related to managing research project's data requirements. After completion of the course participants will be able to work with  domain specialists in making their data FAIR and preserving them for re-use.</p><br>
                           
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>An introduction to GO FAIR and Data Stewardship</li>
@@ -184,7 +184,7 @@ function filterFunction() {
                               <li>Putting FAIR into Practice</li>  
                             </ul>
                           <br>
-                          <p style="text-align: left;"><b>Who should attend -</b>Anyone that wants to understand in detail how FAIR can be implemented. Relevant for anyone involved in the production, management and analysis of data.<br><br>
+                          <p style="text-align: left;"><b>Who should attend -</b> This course is aimed at librarians or data experts at universities, research institutions and R&amp;D intensive companies who are dealing with the ever growing complexity of data integration. Currently data technicians/ICTers spend between 70 and 80 percent of their time on data wrangling such as dealing with format issues,  identifiers, ontologies, massaging the data so that it is ready for big data analysis. For large organisations choosing to GO FAIR, integration and re-use of data sets becomes less labor intensive, leaving more time to dive into more complex data analysis answering research questions.<br><br>
                           
                           <b>Duration -</b> 5 day course starting at 10:00 on day 1 to accommodate travelling attendees. The morning of the first day covers the main topics that are discussed in the FAIR Awareness training. Attending the morning session on the first day is therefore not mandatory for attendees that have already followed the FAIR awareness training. The sessions contain regular breaks for coffee and networking.</p>
                           
@@ -408,6 +408,13 @@ function filterFunction() {
                             <br>            
                         
                             <p style="text-align: left;"> Other European and US venues are also available.</p>
+                         <br>
+                         
+                         <p style="text-align: left;"><b>Upcoming Events (click event to book)</b></p>
+                         <br>
+                         
+                         <p  style="text-align: left;">
+                         <a href="https://www.eventbrite.com/e/an-ontology-driven-approach-for-fair-data-interoperability-tickets-53585136586">San Diego: Feb 11-15, 2019</a></p>
                    </div>
               </div>
           </div>

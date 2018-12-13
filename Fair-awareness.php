@@ -160,7 +160,7 @@ function filterFunction() {
 						
                             <h4 style="text-align: left;"><b>FAIR Awareness training</b></h4>
                             <br>
-                          <p style="text-align: left;"><b>Topics -</b> The FAIR awareness training provides a 1-day introduction course to FAIR: Findable, Accessible, Interoperable and Reusable data. It covers key topics such as:</p><br>
+                          <p style="text-align: left;"><b>Overview -</b> FAIR Data aims at improving Findability, Accessibility, Interoperability and Reuse of data. Due to the increase of volume and complexity of data, researchers  increasingly rely on automated support in order to be able to integrate and analyse these data in order to answer research questions. The realisation of FAIR data requires all levels of an organisation to work together from a shared understanding of the challenges and opportunities of FAIR. This 1-day introductory course provides an 360 degree overview of all the key aspects that are relevant for anyone involved in the realisation of FAIR data.</p><br>
                           
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>What are the issues with data; why do we need FAIR data?</li>
