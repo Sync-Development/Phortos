@@ -414,7 +414,7 @@ function filterFunction() {
                          <br>
                          
                          <p  style="text-align: left;">
-                         <a href="https://www.eventbrite.com/e/an-ontology-driven-approach-for-fair-data-interoperability-tickets-53585136586">San Diego: Feb 11-15, 2019</a></p>
+                         <a href="https://www.eventbrite.com/e/fair-data-stewardship-supporting-fair-data-interoperability-tickets-53508818316">San Diego: Feb 11-15, 2019</a></p>
                    </div>
               </div>
           </div>

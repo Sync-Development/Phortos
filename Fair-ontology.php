@@ -158,7 +158,7 @@ function filterFunction() {
                 <div class="pt-box pt-box-consult text-center pt-equal" style="">
 					  <div class="col-md-8">
 						
-                            <h4 style="text-align: left;"><b>FAIR ontology &amp; Data modelling training</b></h4>
+                            <h4 style="text-align: left;"><b>FAIR ontology &amp; Data modeling training</b></h4>
                             <br>
                           <p style="text-align: left;"><b>Overview -</b> This course provides a solid introduction to the subjects related to semantics in FAIR. It starts with the basics of  ontology-driven conceptual modeling providing the foundational knowledge for creating good conceptual models/ontologies. Once the ontologies are created and validated using a foundational ontology language the participants will learn how to make them computer-actionable using Semantic Web technologies such as OWL/RDF. Then the participants will learn how to semantically enrich and make data linkable by applying the ontologies to data. In addition, defining validation rules for the datasets are taught allowing for the data to be validated against both the syntax and semantics. Lastly the course will introduce the FAIR metadata approach so the FAIR/RDF data will be well described with their metadata.</p><br>
                           
@@ -169,9 +169,9 @@ function filterFunction() {
                              
                               <li>Types and taxonomic structures</li>  
                                  
-                              <li>Modelling Relationships and Events</li> 
+                              <li>modeling Relationships and Events</li> 
                               
-                              <li>Data Modelling Hands-On</li>  
+                              <li>Data modeling Hands-On</li>  
                               
                               <li>Introduction to Semantic Web and Linked Data</li>  
                               
@@ -260,7 +260,7 @@ function filterFunction() {
                           
                            <p style="text-align: left;"><b>DAY 3</b><br><br>
                               
-                              <b>09:00-12:30 - Modelling Relationships and Events</b>
+                              <b>09:00-12:30 - modeling Relationships and Events</b>
                           </p><br>
                           
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
@@ -277,7 +277,7 @@ function filterFunction() {
                           <p style="text-align: left;">   
                              <b>Lunch</b><br><br>
                               
-                              <b>13:30-17:00 - Data Modelling Hands On</b>
+                              <b>13:30-17:00 - Data modeling Hands On</b>
                           </p><br>
                           
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">

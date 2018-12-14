@@ -175,6 +175,7 @@ function filterFunction() {
                             <p style="text-align: left;">For each of these roles the following types of training are available. More information, including dates and booking details, are available by clicking on the course title.</p>
                             <br>
                             
+                            
                              <table id="t01">
                               <tr>
                                 <th colspan="3" style="font-size: 17px;">Course Description</th>
@@ -220,7 +221,9 @@ function filterFunction() {
                             
                           <br>
 				
-                        <p style="text-align: left;">The 5 days courses include the 1-day Fair Awareness course</p>
+                        <p style="text-align: left;">The 5 days courses include the 1-day Fair Awareness course</p><br>
+                        
+                         <p style="text-align: left;">The courses are given by leading experts in the area of FAIR data, ontological &amp; semantic technologies, data stewardship and their practical application in enabling data driven research. <a href="Trainers">More background can be found here</a></p>
                     </div>
 				</div>
             </div>
