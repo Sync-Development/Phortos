@@ -154,28 +154,38 @@ function filterFunction() {
 				
 					<div class="col-md-12">
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
-                            
-            <div id="contact-area">
-			<link rel="stylesheet" href="form.css" type="text/css"> 
-			<form method="post" action="contactengine.php">
-				<label for="Name">Name:</label>
-				<input type="text" name="Name" id="Name" />
-				
-				<label for="City">City:</label>
-				<input type="text" name="City" id="City" />
-	
-				<label for="Email">Email:</label>
-				<input type="text" name="Email" id="Email" />
-				
-				<label for="Message">Message:</label><br />
-				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
 
-				<input type="submit" name="submit" value="Submit" class="submit-button" />
-			</form>
-			
-			<div style="clear: both;"></div>
-	
-	</div>
+                            
+<? include('form_process.php'); ?>                            
+<link rel="stylesheet" href="form.css" type="text/css">             
+<div class="container">  
+  <form id="contact" action="<?=$_SERVER['PHP_SELF']; ?>" method="post">
+    <h4> Please fill out this form and we will contact you as soon as possible.</h4>
+    <div class="row">
+    <div class="col-xs-6"><fieldset>
+    <input placeholder="First Name" type="text" tabindex="1" name="name" value="<? $name ?>" autofocus> <span class="error"><?= $name_error ?></span>
+    </fieldset>
+    </div>
+    
+    <div class="col-xs-6"><fieldset>
+    <input placeholder="Last Name" type="text" name="name" value="<? $name ?>"tabindex="2"> <span class="error"><?= $name_error ?></span>
+    </fieldset>
+    </div>
+      </div>
+    <fieldset>
+      <input placeholder="E-mail" type="text" name="email" value="<? $email ?>" tabindex="3"> <span class="error"><?= $email_error ?></span>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Write your message here.." type="text" name="message" value="<? $message ?>" tabindex="5"></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send</button>
+    </fieldset>
+    <div class ="success"><?= $success; ?></div>
+  </form>
+ 
+  
+</div>
                         </div>
 					</div>
                 
