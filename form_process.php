@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $to = 'info@phortosconsultants.com';
       $subject = 'Contact Form Submit';
       if (mail($to, $subject, $message)){
-          $success = "Message was send succesfully, Thanks!";
+          $success = "Message was sent succesfully, Thanks!";
           $name = $email = $phone = $message = $url = '';
       }
   }
