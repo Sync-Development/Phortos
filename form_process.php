@@ -51,15 +51,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   } else {
     $message = test_input($_POST["message"]);
   }
-   die ("bLALALALA");
-  if ($name_error == '' and $email_error == '' and $phone_error == '' and $url_error == '' ){
+  
+  if ($name_error == '' && $email_error == '' && $phone_error == '' && $url_error == '' ){
       $message_body = '';
       unset($_POST['submit']);
       foreach ($_POST as $key => $value){
           $message_body .=  "$key: $value\n";
       }
       
-     
+      die ("bLALALALA");
       $to = 'tim.uittenbogaard1997@gmail.com';
       $subject = 'Contact Form Submit';
       if (mail($to, $subject, $message)){
