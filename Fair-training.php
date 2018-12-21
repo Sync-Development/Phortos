@@ -223,7 +223,7 @@ function filterFunction() {
 				
                         <p style="text-align: left;">The 5 days courses include the 1-day Fair Awareness course</p><br>
                         
-                         <p style="text-align: left;">The courses are given by leading experts in the area of FAIR data, ontological &amp; semantic technologies, data stewardship and their practical application in enabling data driven research. <a href="Trainers" style="color:#68baa5">More background can be found here</a></p>
+                         <p style="text-align: left;">The courses are given by leading experts in the area of FAIR data, ontological &amp; semantic technologies, data stewardship and their practical application in enabling data driven research. <a href="Trainers">More background can be found here</a></p>
                     </div>
 				</div>
             </div>

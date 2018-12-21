@@ -209,11 +209,11 @@ function filterFunction() {
                                 
                         
                             <ul class="Fair-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                                <li><a href="Consulting" style="color:#68baa5">FAIR Consulting</a> - Empowering organisations to leverage the IFDS.</li>
+                                <li><a href="Consulting">FAIR Consulting</a> - Empowering organisations to leverage the IFDS.</li>
                              
-                              <li><a href="Fair-training" style="color:#68baa5">FAIR Training</a> - Training enablers of the IFDS.</li>
+                              <li><a href="Fair-training">FAIR Training</a> - Training enablers of the IFDS.</li>
                              
-                              <li><a href="Fair-services" style="color:#68baa5">FAIR Services</a> - Transforming data for the IFDS.</li>      
+                              <li><a href="Fair-services">FAIR Services</a> - Transforming data for the IFDS.</li>      
                             </ul>
                             
 
