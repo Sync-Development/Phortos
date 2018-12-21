@@ -51,8 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $message_body .=  "$key: $value\n";
       }
 
-      $from = "$name $last_name <$email>";
-      $headers = "From: Asad <boelaar@munaf.pa>\r\n";
+      $headers = "From: $name $last_name <$email>\r\n";
       $to = 'Demian <demiandejager21@gmail.com>';
       $subject = 'Contact Form Submit';
       if (mail($to, $subject, $message, $headers)){
