@@ -41,7 +41,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $message_body .=  "$key: $value\n";
       }
       
-      die ("bLALALALA");
       $to = 'tim.uittenbogaard1997@gmail.com';
       $subject = 'Contact Form Submit';
       if (mail($to, $subject, $message)){
