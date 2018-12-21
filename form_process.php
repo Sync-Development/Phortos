@@ -39,9 +39,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
   if (empty($_POST["message"])) {
-    $message = "$name, $last_name, $email";
+    $message = "";
   } else {
-    $message = test_input($_POST["message, name, last_name, email"]);
+    $message = test_input($_POST["message"]);
   }
   
   if ($name_error == '' && $last_name_error == '' && $email_error == ''){
@@ -58,6 +58,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       if (mail($to, $subject, $message, $headers)){
           $success = "Message was sent succesfully, Thanks!";
           $name = $last_name = $email = $message = '';
+      }else {
+          die("AHAHAHAHAHA");
       }
   }
   
