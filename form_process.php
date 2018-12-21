@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["message"])) {
     $message = "$name, $last_name, $email";
   } else {
-    $message = test_input($_POST["message"]);
+    $message = test_input($_POST["message, name, last_name, email"]);
   }
   
   if ($name_error == '' && $last_name_error == '' && $email_error == ''){
