@@ -50,10 +50,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       foreach ($_POST as $key => $value){
           $message_body .=  "$key: $value\n";
       }
-      
-      $to = 'demiandejager21@gmail.com';
+
+      $from = "$name $last_name <$email>";
+      $headers = "From: $to";
+      $to = 'Demian <demiandejager21@gmail.com>';
       $subject = 'Contact Form Submit';
-      if (mail($to, $subject, $message)){
+      if (mail($to, $subject, $message, $headers)){
           $success = "Message was sent succesfully, Thanks!";
           $name = $last_name = $email = $message = '';
       }
