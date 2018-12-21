@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $message_body .=  "$key: $value\n";
       }
       
-      $to = 'tim.uittenbogaard1997@gmail.com';
+      $to = 'demiandejager21@gmail.com';
       $subject = 'Contact Form Submit';
       if (mail($to, $subject, $message)){
           $success = "Bericht verstuurd, bedankt voor uw bericht!";
