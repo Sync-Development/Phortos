@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
     if (empty($_POST["last_name"])) {
-        $name_error = "last_name is required";
+        $last_name_error = "last_name is required";
     } else {
         $last_name = test_input($_POST["last_name"]);
         // check if name only contains letters and whitespace
@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
   if (empty($_POST["message"])) {
-    $message = "";
+    $message = "$name, $last_name, $email";
   } else {
     $message = test_input($_POST["message"]);
   }
@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       
       $to = 'demiandejager21@gmail.com';
       $subject = 'Contact Form Submit';
-      if (mail($to, $subject, $name, $last_name, $email, $message)){
+      if (mail($to, $subject, $message)){
           $success = "Message was sent succesfully, Thanks!";
           $name = $last_name = $email = $message = '';
       }
