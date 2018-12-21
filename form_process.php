@@ -1,8 +1,8 @@
 <?php 
 
 // define variables and set to empty values
-$name_error = $email_error = $phone_error = $url_error = "";
-$name = $email = $phone = $message = $url = $success = "";
+$name_error = $last_name_error = $email_error = "";
+$name = $last_name = $email  = $message = $success = "";
 
 //form is submitted with POST method
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -15,6 +15,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $name_error = "Only letters and white space allowed"; 
     }
   }
+
+    if (empty($_POST["last_name"])) {
+        $last_name_error = "last_name is required";
+    } else {
+        $last_name = test_input($_POST["last_name"]);
+        // check if name only contains letters and whitespace
+        if (!preg_match("/^[a-zA-Z ]*$/",$last_name)) {
+            $last_name_error = "Only letters and white space allowed";
+        }
+    }
 
   if (empty($_POST["email"])) {
     $email_error = "Email is required";
@@ -34,18 +44,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = test_input($_POST["message"]);
   }
   
-  if ($name_error == '' && $email_error == ''){
+  if ($name_error == '' && $last_name_error == '' && $email_error == ''){
       $message_body = '';
       unset($_POST['submit']);
       foreach ($_POST as $key => $value){
           $message_body .=  "$key: $value\n";
       }
-      
-      $to = 'info@phortosconsultants.com';
+
+      $headers = "From: $name $last_name <$email>\r\n";
+      $to = 'Demian <demiandejager21@gmail.com>';
       $subject = 'Contact Form Submit';
-      if (mail($to, $subject, $message)){
+      if (mail($to, $subject, $message, $headers)){
           $success = "Message was sent succesfully, Thanks!";
-          $name = $email = $phone = $message = $url = '';
+          $name = $last_name = $email = $message = '';
+      }else {
+          die("AHAHAHAHAHA");
       }
   }
   

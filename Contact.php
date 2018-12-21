@@ -169,7 +169,7 @@ function filterFunction() {
     </div>
     
     <div class="col-xs-6"><fieldset>
-    <input placeholder="Last Name" type="text" name="name" value="<? $name ?>"tabindex="2"> <span class="error"><?= $name_error ?></span>
+    <input placeholder="Last Name" type="text" name="last_name" value="<? $last_name ?>"tabindex="2"> <span class="error"><?= $last_name_error ?></span>
     </fieldset>
     </div>
       </div>
