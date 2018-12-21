@@ -2,6 +2,7 @@
 <html>
 <head>
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107535912-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -178,6 +179,7 @@ function filterFunction() {
     <fieldset>
       <textarea placeholder="Write your message here.." type="text" name="message" value="<? $message ?>" tabindex="5"></textarea>
     </fieldset>
+      <div class="g-recaptcha" data-sitekey="6Lfx8oMUAAAAALx3zcAWup4jVjSIiEDT7r464MTz"></div>
     <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send</button>
     </fieldset>
