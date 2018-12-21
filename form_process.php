@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       
       $to = 'demiandejager21@gmail.com';
       $subject = 'Contact Form Submit';
-      if (mail($to, $subject, $name, $last_name, $message)){
+      if (mail($to, $subject, $name, $last_name, $email, $message)){
           $success = "Message was sent succesfully, Thanks!";
           $name = $last_name = $email = $message = '';
       }
