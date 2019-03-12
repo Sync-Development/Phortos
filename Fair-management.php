@@ -243,7 +243,7 @@ function filterFunction() {
                           
                           <p style="text-align: left;"><b>DAY 2</b><br><br>
                               
-                              <b>09:00-12:30 - Semantic Data Modeling and Ontologies</b>
+                              <b>09:00-12:30 - Introduction to Semantic Data Modeling and Ontologies</b>
                           </p><br>
                           
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
@@ -260,7 +260,7 @@ function filterFunction() {
                           <p style="text-align: left;">   
                              <b>Lunch</b><br><br>
                               
-                              <b>13:30-17:00 - Semantic Web and Linked Data</b>
+                              <b>13:30-17:00 - Introduction to Semantic Web and Linked Data</b>
                           </p><br>
                           
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
@@ -278,17 +278,21 @@ function filterFunction() {
                           
                            <p style="text-align: left;"><b>DAY 3</b><br><br>
                               
-                              <b>09:00-12:30 - FAIRification: Data</b>
+                              <b>09:00-12:30 - FAIRification - Process and tooling</b>
                           </p><br>
                           
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>Where will the data “live” (repository)?</li>
+                              <li>Overview of the process and tooling</li>
                              
-                              <li>Semantic models for your dataset</li>
+                              <li>Consider semantic models for the sample sett</li>
                              
-                              <li>Core ontological frameworks</li>  
+                              <li>onsider ‘core’ ontological frameworks (e.g. SIO, DCAT)</li>  
                                  
-                              <li>Apply semantic model to data elements</li>
+                              <li>Where will the data “live” (repository)?</li>
+                              
+                              <li>Considerations for GUPIDs for the FAIR data</li> 
+                              
+                              <li>Apply semantic model to data elements</li> 
                               
                               <li>Data transformation to FAIR Data</li> 
                               
@@ -299,21 +303,25 @@ function filterFunction() {
                           <p style="text-align: left;">   
                              <b>Lunch</b><br><br>
                               
-                              <b>13:30-17:00 - FAIRification: Processes</b>
+                              <b>13:30-17:00 - FAIRification - Processes and tooling (ctd)</b>
                           </p><br>
                           
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>Open Refine FAIRifier tool</li>
+                              <li>Custom scripts to achieve data record transformation to FAIR Data</li>
                              
-                              <li>Sculpting and cleaning data</li>
+                              <li>“Push” into the selected repository for data and metadata) = machine-readable knowledge graph</li>
                              
+                              <li>Open Refine FAIRifier tool</li>  
+                              
+                              <li>Sculpting and cleaning data</li>  
+                              
                               <li>Export data without custom scripting</li>  
                             </ul>
                           <br>
                           
                           <p style="text-align: left;"><b>DAY 4</b><br><br>
                               
-                              <b>09:00-12:30 - FAIRification: Metadata</b>
+                              <b>09:00-12:30 - FAIRification process - Metadata</b>
                           </p><br>
                           
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
@@ -322,8 +330,6 @@ function filterFunction() {
                               <li>What should be included to be FAIR</li>
                               
                               <li>Meta data structures (FAIR Accessors and LDP containers)</li>
-                             
-                              <li>Introduction to the FDP</li>
                               
                               <li>Create a FAIR metadata record by scripting</li>
                              
@@ -334,19 +340,21 @@ function filterFunction() {
                           <p style="text-align: left;">   
                              <b>Lunch</b><br><br>
                               
-                              <b>13:30-17:00 - The Fair Data Point (FDP) in practice</b>
+                              <b>13:30-17:00 - FAIRification process - The Fair Data Point (FDP)</b>
                           </p><br>
                           
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                              <li>Introduction to the FDP</li>
+                              
                               <li>Create FDP record for a data set</li>
                              
                               <li>Explore the FDP (interface and SPARQL)</li>
                               
                               <li>Are we FAIR yet: discuss measuring FAIRness</li>
                              
-                              <li>The FAIR metrics</li>
+                              <li>The FAIR Maturity Indicators (FMI)</li>
                               
-                              <li>Metric Evaluator</li>
+                              <li>FMI Evaluator</li>
                              
                               <li>Evaluate published data / metadata </li>
                             </ul>
@@ -414,7 +422,7 @@ function filterFunction() {
                          <br>
                          
                          <p  style="text-align: left;">
-                         <a href="https://www.eventbrite.com/e/fair-data-stewardship-supporting-fair-data-interoperability-tickets-53508818316">San Diego: Feb 11-15, 2019</a></p>
+                         <a href="https://www.eventbrite.com/e/fair-data-stewardship-supporting-fair-data-interoperability-tickets-55648291538" target="_blank"> San Diego: May: 28-31, 2019</a></p>
                    </div>
               </div>
           </div>
