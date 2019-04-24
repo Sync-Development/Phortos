@@ -1,3 +1,5 @@
+/*Dit is de main css voor de gehele website, niet alles wordt gebruikt aangezien het een bootstrap file is, bij lijn 902 staat de eerste stijling*/
+
 /*!
  * Bootstrap v3.2.0 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
@@ -897,17 +899,18 @@ html {
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+/*Dit is de body voor de website*/
 body {
   font-family: "tauri", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   background-color: #f5f7f9;
 }
-
+/*Dit zorgt ervoor dat alles buiten de wrapper weg is*/
 .pt-site-wrapper {
     overflow-x: hidden;
 }
-
+/*Dit is voor de kleurverloop van de banner*/
 .pt-page-header {
     background: linear-gradient(to right,#757c75,#227722);
     color: #fff;
@@ -919,7 +922,7 @@ body {
 .pt-page-header .pt-page-header-wrapper {
     min-height: 380px;
 }
-
+/*Dit is de image van de banner*/
 .pt-page-header::before {
     background-image: url(../images/Backg.jpg);
     background-position: center center;
@@ -934,7 +937,7 @@ body {
     left: 0;
     z-index: -1;
 }
-
+/*Dit is tekst voor de banner*/
 .page-title {
     font-size: 45px;
     font-weight: 900;
@@ -970,8 +973,9 @@ body {
     flex: 0 0 100%;
     text-align: center;
 }
+/*hier eindigt de banner stijling*/
 
-
+/*Dit is de section die als basis wordt gezien na de banner */
 .pt-main {
     margin: -200px 0 60px;
     position: relative;
@@ -981,13 +985,13 @@ body {
 .home .pt-main {
     margin-bottom: 0;
 }
-
+/*Dit is de tweede section dat na de basis komt*/
 .pt-rest {
     padding: 0px 0;
     position: relative;
     z-index: 1;
 }
-
+/*Dit zijn de afbeeldingen die voorkomen in de achtergrond, sommige hadden een andere variant omdat het anders niet tevoorschijn kwam*/
 .pt-rest .pt-globe {
     background: url(../images/Logo.svg);
     background-repeat: no-repeat;
@@ -1026,7 +1030,7 @@ body {
     height: 600px;
     overflow-x: hidden;
 }
-
+/*Hier eindigen de images*/
 .pt-page-header .pt-page-header-wrapper {
     align-items: center;
     display: -ms-flexbox;
@@ -1036,7 +1040,7 @@ body {
     width: 100%;
     min-height: 220px;
 }
-
+/*Dit is de stijling van alle teksten in de website*/
 p{
     color: gray;
     font-family: 'Tauri', sans-serif;
@@ -1067,6 +1071,7 @@ body h3{
     font-size: 12px;
 }
 
+/*Dit zijn de bullet points die worden vervangen door phortos logo's, wederom meeredere varianten om het er beter uit te laten zien op alle pagina's*/
 ul.Fair-list li{
 	padding: 15px 0px 5px 32px;
 	list-style: none;
@@ -1104,7 +1109,8 @@ ul.Customer-list li.Sidebullet{
     background-position: left top;
 	background-size: 25px;
 }
-
+/*Hier eindigt het eerste gedeelte van de gebruikte stijling*/
+/*het tweede gedeelte van de stijling begint bij lijn 6784*/
 input,
 button,
 select,
@@ -1442,7 +1448,7 @@ ol ul,
 ul ol,
 ol ol {
   margin-bottom: 0;
-}
+}/*Dit is voor de bullet points*/
 .list-unstyled {
   padding-left: 0;
   list-style-image: url('images/Logo.png');
@@ -6807,7 +6813,7 @@ border-bottom: 4px solid #68baa5;
 }
 
 
-
+/*Dit is wat meer stijling voor de footer*/
 strong{
     font-size: 20px;
     text-align: center;
@@ -7151,7 +7157,7 @@ footer a {
     .panel-success {
     border-color: #74acca;
 }
-
+/*Dit zijn alle content blokken die gebruikt worden in de website, de eerste is de basis die het meest wordt gebuikt*/
 .pt-box.pt-box-default {
     background: #fff;
     border-bottom: 5px solid #30866f;
@@ -7160,7 +7166,7 @@ footer a {
     max-height: 340px;
     min-height: 340px;
 }
-
+/*Dit is de tweede content blok voor de hoofdpagina*/
 .pt-box.pt-box-2 {
     background: #fff;
     border-bottom: 5px solid #30866f;
@@ -7169,7 +7175,7 @@ footer a {
     max-height: 500px;
     min-height: 500px;
 }
-
+/*Dit is de derde content blok voor de hoofdpagina*/
 .pt-box.pt-box-3 {
     background: #fff;
     border-bottom: 5px solid #30866f;
@@ -7178,7 +7184,7 @@ footer a {
     max-height: 500px;
     min-height: 500px;
 }
-
+/*Dit is een content blok dat gebruikt wordt voor de consulting pagina*/
 .pt-box.pt-box-consult {
     background: #fff;
     border-bottom: 5px solid #30866f;
@@ -7186,7 +7192,7 @@ footer a {
     padding: 0px 30px 30px 30px;
     
 }
-
+/*Dit is de tweede content blok dat gebruikt wordt voor de consulting pagina*/
 .pt-box.pt-box-consult2 {
     background: #fff;
     border-bottom: 5px solid #30866f;
@@ -7195,21 +7201,21 @@ footer a {
     max-height: 400px;
     min-height: 400px;
 }
-
+/*Dit is de contentblok dat gebruikt wordt voor de customer pagina*/
 .pt-box.pt-box-Customer {
     background: #fff;
     border-bottom: 5px solid #30866f;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
 }
-
+/*Dit is de basis stijling van de content boxen*/
 .pt-box {
     border-radius: 3px;
     margin-bottom: 5%;
     overflow: hidden;
 }
 
-
+/*Dit is stijling voor het logo*/
 .logo{
     width: 50%;
     margin-left: ;
@@ -7220,7 +7226,7 @@ footer a {
     display:none;
 }
 
-/*voor de tabel*/
+/*dit is allemaal voor de tabel*/
 table {
     width: 100%;
 }
@@ -7242,14 +7248,15 @@ table#t01 tr {
 table#t01 th {
     color: #30866f;
 }
-
+/*Dit is de banner text stijling*/
 #banner-text{
     margin-top: 14%;
 }
+/*Dit is de verzend knop plaatsing*/
 .send {
     margin-right: 20%;
 }
-
+/*Dit is voor de lijsten met bullet points die onzichtbaar worden zodat het logo geplaatst kan worden*/
 .list {
     color: #fff;
     display: block;
@@ -7284,6 +7291,7 @@ ul li ul li {
   width: 100%;
 }
 
+/*Dit is de stijling voor de trainer foto's*/
 .Trainers{
     width: 150px;
 }

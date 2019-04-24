@@ -1,3 +1,5 @@
+/*Dit is de stijling voor de ipad versie van de website*/
+/*Dit is voor de hover animatie in de navigatie*/
 .active2 {
   font-size: 18px;
   margin-left: -15px;
@@ -13,7 +15,7 @@ strong{
     margin-right: -15px;
     margin-top: -80px;
   }
-
+/*Dit is voor de footer*/
 footer {
     padding-left: 10px;
 }

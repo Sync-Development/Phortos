@@ -14,10 +14,12 @@
 <meta charset="UTF-8">
 
 <meta name="keywords" content="phortos, netherlands consulting, phortos waddinxveen, fair, professional consulting, euretos, consulting, fair-training, fair-service">
-<meta name="description" content="Phortos Consultants: Professional consulting, training and services to help realise the Internet of FAIR Data & Services">      
+<!--Deze woorden zullen ervoor zorgen dat iemand een van deze woorden opzoekt het verschijnt in google-->
+<meta name="description" content="Phortos Consultants: Professional consulting, training and services to help realise the Internet of FAIR Data & Services">    
+<!--Dit beschrijft de site-->  
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PhortosConsultants</title>
+<title>PhortosConsultants</title><!--Dit is de titel van de website--> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -33,15 +35,15 @@
 </head>
 <body>
 
-<div class="pt-site-wrapper">
+<div class="pt-site-wrapper"><!--Dit zorgt ervoor dat alles in een bepaalde breedte blijft-->
 
     
 
     
-<div class="navbar navbar-default navbar-static-top">
+<div class="navbar navbar-default navbar-static-top"><!--Dit zorgt ervoor dat de navbar boven blijft staan-->
 <div class="container-fluid">
 <div class="navbar-header">
-    <a href="index"><img class="logo" src="images/Logo.svg"></a>
+    <a href="index"><img class="logo" src="images/Logo.svg"></a><!--Dit is het logo-->
 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 <div id="nav-icon3">
   <span></span>
@@ -61,7 +63,7 @@ $(document).ready(function(){
     
 <a class="navbar-brand" href="#"></a>
     </div>
-
+<!--Dit is voor de navbar-->
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
 <li class="list">
@@ -110,8 +112,7 @@ $(document).ready(function(){
  
 
 <script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+/*Wanneer de gebruiker op de knop klikt wordt de dropdown content weergegeven*/
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -132,7 +133,7 @@ function filterFunction() {
 }
 </script>
     
-    <div class="pt-page-header">
+    <div class="pt-page-header"><!--Dit stukje code is de tekst dat wordt gedisplayed op de banner van de Fair Services-->
 	<div class="container">
 		<div class="pt-page-header-wrapper">
 			<div class="pt-header-content">
@@ -147,18 +148,18 @@ function filterFunction() {
 	</div>
 </div>
     
-    <section class="pt-main">
-        <div class="pt-globe-consult"></div>
+    <section class="pt-main"><!--Dit is de contentblok voor fair services-->
+        <div class="pt-globe-consult"></div><!--Dit is de afbeelding op de achtegrond-->
 		<div class="container">
 			
-			<div class="row pt-block-grid pt-equals">
+			<div class="row pt-block-grid pt-equals"><!--Dit zorgt ervoor dat ze naast elkaar worden weergegeven-->
 				
-					<div class="col-md-12">
+					<div class="col-md-12"><!--Deze contentblok loopt uit over de hele breedte van de wrapper-->
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
                             <h2>FAIR Services</h2>
                             <br>
 							<p style="text-align: left;">Phortos Consultants, in collaboration with partners, provides a FAIRification service of your data compliant with the GO FAIR principles (to be a GO FAIR certified Service soon). This process usually includes the following steps:</p>
-                            
+                             <!--Dit is de lijst met phortos consultants bullets-->
                              <ul class="Fair-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>The format of the  data will be determined and a semantic (meta)data  model will be created.</li>
                              
@@ -168,7 +169,7 @@ function filterFunction() {
                                  
                               <li>In case of life sciences data, your FAIR data can be integrated in the <a href="http://www.euretos.com/euretos-ai-platform-for-target-and-biomarker-discovery-and-validation.php" style="color:#68baa5">Euretos AI Platform</a> for knowledge discovery.</li>  
                             </ul>
-                            
+                             <!--Dit is het tweede stukje tekst van de contentblok-->
                             <h2 style="margin-top: 3%;">FAIR Data Value Event</h2>
                             <br>
                             <p style="text-align: left;">An essential aspect in making FAIR data pervasive is the question: what is the value to the end user? FAIR data is an IT concept and far removed from the reality of the researcher. In order to demonstrate the value of FAIR data, its impact needs to be experienced as early as possible in any FAIR data implementation program.</p>
@@ -176,7 +177,7 @@ function filterFunction() {
                             <p style="text-align: left;">To enable this value demonstration, Phortos Consultants, in collaboration with FAIR service provider Euretos, offers a so-called ‘FAIR data value demonstration event’ within the context of multi-omics, data driven target &amp; biomarker research. With limited preparation a selection of raw data sources are processed and output as FAIR data and, more importantly, automatically integrated into the Euretos AI platform for end user access. Both data specialists and researchers can then experience the value of FAIR data.
 </p>
                             
-                            <hr>
+                            <hr> <!--Dit is de link dat ervoor zorgt dat de PDF gedownload wordt-->
                             <a href="./images/Outline%20proposal%20FAIR%20Data%20Value%20event.pdf" download>Download PDF here</a>
                             <hr>
 
@@ -187,7 +188,7 @@ function filterFunction() {
         </div>
    </section>             
 <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
-<!--footer start from here-->
+<!--footer begint hier-->
 <footer>
     <ul>
        
@@ -213,12 +214,12 @@ function filterFunction() {
         <li><a href="https://www.linkedin.com/company/phortos-consultants/">Follow Us</a></li>
     </ul>
 </footer>
-<!--footer start from here-->
+<!--copyright begint hier-->
 
 <div class="copyright">
         
   
-    <p> <a href="https://creativecommons.org/licenses/by/4.0/ ">CC BY</a> 2018 - Phortos Consultants | Created by <a href="http://www.sync-development.nl/">Sync Development</a></p>
+    <p> <a href="https://creativecommons.org/licenses/by/4.0/ ">CC BY</a> 2019 - Phortos Consultants | Created by <a href="http://www.sync-development.nl/">Sync Development</a></p>
 </div>
 
 

@@ -1,7 +1,9 @@
+/*Dit is de stijling voor de mobiel versie van de website*/
+/*Dit is voor het logo*/
 .logo{
     width: 19%;
 }
-
+/*Dit is de tweede box van homepagina dat aanpast voor de mobiel stijl*/
 .pt-box.pt-box-2 {
     background: #fff;
     border-bottom: 5px solid #227722;
@@ -10,7 +12,7 @@
     max-height: 650px;
     min-height: 650px;
 }
-
+/*Dit is de derde box van homepagina dat aanpast voor de mobiel stijl*/
 .pt-box.pt-box-3 {
     background: #fff;
     border-bottom: 5px solid #227722;
@@ -19,7 +21,7 @@
     max-height: 545px;
     min-height: 545px;
 }
-
+/*Dit is voor de footer*/
 footer {
     position: relative;
     width: 100%;
@@ -44,12 +46,12 @@ footer strong{
 footer ul {
     width: 25%;
 }
-
+/*Dit is voor de copyright*/
 .copyright{
    padding-left:5px;
     
 }
-
+/*Dit is voor de trainers*/
 .Trainers{
     width: 100%;
 }

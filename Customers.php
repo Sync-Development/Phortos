@@ -14,10 +14,12 @@
 <meta charset="UTF-8">
 
 <meta name="keywords" content="phortos, netherlands consulting, phortos waddinxveen, fair, professional consulting, euretos, consulting, fair-training, fair-service">
-<meta name="description" content="Phortos Consultants: Professional consulting, training and services to help realise the Internet of FAIR Data & Services">      
+<!--Deze woorden zullen ervoor zorgen dat iemand een van deze woorden opzoekt het verschijnt in google-->
+<meta name="description" content="Phortos Consultants: Professional consulting, training and services to help realise the Internet of FAIR Data & Services">  
+<!--Dit beschrijft de site--> 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PhortosConsultants</title>
+<title>PhortosConsultants</title><!--Dit is de titel van de website-->  
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -33,15 +35,15 @@
 </head>
 <body>
 
-<div class="pt-site-wrapper">
+<div class="pt-site-wrapper"><!--Dit zorgt ervoor dat alles in een bepaalde breedte blijft-->
 
     
 
     
-<div class="navbar navbar-default navbar-static-top">
+<div class="navbar navbar-default navbar-static-top"><!--Dit zorgt ervoor dat de navbar boven blijft staan-->
 <div class="container-fluid">
 <div class="navbar-header">
-    <a href="index"><img class="logo" src="images/Logo.svg"></a>
+    <a href="index"><img class="logo" src="images/Logo.svg"></a><!--Dit is het logo-->
 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 <div id="nav-icon3">
   <span></span>
@@ -61,7 +63,7 @@ $(document).ready(function(){
     
 <a class="navbar-brand" href="#"></a>
     </div>
-
+ <!--Dit is voor de navbar-->
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
 <li class="list">
@@ -109,8 +111,7 @@ $(document).ready(function(){
  
 
 <script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+/*Wanneer de gebruiker op de knop klikt wordt de dropdown content weergegeven*/
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -131,7 +132,7 @@ function filterFunction() {
 }
 </script>
     
-    <div class="pt-page-header">
+    <div class="pt-page-header"><!--Dit stukje code is de tekst dat wordt gedisplayed op de banner van de customer pagina-->
 	<div class="container">
 		<div class="pt-page-header-wrapper pt-full">
 			<div class="pt-header-content">
@@ -145,15 +146,15 @@ function filterFunction() {
 	</div>
 </div>
     
-    <section class="pt-main">
-        <div class="pt-globe-consult"></div>
+    <section class="pt-main"><!--Dit is de sectie waar de content blok voor Customers gedisplayed word-->
+        <div class="pt-globe-consult"></div><!--Dit is de afbeelding op de achtegrond-->
 		<div class="container">
 			
-			<div class="row pt-block-grid pt-equals">
+			<div class="row pt-block-grid pt-equals"> <!--Dit zorgt ervoor dat ze naast elkaar worden weergegeven-->
 				
-					<div class="col-md-12">
+					<div class="col-md-12"> <!--Dit is de content blok voor Customers met de volledige breedte-->
 						<div class="pt-box pt-box-Customer text-center pt-equal" style="">
-                            
+                             <!--Hieronder zitten allemaal linkjes van klanten van Photos Consultants-->
 							<p style="text-align: left;">Our customers include private, academic and public organisations and institutions. Phortos Consultants has project managed several government funded projects including OpenPHACTS, ODEX4ALL and FAIRdICT and subsequently has been instrumental in developing the GO FAIR initiative, a kick-start implementation process for the European Open Science Cloud.
 
                             </p>
@@ -162,7 +163,7 @@ function filterFunction() {
                             
                              <ul class="Customer-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Supported the <a href="https://www.dtls.nl/" style="color:#68baa5"> establishment of the Dutch Techcenter for Lifesciences</a></li><br>
-                             
+                              <!--Dit is een lijst met het Phortos Consultants logo als bullets-->
                               <li class="Sidebullet">The organisation of various conferences such as the: 
                                  <a href="https://www.elixir-europe.org/news/elixir-nodes-came-together-technical-workshop" style="color:#68baa5">Elixir March 2013 conference</a>,  <a href="https://www.dtls.nl/2013/11/01/summary-ngls-workshop/" style="color:#68baa5">DTL Next Generation Life Sciences workshop</a> and the <a href="http://www.lorentzcenter.nl/lc/web/2014/602/info.php3?wsid=602" style="color:#68baa5">Fairport 2014 Lorentz Conference</a></li>
                                  <br>
@@ -186,7 +187,7 @@ function filterFunction() {
         </div>
    </section>             
 <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
-<!--footer start from here-->
+<!--footer begint hier-->
 <footer>
     <ul>
        
@@ -212,12 +213,12 @@ function filterFunction() {
         <li><a href="https://www.linkedin.com/company/phortos-consultants/">Follow Us</a></li>
     </ul>
 </footer>
-<!--footer start from here-->
+<!--copyright begint hier-->
 
 <div class="copyright">
         
   
-    <p> <a href="https://creativecommons.org/licenses/by/4.0/ ">CC BY</a> 2018 - Phortos Consultants | Created by <a href="http://www.sync-development.nl/">Sync Development</a></p>
+    <p> <a href="https://creativecommons.org/licenses/by/4.0/ ">CC BY</a> 2019 - Phortos Consultants | Created by <a href="http://www.sync-development.nl/">Sync Development</a></p>
 </div>
 
 

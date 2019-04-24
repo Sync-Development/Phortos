@@ -14,10 +14,12 @@
 <meta charset="UTF-8">
 
 <meta name="keywords" content="phortos, netherlands consulting, phortos waddinxveen, fair, professional consulting, euretos, consulting, fair-training, fair-service">
-<meta name="description" content="Phortos Consultants: Professional consulting, training and services to help realise the Internet of FAIR Data & Services">      
+<!--Deze woorden zullen ervoor zorgen dat iemand een van deze woorden opzoekt het verschijnt in google-->
+<meta name="description" content="Phortos Consultants: Professional consulting, training and services to help realise the Internet of FAIR Data & Services">    
+<!--Dit beschrijft de site-->  
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PhortosConsultants</title>
+<title>PhortosConsultants</title><!--Dit is de titel van de website--> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -33,15 +35,15 @@
 </head>
 <body>
 
-<div class="pt-site-wrapper">
+<div class="pt-site-wrapper"><!--Dit zorgt ervoor dat alles in een bepaalde breedte blijft-->
 
     
 
     
-<div class="navbar navbar-default navbar-static-top">
+<div class="navbar navbar-default navbar-static-top"><!--Dit zorgt ervoor dat de navbar boven blijft staan-->
 <div class="container-fluid">
 <div class="navbar-header">
-    <a href="index"><img class="logo" src="images/Logo.svg"></a>
+    <a href="index"><img class="logo" src="images/Logo.svg"></a><!--Dit is het logo-->
 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 <div id="nav-icon3">
   <span></span>
@@ -61,7 +63,7 @@ $(document).ready(function(){
     
 <a class="navbar-brand" href="#"></a>
     </div>
-
+<!--Dit is voor de navbar-->
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
 <li class="list">
@@ -110,8 +112,7 @@ $(document).ready(function(){
  
 
 <script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+/*Wanneer de gebruiker op de knop klikt wordt de dropdown content weergegeven*/
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -132,7 +133,7 @@ function filterFunction() {
 }
 </script>
 
-    <div class="pt-page-header">
+    <div class="pt-page-header"><!--Dit stukje code is de tekst dat wordt gedisplayed op de banner van de Fair ontology-->
 	<div class="container">
 		<div class="pt-page-header-wrapper">
 			<div class="pt-header-content">
@@ -149,19 +150,19 @@ function filterFunction() {
 	</div>
 </div>
     
-    <section class="pt-main">
-         <div class="pt-globe-consult"></div>
+    <section class="pt-main"><!--Dit is de contentblok dat ervoor zorgt dat alles onder elkaar zal komen te staan-->
+         <div class="pt-globe-consult"></div><!--Dit is de afbeelding op de achtegrond-->
 		<div class="container">
 			
-			<div class="row pt-block-grid pt-equals">
+			<div class="row pt-block-grid pt-equals"><!--Dit zorgt ervoor dat ze naast elkaar worden weergegeven-->
 				
                 <div class="pt-box pt-box-consult text-center pt-equal" style="">
-					  <div class="col-md-8">
+					  <div class="col-md-8"><!--Dit content blok wordt allemaal weergegeven met 75% breedte wat ernaast komt ook nog een knop te staan-->
 						
                             <h4 style="text-align: left;"><b>FAIR ontology &amp; Data modeling training</b></h4>
                             <br>
                           <p style="text-align: left;"><b>Overview -</b> This course provides a solid introduction to the subjects related to semantics in FAIR. It starts with the basics of  ontology-driven conceptual modeling providing the foundational knowledge for creating good conceptual models/ontologies. Once the ontologies are created and validated using a foundational ontology language the participants will learn how to make them computer-actionable using Semantic Web technologies such as OWL/RDF. Then the participants will learn how to semantically enrich and make data linkable by applying the ontologies to data. In addition, defining validation rules for the datasets are taught allowing for the data to be validated against both the syntax and semantics. Lastly the course will introduce the FAIR metadata approach so the FAIR/RDF data will be well described with their metadata.</p><br>
-                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Introduction to FAIR Data and GO FAIR</li>
                              
@@ -191,14 +192,14 @@ function filterFunction() {
                           <hr>
                           
                           <h4 style="text-align: left;"><b>Detailed Course Schedule</b></h4>
-                          <br>
+                          <br><!--Dit is de tekst voor training van dag 1-->
                           <p style="text-align: left;"><b>DAY 1</b><br><br>
                               
                               <b>09:00-10:00 - Registration &amp; Coffee</b><br><br>
                               
                               <b>10:00-12:30 - Introduction to FAIR Data and GO FAIR</b>
                           </p><br>
-                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
                                 <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Introduction and purpose of course</li>
                              
@@ -219,19 +220,19 @@ function filterFunction() {
                              
                              <b>13:30-17:00 - Introduction to ontology-driven conceptual modeling</b>
                           </p><br>
-                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
                            <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>The relation between Conceptualization, Language, (Meta)Models and Ontology</li>
                              
                               <li>The criteria for an Ontologically Well-Founded Conceptual Modeling Language</li>
                             </ul>
                           <br>
-                          
+                          <!--Dit is de tekst voor training van dag 2-->
                           <p style="text-align: left;"><b>DAY 2</b><br><br>
                               
                               <b>09:00-12:30 - Types and taxonomic structures</b>
                           </p><br>
-                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Object Type Categories</li>
                              
@@ -248,7 +249,7 @@ function filterFunction() {
                               
                               <b>13:30-17:00 - Types and taxonomic structures (Continued)</b>
                           </p><br>
-                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Object Type Categories - part 2</li>
                              
@@ -257,12 +258,12 @@ function filterFunction() {
                               <li>Ontology Patterns for Modeling of Taxonomic Structures</li>  
                             </ul>
                           <br>
-                          
+                          <!--Dit is de tekst voor training van dag 3-->
                            <p style="text-align: left;"><b>DAY 3</b><br><br>
                               
                               <b>09:00-12:30 - modeling Relationships and Events</b>
                           </p><br>
-                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Ontological Analysis and Modeling of Relations</li>
                              
@@ -279,7 +280,7 @@ function filterFunction() {
                               
                               <b>13:30-17:00 - Data modeling Hands On</b>
                           </p><br>
-                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Modeling session</li>
                              
@@ -290,12 +291,12 @@ function filterFunction() {
                               <li>Wrap up of ontology-driven conceptual modeling</li> 
                             </ul>
                           <br>
-                          
+                          <!--Dit is de tekst voor training van dag 4-->
                           <p style="text-align: left;"><b>DAY 4</b><br><br>
                               
                               <b>09:00-12:30 - Introduction to Semantic Web and Linked Data</b>
                           </p><br>
-                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Introduction to the Semantic Web</li>
                              
@@ -308,19 +309,19 @@ function filterFunction() {
                               
                               <b>13:30-17:00 - Using Semantic Web and Linked Data</b>
                           </p><br>
-                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Practical data modeling and data manipulation using the Semantic Web</li>
                              
                               <li>Relating linked data using ontologies</li>
                             </ul>
                           <br>
-                          
+                          <!--Dit is de tekst voor training van dag 5-->
                             <p style="text-align: left;"><b>DAY 5</b><br><br>
                               
                               <b>09:00-12:30 - Linkable Metadata modeling - Hands-On</b>
                           </p><br>
-                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Defining required metadata elements</li>
                              
@@ -335,7 +336,7 @@ function filterFunction() {
                               
                               <b>13:30-16:00 - FAIR Data Points</b>
                           </p><br>
-                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>FAIR Data Point (FDPs) and metadata layers</li>
                              
@@ -353,8 +354,8 @@ function filterFunction() {
                           
                        </div>
 
-                     <div class="col-md-3"><br>
-                      <a href="Contact" class="btn btn-success" style="padding: 5px 90px; font-size: 25px;">Contact Us</a>
+                     <div class="col-md-3"><br><!--Dit de andere 25% met de knop en de datum voor events wat eerder werdt vermeld-->
+                      <a href="Contact" class="btn btn-success" style="padding: 5px 90px; font-size: 25px;">Contact Us</a><!--Dit de contact knop-->
                             <br><br>
                     
                          <p style="text-align: left;"><b>Contact us</b> for more details or upcoming events. Private training sessions can be arranged for groups of 10 or more attendees. </p>
@@ -386,7 +387,7 @@ function filterFunction() {
 
   
 <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
-<!--footer start from here-->
+<!--footer begint hier-->
 <footer>
     <ul>
        
@@ -412,12 +413,12 @@ function filterFunction() {
         <li><a href="https://www.linkedin.com/company/phortos-consultants/">Follow Us</a></li>
     </ul>
 </footer>
-<!--footer start from here-->
+<!--Copyright begint hier-->
 
 <div class="copyright">
         
   
-    <p> <a href="https://creativecommons.org/licenses/by/4.0/ ">CC BY</a> 2018 - Phortos Consultants | Created by <a href="http://www.sync-development.nl/">Sync Development</a></p>
+    <p> <a href="https://creativecommons.org/licenses/by/4.0/ ">CC BY</a> 2019 - Phortos Consultants | Created by <a href="http://www.sync-development.nl/">Sync Development</a></p>
 </div>
 
 

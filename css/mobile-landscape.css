@@ -1,7 +1,12 @@
+/*Dit is de stijling voor de mobiel landscape versie van de website*/
+
+
+/*Dit is voor het logo*/
 .logo{
     width: 12%;
 }
 
+/*Dit is voor de footer*/
 footer {
     padding-left: 30px;
 }
