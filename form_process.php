@@ -52,13 +52,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       }
 
       $headers = "From: $name $last_name <$email>\r\n";
-      $to = 'Demian <demiandejager21@gmail.com>';
+      $to = 'Albert <albert.mons@phortosconsultants.com>';
       $subject = 'Contact Form Submit';
       if (mail($to, $subject, $message, $headers)){
           $success = "Message was sent succesfully, Thanks!";
           $name = $last_name = $email = $message = '';
       }else {
-          die("AHAHAHAHAHA");
+          die("Does not respond");
       }
   }
   
