@@ -191,214 +191,842 @@ function filterFunction() {
                           
                           <hr>
                           
+                          <h4 style="text-align: left;">Reading material</h4>
+                          
+                             <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                             <li><a href="https://www.nature.com/articles/sdata201618" style="color:#68baa5"> The FAIR Guiding Principles for scientific data management and stewardship</a></li>
+                            
+                             <li><a href="https://content.iospress.com/articles/information-services-and-use/isu824" style="color:#68baa5">Cloudy, increasingly FAIR; revisiting the FAIR Data guiding principles </a></li>
+                                 
+                             <li><a href="https://peerj.com/articles/cs-110/" style="color:#68baa5">Interoperability and FAIRness through a novel combination of Web technologies</a></li>
+                                 
+                             <li><a href="https://www.nature.com/articles/sdata2018118" style="color:#68baa5">A design framework and exemplar metrics for FAIRness</a></li>
+                                 
+                             <li><a href="https://www.go-fair.org" style="color:#68baa5">More resources</a> at the<a href="https://www.go-fair.org" style="color:#68baa5"> GO FAIR website</a></li>
+                          </ul>
+                          
                           <h4 style="text-align: left;"><b>Detailed Course Schedule</b></h4>
-                          <br><!--Dit is de tekst voor training van dag 1-->
-                          <p style="text-align: left;"><b>DAY 1</b><br><br>
+                          <br><!--Dit is de tekst voor training voor Monday-->
+                          <p style="text-align: left;"><b>Monday</b><br><br>
                               
-                              <b>09:00-10:00 - Registration &amp; Coffee</b><br><br>
+                              <b>9.30 - 10.45 Block 1. Introduction to FAIR and GO FAIR and FAIR Data Stewardship </b>
                               
-                              <b>10:00-12:30 - An introduction to GO FAIR and Data Stewardship</b>
-                          </p><br>
+                          </p>
                           <!--Dit is de lijst met phortos consultants bullets-->
                                 <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>Introduction and purpose of the course</li>
-                             
-                              <li>The need for FAIR data</li>
-                             
-                              <li>The history of the FAIR initiative</li>  
-                                 
-                              <li>The internet of FAIR Data and Services</li> 
-                              
-                              <li>What is FAIR Data Stewardship</li>  
-                              
-                              <li>The purpose and goals</li>  
                                     
-                              <li>The FAIR Principles and Metrics</li>  
+                              <h4>Topics:</h4>
+                                    
+                              <li>The evolution of FAIR and GO FAIR</li>
+                             
+                              <li>The GO FAIR Implementation Networks and Service Provider consortium</li>
+                             
+                              <li>The GO FAIR Data Stewardship as a new profession</li>  
+                                 
+                              <li>The cost and benefits of FAIR: use cases</li> 
+                            </ul>
+                          
+                          
+                           <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand the history and background of FAIR</li>
+                             
+                              <li>Have a high level overview of the GO FAIR ecosystem and its stakeholders</li>
+                             
+                              <li>Understand the concepts of FAIR Data Stewardship and related roles</li>  
+                                 
+                              <li>Develop a perspective on FAIR Data Stewardship as a new profession</li> 
+                              
+                              <li>Understand the context of the FAIR Data Stewardship course </li>  
                             </ul>
                           <br>
                           
                          <p style="text-align: left;">   
-                             <b>Lunch</b><br><br>
+                             <b>10.45 - 11.15  Coffee/tea break</b><br><br>
                              
-                             <b>13:30-17:00 - FAIR Data Stewardship and FAIR Data in Practice</b>
-                          </p><br>
-                          <!--Dit is de lijst met phortos consultants bullets-->
-                            <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>The need for high quality FAIR services</li>
+                             <b>11.15 - 12.30  Block 1.2. Introduction to FAIR Data Stewardship</b>
+                          </p>
+                           <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>FAIR Data Stewardship the old way</li>
                              
-                              <li>Elements of a FAIR Data Stewardship Department</li>
+                              <li>Data management versus data stewardship</li>
                              
-                              <li>Roles in a FAIR Data Stewardship Department</li>  
-                                 
-                              <li>A FAIR Readiness Implementation Program</li> 
+                              <li>Data stewardship: getting systematic</li> 
+                                    
+                              <li>A. Research and data cycles</li> 
+                                    
+                              <li>B. Data stewardship planning</li> 
                               
-                              <li>The FAIR Principles explained</li>  
-                              
-                              <li>The FAIR Metrics applied</li>  
-                              
-                              <li>The FAIR Community Challenges discussed</li>  
-                              
-                              <li>Resources for FAIR Data Steward</li>  
+                              <li>C. The FAIR principles high over</li> 
+                                     
+                              <li>D. FAIR Maturity Indicators</li> 
+                                
+                              <li>E. Meta data for Machines</li> 
+                                     
+                              <li>F. Reference implementations</li> 
+                            </ul>
+                          
+                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand the concepts of FAIR Data Stewardship and related roles</li>
+                             
+                              <li>Learn to approach Data stewardship in a systematic way</li>
                             </ul>
                           <br>
-                          <!--Dit is de tekst voor training van dag 2-->
-                          <p style="text-align: left;"><b>DAY 2</b><br><br>
+                          
+                          <p style="text-align: left;"><b>12.30 - 1.15 Lunch break</b><br><br>
                               
-                              <b>09:00-12:30 - Introduction to Semantic Data Modeling and Ontologies</b>
-                          </p><br>
-                          <!--Dit is de lijst met phortos consultants bullets-->
+                              <b>1.30 - 2.45 Block 1.3 -  FAIR Data Stewardship a new profession</b>
+                          </p>
+                         <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>Capacity challenges</li>
+                             
+                              <li>The 7 canonical steps of FAIRification</li>
+                             
+                              <li>The FAIR Service Provider Consortium</li> 
+                                    
+                              <li>FAIR tooling ecosystem</li> 
+                                    
+                              <li>Offering and courses</li> 
+                              
+                              <li>Stakeholder driven implementation</li> 
+                                     
+                              <li>Safeguarding of knowledge</li> 
+                                
+                              <li>Data Stewardship roles</li> 
+                                     
+                              <li>Data stewardship in organizations</li> 
+                            </ul>
+                          
+                          
+                           <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>What is semantic interoperability</li>
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand the aspects of the FAIR Data Stewardship profession</li>
                              
-                              <li>How can it improve the current data situation</li>
+                              <li>Understand the different FAIR Data Stewardship roles</li>
                              
-                              <li>Ontological principles</li>  
+                              <li>Understand the available resources </li>  
                                  
-                              <li>Ontologies are computer-actionable artefacts</li> 
+                              <li>Be able to (help) set up a FAIR Data Stewardship department</li> 
                             </ul>
                           <br>
                           
                           <p style="text-align: left;">   
-                             <b>Lunch</b><br><br>
+                             <b>2.45 - 3.15 Coffee/tea break</b><br><br>
                               
-                              <b>13:30-17:00 - Introduction to Semantic Web and Linked Data</b>
-                          </p><br>
-                          <!--Dit is de lijst met phortos consultants bullets-->
-                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>The Semantic Web</li>
+                              <b>3.15 - 5.00 Practising FAIR data (trainer Erik Schultes)</b>
+                          </p>
+                             <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>The GO FAIR matrix of best practices</li>
                              
-                              <li>Linked Data</li>
-                              
-                              <li>Unique Identifiers</li>
-                              
-                              <li>The FAIR principles explained</li>
+                              <li>Metadata for Machines in more detail</li>
                              
-                              <li>For each Principle what are the required actions</li>  
+                              <li>The FAIR Funders Pilot</li> 
+                                    
+                              <li>Hands on assignments</li> 
                             </ul>
-                          <br>
-                          <!--Dit is de tekst voor training van dag 3-->
-                           <p style="text-align: left;"><b>DAY 3</b><br><br>
-                              
-                              <b>09:00-12:30 - FAIRification - Process and tooling</b>
-                          </p><br>
-                          <!--Dit is de lijst met phortos consultants bullets-->
+                          
+                           <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>Overview of the process and tooling</li>
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand the best practices available in the GO FAIR community</li>
                              
-                              <li>Consider semantic models for the sample sett</li>
+                              <li>Understand the value of metadata templates</li>
                              
-                              <li>onsider ‘core’ ontological frameworks (e.g. SIO, DCAT)</li>  
+                              <li>Understand the value of an automated request for proposal and response process</li>  
                                  
-                              <li>Where will the data “live” (repository)?</li>
-                              
-                              <li>Considerations for GUPIDs for the FAIR data</li> 
-                              
-                              <li>Apply semantic model to data elements</li> 
-                              
-                              <li>Data transformation to FAIR Data</li> 
-                              
-                              <li>Repositories for data and metadata</li> 
+                              <li>Be able to manually design a plan for FAIR Data Stewardship for an organization</li> 
                             </ul>
                           <br>
                           
-                          <p style="text-align: left;">   
-                             <b>Lunch</b><br><br>
+                          <!--Dit is de tekst voor training voor tuesday-->
+                           <p style="text-align: left;"><b>Tuesday</b><br><br>
                               
-                              <b>13:30-17:00 - FAIRification - Processes and tooling (ctd)</b>
-                          </p><br>
-                          <!--Dit is de lijst met phortos consultants bullets-->
-                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>Custom scripts to achieve data record transformation to FAIR Data</li>
+                              <b>9.00 - 10.30  Block 2.1 Introduction to  Semantic Interoperability</b>
+                          </p>
+                           <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>The heterogeneous nature of today's reality;</li>
                              
-                              <li>“Push” into the selected repository for data and metadata) = machine-readable knowledge graph</li>
+                              <li>The problem of sharing data;</li>
                              
-                              <li>Open Refine FAIRifier tool</li>  
+                              <li>Interoperability through time;</li> 
+                                    
+                              <li>What is semantic interoperability?</li> 
+                                    
+                              <li>How can semantics improve the current data situation?</li> 
                               
-                              <li>Sculpting and cleaning data</li>  
-                              
-                              <li>Export data without custom scripting</li>  
+                              <li>What is ontology?</li> 
+                                     
+                              <li>Types of ontologies</li> 
+                                
+                              <li>Spectrum of knowledge representation approaches</li> 
                             </ul>
-                          <br>
-                          <!--Dit is de tekst voor training van dag 4-->
-                          <p style="text-align: left;"><b>DAY 4</b><br><br>
-                              
-                              <b>09:00-12:30 - FAIRification process - Metadata</b>
-                          </p><br>
-                          <!--Dit is de lijst met phortos consultants bullets-->
+                          
+                           <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>The purpose of metadata</li>
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Discuss current scenario of complexity and heterogeneity in the data space;</li>
                              
-                              <li>What should be included to be FAIR</li>
-                              
-                              <li>Meta data structures (FAIR Accessors and LDP containers)</li>
-                              
-                              <li>Create a FAIR metadata record by scripting</li>
+                              <li>Provide an overview of the evolution of interoperability issues and their different levels;</li>
                              
-                              <li>Push into a FAIR metadata repository</li>
+                              <li>Discuss the basics of semantic interoperability;</li>  
+                                 
+                              <li>Introduce the concept of ontology.</li> 
+                              
+                              <li>Understand the core concepts of ontologies as globally shared knowledge-structures</li> 
                             </ul>
-                          <br>
+                          <br>  
+                          
                           
                           <p style="text-align: left;">   
-                             <b>Lunch</b><br><br>
+                             <b>10.30 - 11.00  Coffee/tea break</b><br><br>
                               
-                              <b>13:30-17:00 - FAIRification process - The Fair Data Point (FDP)</b>
-                          </p><br>
+                              <b>11.00 - 12.30 	Block -  2.2 Introduction to Ontology Engineering </b>
+                          </p>
+                          
                           <!--Dit is de lijst met phortos consultants bullets-->
-                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>Introduction to the FDP</li>
-                              
-                              <li>Create FDP record for a data set</li>
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>Ontology adequacy;</li>
                              
-                              <li>Explore the FDP (interface and SPARQL)</li>
-                              
-                              <li>Are we FAIR yet: discuss measuring FAIRness</li>
+                              <li>Types and individuals;</li>
                              
-                              <li>The FAIR Maturity Indicators (FMI)</li>
+                              <li>Generalisations;</li> 
+                                    
+                              <li>Principle of identity;</li> 
+                                    
+                              <li>Generalisation sets;</li> 
                               
-                              <li>FMI Evaluator</li>
-                             
-                              <li>Evaluate published data / metadata </li>
+                              <li>Roles;</li> 
+                                     
+                              <li>Phases;</li> 
+                                
+                              <li>Formal and material relations;</li> 
                             </ul>
-                          <br>
-                          <!--Dit is de tekst voor training van dag 5-->
-                            <p style="text-align: left;"><b>DAY 5</b><br><br>
-                              
-                              <b>09:00-12:30 - The value of FAIR data - Results for End Users</b>
-                          </p><br>
-                          <!--Dit is de lijst met phortos consultants bullets-->
+                          
+                             <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>Query federation</li>
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Introduce the discipline of Ontology Engineering;</li>
                              
-                              <li>More SPARQL if needed</li>
+                              <li>Motivate how ontologies as conceptual model representations can be used to describe knowledge;</li>
+                             
+                              <li>Discuss the relations between a conceptualisation and its model;</li>  
+                                 
+                              <li>Understand the difference between types and individuals;</li> 
                               
-                              <li>Through a search or analysis demonstrate value</li>
+                              <li>Understand the nature of identity;</li> 
+                             
+                              <li>Understand meta-properties of generalisation sets;</li>
+                             
+                              <li>Understand the concept of roles;</li>  
+                                 
+                              <li>Understand the concept of phases;</li> 
                               
-                              <li>Discussion: what did we achieve?</li>
-                              
-                              <li>Professional Analytics Tool: an example</li>
+                              <li>Understand the concepts of formal and material relations.</li>
                             </ul>
-                          <br>
+                          <br>  
+                          
+                          <p style="text-align: left;"><b>12.30 - 1.30 Lunch break</b><br><br>
+                              
+                              <b>1.30 - 3.00 Block 2.3 Semantic Web and Linked Data (1)</b>
+                          </p>
+                       
+                           <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>Word Wide Wide vs Semantic Web</li>
+                             
+                              <li>Graphs and Linked Data</li>
+                             
+                              <li>RDF syntaxes</li> 
+                                    
+                              <li>SPARQL</li> 
+                                    
+                              <li>OWL</li> 
+                            </ul>
+                          
+                             <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand the difference between the Web of documents and the Web of concepts (WWW vs Semantic Web)</li>
+                             
+                              <li>Understand the goals and benefits of the Semantic Web</li>
+                             
+                              <li>Understand the concept and structure of Linked Data</li>  
+                                 
+                              <li>Understand how to create RDF triples and publish data as Linked Data</li> 
+                              
+                              <li>Recognise the various syntaxes of RDF</li> 
+                             
+                              <li>Practice the creation of triples and simple graphs</li>
+                             
+                              <li>Understand SPARQL, the RDF querying language</li>  
+                                 
+                              <li>Practice querying Linked Data using SPARQL</li> 
+                              
+                              <li>Understand the basics of the Web Ontology Language (OWL)</li>
+                            </ul>
+                          <br>  
+                          
+                          
+                          <p style="text-align: left;">   
+                             <b>3.00 - 3.30 Coffee/tea break</b><br><br>
+                              
+                              <b>3.30 - 5.00 Block 2.3 Semantic Web and Linked Data (2) and hands-on assignments</b>
+                          </p><br><br>
+                          
+                           <!--Dit is de tekst voor training voor Wednesday-->
+                          <p style="text-align: left;">   
+                             <b>Wednesday</b><br><br>
+                              
+                              <b>9.00 - 10.30 Block 3.1 The FAIR Principles explained</b>
+                          </p>
+                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>All FAIR principles</li>
+                            </ul>
+                          
+                             <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand each of the FAIR principles, their original intentions, motivations and why they are necessary</li>
+                            </ul>
+                          <br>  
+                          
+                          
+                            <p style="text-align: left;"><b>10.30 - 11.00 Coffee/tea break</b><br><br>
+                              
+                              <b>11.00 - 12.30 Block 3.2 Towards FAIRness: FAIR Data Stewardship Plans </b>
+                          </p>
+                          
+                           <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>Data Stewardship/Management</li>
+                             
+                              <li>Supporting tools for DS/DM</li>
+                             
+                              <li>DMPs/DSPs vs FAIR principles</li> 
+                                    
+                              <li>Main elements of "good" DS</li> 
+                            </ul>
+                          
+                             <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Explore the current requirements of data stewardship wizards</li>
+                             
+                              <li>Understand how each facet of a DSP maps to each FAIR Principle</li>
+                             
+                              <li>Understand main elements/concern for a good DS</li>  
+                                 
+                              <li>Discuss how DS can be applied in organisations</li> 
+                            </ul>
+                          <br>  
                           
                            <p style="text-align: left;">   
-                             <b>Lunch</b><br><br>
+                             <b>12.30 - 1.30 Lunch break</b><br><br>
                               
-                              <b>13:30-16:00 - Putting FAIR into Practice</b>
-                          </p><br>
-                          <!--Dit is de lijst met phortos consultants bullets-->
-                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                              <li>Scenarios and Plan of Action for follow up</li>
+                              <b>1.30 - 3.00 Block 3.3 FAIRification process and supporting ecosystem (trainer Luiz Bonino)</b>
+                          </p>
+                          
+                           <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>FAIRification process and its steps</li>
                              
-                              <li>Institutional FAIR Data Stewardship</li>
+                              <li>Supporting FAIR ecosystem</li>
+                            </ul>
+                          
+                             <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand the steps of the FAIRification process</li>
+                             
+                              <li>Discuss the elements of an ecosystem for supporting operations on FAIR data</li>
+                            </ul>
+                          <br> 
+                          
+                            <p style="text-align: left;">   
+                             <b>3.00 - 3.30 Coffee/ tea break</b><br><br>
                               
-                              <li>Plans for Train-the-trainers</li>
+                              <b>3.30 - 5.00 Block 3.4 FAIR Tools - FAIRifier; Cleansing and sculpting data (trainer Luiz Bonino)</b>
+                          </p>
+                          
+                           <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>Data preparation using the FAIRifier</li>
+                             
+                              <li>Semantic data modeling using the FAIRifier</li>
+                             
+                              <li>FAIR data publication using the FAIR Data Point</li> 
+                                    
+                              <li>Metadata creation using the FAIR Data Point</li> 
+                            </ul>
+                          
+                             <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand the functionality of the FAIRifier</li>
+                             
+                              <li>Understand how to do basic data cleansing steps</li>
+                             
+                              <li>Understand how to do basic data harmonization steps</li>  
+                                 
+                              <li>Understands how to split/merge columns when necessary</li> 
                               
-                              <li>Next Steps</li>
+                              <li>Understand the steps required to cleanse a dataset</li> 
+                             
+                              <li>Understand how to publish data into the FAIR Data Point</li>
+                             
+                              <li>Understand how to define the FAIR Data Point's metadata</li>  
+                            </ul>
+                          <br>  
+                          
+                           <!--Dit is de tekst met training voor Thursday-->
+                           <p style="text-align: left;">   
+                             <b>Thursday</b><br>
+                               <b>Morning  topic: Data modeling from-scratch &AMP; querying</b><br><br>
+                              
+                              <b>9.00 - 10-30 Block 4.1 Data modelling from scratch </b>
+                          </p>
+                          
+                          
+                           <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>Core Ontological Frameworks that are useful for FAIR</li>
+                             
+                              <li>Considerations for GUIDs - Principle F1</li>
+                             
+                              <li>Create FAIR data models from-scratch</li> 
+                                    
+                              <li>Custom scripting to apply the model</li> 
+                                
+                              <li>“Push” the FAIR data into a server</li> 
+                                    
+                                
+                            </ul>
+                          
+                              <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                              
+                              
+                              <h4>Core ontological frameworks</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand the different kinds of ontologies (domain, application, structural, upper)</li>
+                             
+                              <li>Understand the DCAT and LDP models in some depth</li>
+                              
+                              
+                              
+                              <h4>Considerations for GUIDs</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                                                
+                              <li>Where are we going to publish?</li>
+                             
+                              <li>How can we model GUIDs that are not overly complex within a domain?  Document-fragments</li>                             
+                                     
+                              <li>What are the consequences of mixing document fragments and root GUIDs in the context of LDP?</li>
+
+                              
+                              
+                              <h4>Create semantic model from-scratch</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                                                
+                              <li>Understand a new dataset (dataset of crop pests)</li>
+                             
+                              <li>build-out a data model from zero</li>                             
+                                     
+                              <li>A. ontology lookups</li>
+                              
+                              <li>B. what to do with hard cases?  Options for extending ontologies</li>
+                              
+                              
+                              
+                              <h4>Custom Scripting to apply that model</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                                                
+                              <li>understand a code walk-through in Ruby</li>
+                             
+                              <li>A. understand the general features of RDF code libraries shared between most programming languages</li>                             
+                                     
+                              <li>B. understand the considerations for the Object position, and the detection of appropriate datatypes in automated conversion pipelines</li>
+                              
+                              <li>Understand a data push, using LDP</li>
                             </ul>
                           <br>
                           
-                           <p style="text-align: left;">
-                               <b>16:00-16:30 - Close</b>
-                          </p><hr>
+                          <p style="text-align: left;">   
+                               <b>10.30 - 11-00 Coffee/tea break</b><br><br>
+                              
+                              <b>11.00 - 12.30 Block 4.2 Introduction to SPARQL and  FAIR data </b>
+                          </p>
+                          
+                             <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>Querying FAIR Data</li>
+                            </ul>
+                          
+                             <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Learn about SPARQL interfaces (Local and Yasgui)</li>
+                             
+                              <li>Learn the basics of SPARQL using our data push</li>
+                              
+                              <li>Learn filters</li>
+                             
+                              <li>Learn “distinct”</li>
+                              
+                              <li>learn ORDER BY</li>
+                             
+                              <li>Understand SPARQL over-the-web and SPARQL “locally” on in-memory datasets</li>
+                            </ul>
+                          <br> 
+                          
+                          <p style="text-align: left;">   
+                             <b>12.30 - 1.30 Lunch break</b><br>
+                               <b>Afternoon topic: Metadata modeling </b><br><br>
+                              
+                              <b>1.30 - 3.00 Block 4.3. Metadata modelling principles</b>
+                          </p>
+                          
+                             
+                           <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>The nature and purpose of FAIR metadata</li>
+                             
+                              <li>Types of Metadata</li>
+                             
+                              <li>Meta data structures (FAIR Accessors and LDP containers)</li>                                 
+                            </ul>
+                          
+                              <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                              
+                              
+                              <h4>Why metadata</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand the principles are related to both data and metadata</li>
+                             
+                              <li>Understand the purpose of metadata in FAIR</li>
+                              
+                              
+                              
+                              <h4>Types of metadata</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                                                
+                              <li>Understand the 7 types of metadata</li>
+                             
+                              <li>Know some ontologies relevant to these different types</li>                             
+                                     
+                              <li>Know which principles are primarily associated with each type</li>
+
+                              
+                              
+                              <h4>The FAIR Accessor as a Metadata structure</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                                                
+                              <li>Understand the FAIR Accessor data model</li>
+                             
+                              <li>Understand how this relates to LDP (relates to Core Ontological Frameworks Block 3.1)</li>                             
+                                     
+                              <li>Understand how this relates to DCAT  (relates to Core Ontological Frameworks Block 3.1)</li>
+                              
+                              <li>See the position of the DCAT SKOS Concept Scheme in the FAIR Accessor</li>
+                            </ul>
+                          <br>
+                          
+                          <p style="text-align: left;">   
+                               <b>3.00 - 3.30 Coffee/tea break</b><br><br>
+                              
+                              <b>3.30 - 5.00 Block 4.4 - Interacting with the Linked Data Platform </b>
+                          </p>
+                          
+                          
+                          
+                           <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>Interacting with a FAIR metadata repository (Linked Data Platform in detail)</li>
+                             
+                              <li>Create a FAIR metadata record by scripting (SKOS and DCAT)</li>
+                             
+                              <li>Demonstrate value of FAIR data through a search </li>                                 
+                            </ul>
+                          
+                              <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                              
+                              
+                              <h4>Linked Data Platform in Detail</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand the basic concepts of REST</li>
+                             
+                              <li>Understand how to create Containers and Resources in LDP from command-line</li>
+                              
+                              <li>Decide where our SKOS Concept Scheme will “live” and select it’s URL</li>
+                              
+                              
+                              
+                              <h4>Create a SKOS Concept Scheme</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                                                
+                              <li>Understand what a SKOS Concept Scheme is, and its purpose</li>
+                             
+                              <li>Learn the “SKOS Play” tool for easy conversion of Excel into SKOS</li>                             
+
+                              
+                              
+                              <h4>Push metadata</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                                                
+                              <li>POST the SKOS Concept Scheme to an LDP server</li>
+                             
+                              <li>Push DCAT metadata that refers to that SKOS Scheme</li>                             
+                                     
+                              <li>Look at code that pushes additional metadata features - note the features that are critical for FAIR</li>
+                              
+                              <li>A. NOTE:  we will not add all features at this point - some will be added after the initial Evaluation step later</li>
+                              
+                              
+                              
+                              <h4>SPARQL using Named Graphs</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                                                
+                              <li>Competency in querying over the named graphs representing the metadata, SKOS, and data layers of the FAIR Accessor</li>
+                            </ul>
+                          <br>
+                          
+                           <!--Dit is de tekst met training voor Friday-->
+                           <p style="text-align: left;">   
+                             <b>Friday</b><br>
+                               <b>Morning topic: Measuring FAIRness</b><br><br>
+                              
+                              <b>9.00 - 10.30 Block 5.1 FAIR Maturity Indicators and their Compliance Tests </b>
+                          </p>
+                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>Are we FAIR yet: discuss measuring FAIRness</li>
+                             
+                              <li>FAIR Maturity Indicators</li>
+                             
+                              <li>FAIR Maturity Indicator tests</li>                                 
+                            </ul>
+                          
+                              <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                              
+                              
+                              <h4>FAIR Maturity Indicators</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand the existing core Maturity Indicators</li>
+                             
+                              <li>Understand how to design a new MI (use “The 15th Metric” as an example?)</li>
+                              
+                              <li>Understand the role of FAIRsharing in MI registration</li>
+                              
+                              
+                              
+                              <h4>FAIR Maturity Indicator Tests</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                                                
+                              <li>Understand how the core Maturity Indicator tests work</li>
+                             
+                              <li>A. The Harvester</li>                             
+                                     
+                              <li>Understand how to interact with an MI test directly</li>
+                            </ul>
+                          <br>
+                          
+                          <p style="text-align: left;">   
+                               <b>10.30 - 11.00 Coffee/tea break</b><br><br>
+                              
+                              <b>11.00 - 12.30 Block 5.2  FAIR Evaluation and leveraging its output </b>
+                          </p>
+                          
+                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>FAIR Maturity Indicator Evaluator (prototype)</li>
+                             
+                              <li>Evaluate our published FAIR (meta)data record</li>                               
+                            </ul>
+                          
+                              <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                              
+                              
+                              <h4>Evaluation our FAIR Accessor and dataset using The Evaluator</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                    
+                              <li>Understand how The Evaluator works</li>
+                             
+                              <li>Learn how to register a new Maturity Indicator Test</li>
+                              
+                              <li>Learn how to register a Collection of Metrics</li>
+                                                                
+                              <li>Learn how to initiate a new Evaluation</li>
+                             
+                              <li>Learn how to improve your FAIRness score</li>                             
+                                     
+                              <li>Learn how to create a W3ID .htaccess record</li>
+                            </ul>
+                          <br>
+                          
+                          <p style="text-align: left;">   
+                             <b>12.30 - 1.30 Lunch break</b><br>
+                               <b>Afternoon topic: what have we achieved?</b><br><br>
+                              
+                              <b>1.30 - 3.00 Block  5.3 Dynamic data discovery and query federation</b>
+                          </p>
+                          
+                          
+                          
+                            <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>Leveraging FAIRness - FAIR data is self describing </li>
+                             
+                              <li>Automated integration of your FAIR data with other people’s FAIR data</li>                               
+                            </ul>
+                          
+                              <!--Dit is de lijst met phortos consultants bullets-->
+                          <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                              
+                              
+                              <h4>Advanced SPARQL – exploring new datasets and federated query</h4>   
+                              
+                              <h4>Objectives:</h4>
+                                    
+                              <li>a) Patterns for exploration</li>
+                             
+                              <li>b) Stepping through a complex dataset (EBI)</li>
+                              
+                              <li>c) Stepping through a third-party dataset relevant to our sample data</li>
+                              
+                               <li>i) food.data.gov website in the UK</li>
+                                                                
+                              <li>d) Understand federated query</li>
+                             
+                              <li>e) Consider options for integrating non-SPARQL data sources like LSID.</li>                             
+                                     
+                              <li>f) See a more complex federated query, using WikiData</li>
+                            </ul>
+                          <br>
+                          
+                            <p style="text-align: left;">   
+                               <b>3.00 - 3.30 Coffee/tea break</b><br><br>
+                              
+                              <b>3.30 - 5.00 Block 5.4 Data Stewardship Plans and addressing Community Challenges</b>
+                          </p>
+                          
+                           
+                            <!--Dit is de lijst met phortos consultants bullets-->
+                                <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
+                                    
+                              <h4>Topics:</h4>
+                                    
+                              <li>The FAIR Maturity Indicators (FMI) mapped to DSW</li>                            
+                            </ul><hr>
                           
                        </div>
 
@@ -422,8 +1050,6 @@ function filterFunction() {
                          <p style="text-align: left;"><b>Upcoming Events (click event to book)</b></p>
                          <br>
                          
-                         <p  style="text-align: left;">
-                         <a href="https://www.eventbrite.com/e/fair-data-stewardship-supporting-fair-data-interoperability-tickets-55648291538" target="_blank"> San Diego: May: 28-31, 2019</a></p>
                    </div>
               </div>
           </div>
