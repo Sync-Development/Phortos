@@ -10,3 +10,12 @@
 footer {
     padding-left: 30px;
 }
+
+.pt-box.pt-box-consult2 {
+    background: #fff;
+    border-bottom: 5px solid #30866f;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 300px;
+    min-height: 300px;
+}

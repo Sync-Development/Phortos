@@ -11,3 +11,20 @@
     margin-top: 0px;
   }
 
+.pt-box.pt-box-2 {
+    background: #fff;
+    border-bottom: 5px solid #227722;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 545px;
+    min-height: 545px;
+}
+
+.pt-box.pt-box-3 {
+    background: #fff;
+    border-bottom: 5px solid #227722;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 545px;
+    min-height: 545px;
+}

@@ -991,6 +991,12 @@ body {
     position: relative;
     z-index: 1;
 }
+
+.pt-end {
+    padding: 5% 0;
+    position: relative;
+    z-index: 1;
+}
 /*Dit zijn de afbeeldingen die voorkomen in de achtergrond, sommige hadden een andere variant omdat het anders niet tevoorschijn kwam*/
 .pt-rest .pt-globe {
     background: url(../images/Logo.svg);

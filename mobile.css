@@ -9,8 +9,8 @@
     border-bottom: 5px solid #227722;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
-    max-height: 650px;
-    min-height: 650px;
+    max-height: 680px;
+    min-height: 680px;
 }
 /*Dit is de derde box van homepagina dat aanpast voor de mobiel stijl*/
 .pt-box.pt-box-3 {
@@ -18,9 +18,20 @@
     border-bottom: 5px solid #227722;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
-    max-height: 545px;
-    min-height: 545px;
+    max-height: 630px;
+    min-height: 630px;
 }
+
+.pt-box.pt-box-consult2 {
+    background: #fff;
+    border-bottom: 5px solid #30866f;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 460px;
+    min-height: 460px;
+}
+
+
 /*Dit is voor de footer*/
 footer {
     position: relative;
