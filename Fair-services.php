@@ -71,7 +71,7 @@ $(document).ready(function(){
 </li>
    
 <li class="list">
- <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
+ <a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
 <li class="list">
@@ -79,7 +79,7 @@ $(document).ready(function(){
 </li>
     
 <li class="list">
-<a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
+<a  class="active2" href="Consortium"><strong>FAIR Consortium</strong></a>
 </li>
 
 <li class="list"> <a  class="active2" href="#"><strong>About Us</strong></a>
@@ -148,15 +148,60 @@ function filterFunction() {
 	</div>
 </div>
     
+    
     <section class="pt-main"><!--Dit is de contentblok voor fair services-->
-        <div class="pt-globe-consult"></div><!--Dit is de afbeelding op de achtegrond-->
+        <div class="container">
+			
+			<div class="row pt-block-grid pt-equals"> <!--Dit zorgt ervoor dat ze naast elkaar worden weergegeven-->
+				
+					<div class="col-md-12"><!--Dit is de eerste content blok voor de consulting pagina met de volledige breedte-->
+						<div class="pt-box pt-box-consult text-center pt-equal" style="">
+							<h2>FAIR Services</h2>
+                            <br>
+                            <p style="text-align: middle;">Phortos Consultants offers a variety of services ranging from strategic consulting, end  <a href="Fair-training" style="color:#68baa5">user training</a> and services to actively making data FAIR, providing the basis for analytics driven capabilities.</p>   
+                            
+                            
+                        </div>
+					</div>
+                
+            </div>
+        </div>
+    </section>
+        
+        <section class="pt-rest">  <!--Dit is de tweede rij van content blokken dat wordt weergegeven op de consulting pagina-->   
+                <div class="pt-globe"></div><!--Dit is de afbeelding op de achtegrond-->
+                <div class="container">
+			
+			<div class="row pt-block-grid pt-equals"> <!--Dit zorgt ervoor dat ze naast elkaar worden weergegeven-->
+                    
+                  <div class="col-md-6"><!--Dit is de tweede content blok voor de consulting pagina met de helft van de breedte-->
+						<div class="pt-box pt-box-consult2 text-center pt-equal" style="">
+							<h2>Strategic Consulting.</h2>
+                            <br><!--De link in de tekst zal je doorverwijzen naar de go-fair website-->
+                            <p style="text-align: left;">We offer a variety of strategic consulting services. PC has been instrumental in the process of developing the FAIR principles through moderating the first FAIR UNConference at the Lorentz center in 2014. Since then Phortos Consultants was intricately involved in the birth of  <a href="https://www.go-fair.org/" style="color:#68baa5">GO FAIR</a> as a kick start implementation process for the European Open Science Cloud (EOSC).</p>
+                            
+							
+                        </div>
+					</div>
+                
+                 <div class="col-md-6"><!--Dit is de derde content blok voor de consulting pagina met de helft van de breedte-->
+						<div class="pt-box pt-box-consult2 text-center pt-equal" style="">
+                            <h2>Organisational FAIR Readiness</h2>
+                            <br><!--De linkjes in deze tekts zal je doorverwijzen naar twee andere pagina's van de website-->
+                            <p style="text-align: left;">We offer a fully fledged FAIR Readiness program for institutions and corporations intending to join the GO FAIR ecosystem. This program involves <a href="Fair-training" style="color:#68baa5">training of internal teams</a> and organizational adoption of the FAIR principles as well as <a href="Fair-services" style="color:#68baa5">enabling services</a> such as FAIRification of data and a unique use case driven FAIR Value demonstration program.</p>
+                        </div>
+					</div>
+            </div>
+		</div>
+	</section>
+    <section class="pt-end">
 		<div class="container">
 			
 			<div class="row pt-block-grid pt-equals"><!--Dit zorgt ervoor dat ze naast elkaar worden weergegeven-->
 				
 					<div class="col-md-12"><!--Deze contentblok loopt uit over de hele breedte van de wrapper-->
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
-                            <h2>FAIR Services</h2>
+                            <h2>FAIR Data Integration</h2>
                             <br>
 							<p style="text-align: left;">Phortos Consultants, in collaboration with partners, provides a FAIRification service of your data compliant with the GO FAIR principles (to be a GO FAIR certified Service soon). This process usually includes the following steps:</p>
                              <!--Dit is de lijst met phortos consultants bullets-->
@@ -197,9 +242,9 @@ function filterFunction() {
     </ul>
     <ul>
         <li><strong>FAIR Data</strong></li>
-        <li><a href="Consulting">FAIR Consulting</a></li>
-        <li><a href="Fair-training">FAIR Training</a></li>
         <li><a href="Fair-services">FAIR Services</a></li>
+        <li><a href="Fair-training">FAIR Training</a></li>
+        <li><a href="Consortium">FAIR Consortium</a></li>
     </ul>
     <ul>
         <li><strong>About Us</strong></li>

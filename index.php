@@ -71,7 +71,7 @@ $(document).ready(function(){
 </li>
    
 <li class="list">
- <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
+ <a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
 <li class="list">
@@ -79,7 +79,7 @@ $(document).ready(function(){
 </li>
     
 <li class="list">
-<a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
+<a  class="active2" href="Consortium"><strong>FAIR Consortium</strong></a>
 </li>
 
 <li class="list"> <a  class="active2" href="#"><strong>About Us</strong></a>
@@ -192,7 +192,7 @@ function filterFunction() {
 							<h2>Strategy</h2>
                             <br>
                                <!--Hier is wederom een tekst met een link dat doorverwijst naar de Fair-training pagina-->
-                            <p style="text-align: left;">Phortos Consultant’s strategy for its continued support to develop elements of the Internet of FAir Data and Services is to provide <a href="Consulting" style="color:#68baa5">FAIR consulting</a>, <a href="Fair-training" style="color:#68baa5">FAIR Training</a> and <a href="Fair-services" style="color:#68baa5">FAIRification Services</a>.
+                            <p style="text-align: left;">As one of the founding members of the <a href="Consortium" style="color:#68baa5">FAIR Service Provider Consortium</a>, Phortos Consultant’s strategy for its continued support to develop elements of the Internet of FAIR Data and Services is to provide <a href="Consulting" style="color:#68baa5">FAIR consulting</a>, <a href="Fair-training" style="color:#68baa5">FAIR Training</a> and <a href="Fair-services" style="color:#68baa5">FAIRification Services</a>.
                             <br>    
                             <br>   <!--De tekts in deze link zal je doorberwijzen naar 2 pagina's met extra informatie-->
                             We are supporting the <a href="https://www.nature.com/articles/sdata201618" style="color:#68baa5">FAIR Principles</a> and adhere to  the <a href="https://www.go-fair.org/" style="color:#68baa5">GO FAIR</a> recommended Implementation choices. To facilitate coherence and avoid reinventing of wheels we are a member of several GO FAIR  <a href="https://www.go-fair.org/implementation-networks/" style="color:#68baa5">Implementation Networks</a>.</p>
@@ -211,7 +211,7 @@ function filterFunction() {
                                 
                            <!--Hier zit een lijst met in plaats van bullet points het logo van phortos zelf-->
                             <ul class="Fair-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                                <li><a href="Consulting" style="color:#68baa5">FAIR Consulting</a> - Empowering organisations to leverage the IFDS.</li>
+                                <li><a href="Fair-services" style="color:#68baa5">FAIR Consulting</a> - Empowering organisations to leverage the IFDS.</li>
                              
                               <li><a href="Fair-training" style="color:#68baa5">FAIR Training</a> - Training enablers of the IFDS.</li>
                              
@@ -237,9 +237,9 @@ function filterFunction() {
     </ul>
     <ul>
         <li><strong>FAIR Data</strong></li>
-        <li><a href="Consulting">FAIR Consulting</a></li>
-        <li><a href="Fair-training">FAIR Training</a></li>
         <li><a href="Fair-services">FAIR Services</a></li>
+        <li><a href="Fair-training">FAIR Training</a></li>
+        <li><a href="Consortium">FAIR Consortium</a></li>
     </ul>
     <ul>
         <li><strong>About Us</strong></li>

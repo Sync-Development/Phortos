@@ -71,7 +71,7 @@ $(document).ready(function(){
 </li>
    
 <li class="list">
- <a  class="active2" href="Consulting"><strong>FAIR Consulting</strong></a>
+ <a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
 </li>
 
 <li class="list">
@@ -79,7 +79,7 @@ $(document).ready(function(){
 </li>
     
 <li class="list">
-<a  class="active2" href="Fair-services"><strong>FAIR Services</strong></a>
+<a  class="active2" href="Consortium"><strong>FAIR Consortium</strong></a>
 </li>
 
 <li class="list"> <a  class="active2" href="#"><strong>About Us</strong></a>
@@ -245,9 +245,9 @@ function filterFunction() {
     </ul>
     <ul>
         <li><strong>FAIR Data</strong></li>
-        <li><a href="Consulting">FAIR Consulting</a></li>
-        <li><a href="Fair-training">FAIR Training</a></li>
         <li><a href="Fair-services">FAIR Services</a></li>
+        <li><a href="Fair-training">FAIR Training</a></li>
+        <li><a href="Consortium">FAIR Consortium</a></li>
     </ul>
     <ul>
         <li><strong>About Us</strong></li>
