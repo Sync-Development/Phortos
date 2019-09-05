@@ -7301,3 +7301,7 @@ ul li ul li {
 .Trainers{
     width: 150px;
 }
+
+#Quote-mobiel{
+    display:none;
+}

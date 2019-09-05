@@ -19,3 +19,11 @@ strong{
 footer {
     padding-left: 10px;
 }
+
+#Quote-1{
+    display:none;
+}
+
+#Quote-mobiel{
+    display:block;
+}

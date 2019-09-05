@@ -3,6 +3,15 @@
 .logo{
     width: 19%;
 }
+.pt-box.pt-box-default {
+    background: #fff;
+    border-bottom: 5px solid #30866f;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    padding: 30px;
+    max-height: 400px;
+    min-height: 400px;
+}
+
 /*Dit is de tweede box van homepagina dat aanpast voor de mobiel stijl*/
 .pt-box.pt-box-2 {
     background: #fff;
@@ -18,8 +27,8 @@
     border-bottom: 5px solid #227722;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
-    max-height: 630px;
-    min-height: 630px;
+    max-height: 670px;
+    min-height: 670px;
 }
 
 .pt-box.pt-box-consult2 {
@@ -27,8 +36,8 @@
     border-bottom: 5px solid #30866f;
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
     padding: 30px;
-    max-height: 460px;
-    min-height: 460px;
+    max-height: 550px;
+    min-height: 550px;
 }
 
 
@@ -65,4 +74,12 @@ footer ul {
 /*Dit is voor de trainers*/
 .Trainers{
     width: 100%;
+}
+
+#Quote-1{
+    display:none;
+}
+
+#Quote-mobiel{
+    display: block;
 }

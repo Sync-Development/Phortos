@@ -165,15 +165,15 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                 <div class="pt-box pt-box-consult text-center pt-equal" style="">
 					  <div class="col-md-10"><!--Dit content blok wordt allemaal weergegeven met 75% breedte wat ernaast komt ook nog een knop te staan-->
 						
-                            <h2 id="Consortium" style="text-align: left; ">The FAIR Service Provider Consortium</h2>
+                            <h2 id="Consortium" style="text-align: left; ">The FAIR Service Provider Consortium (FSPC)</h2>
                             <br>
                               <p style="text-align: left;">Research driven organisations are increasingly starting to appreciate the value of FAIR data. Many public and private market parties have indicated that there is an urgent need for professional FAIR services.<br><br>
                           
-                              In order to develop the tools, skills and capacity required to meet this growing demand, the <a href="https://gofairfoundation.org/" style="color:#68baa5">GO FAIR Foundation</a> and <a href="http://www.phortosconsultants.com/" style="color:#68baa5">Phortos Consultants</a> have taken the initiative to form the FAIR Service Provider Consortium (FSPC). To date 10+ companies have joined and agreed to build consulting capacity by training FAIR data stewards and ontologists and (co-)develop professional FAIR tooling. Several partners are in the process of establishing a FAIR Center of Competence.</p>
+                                  In order to develop the tools, skills and capacity required to meet this growing demand, the <a href="https://gofairfoundation.org/"  target="_blank" style="color:#68baa5">GO FAIR Foundation</a> and Phortos Consultants have taken the initiative to form the FAIR Service Provider Consortium (FSPC). To date <a href="#Partners" style="color:#68baa5">10+ companies have joined</a> and agreed to build consulting capacity by training FAIR data stewards and ontologists and (co-)develop professional FAIR tooling. Several partners are in the process of establishing a FAIR Center of Competence.</p>
                           
                             <h2 id="Aims" style="text-align: left;">FSPC Aims</h2><br>
                           
-                              <p style="text-align: left;">The partners in the FSPC have committed to adhere to the GO FAIR  <a href="https://www.go-fair.org/resources/rules-of-engagement/" style="color:#68baa5">Rules of Engagement</a> and implement (and co-develop) the FAIR principles and associated services and technology according to the best practices as they are formulated by the GO FAIR <a href="https://www.go-fair.org/implementation-networks/" style="color:#68baa5">Implementation Networks.</a><br><br>
+                              <p style="text-align: left;">The partners in the FSPC have committed to adhere to the GO FAIR  <a href="https://www.go-fair.org/resources/rules-of-engagement/" target="_blank" style="color:#68baa5">Rules of Engagement</a> and implement (and co-develop) the FAIR principles and associated services and technology according to the best practices as they are formulated by the GO FAIR <a href="https://www.go-fair.org/implementation-networks/"   target="_blank" style="color:#68baa5">Implementation Networks.</a><br><br>
                           
                               The consortium’s aims are to:</p>
                              <!--Dit is de lijst met phortos consultants bullets-->
@@ -196,12 +196,13 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                             </ul>
                           <br>
                         
-                          <p style="text-align: left;"> <a href="#Partners" style="color:#68baa5">Click here</a> for concrete examples of tooling and services offered by current FSPC partners.</p>
+                          <p style="text-align: left;">For concrete examples of tooling and services offered by current FSPC partners <a href="#Offerings" style="color:#68baa5">Click here</a> </p>
                           
                             <h2 id="Benefits" style="text-align: left;">Benefits of being a FSPC partner</h2>
-                          
+                          <br>
+                           <p style="text-align: left;">Joining the FSPC provides multiple benefits including:</p>
                              <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                             <li>Develop a competitive advantage: there is at present only a limited number of companies that can offer professional FAIR services supporting the quickly emerging trend that FAIR data is highly needed in innovation which in turn increases the need for new products supporting the analytics possible with machine readable data.</li><br>
+                             <li>Develop a competitive advantage: there is at present only a limited number of companies that can offer professional FAIR services supporting the quickly emerging trend that FAIR data is highly needed in innovation which in turn increases the need for new products supporting the analytics possible with machine readable data. </li><br>
                             
                              <li>GO FAIR certification: the GO FAIR Foundation is developing and will offer certification for FAIR professionals, tooling and organizations. The consortium is able to help parties in this process.</li><br>
                                  
@@ -209,11 +210,17 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                                  
                              <li>Stimulate re-use and co-development with existing public sector FAIR initiatives and academic parties.</li>
                           </ul>
+                          <div id="" style="background-color: #30866f ; padding: 20px; border-radius: 10px;">
+                           <p style="text-align: left; color: white; font-size: 14px;">“<i>FAIR is important to Elsevier, and we were a contributor when the FAIR initiative got started. We continue to support the research community in this area, for instance by making article-data relationships available and usable (Scholix.org), standardising data availability statements in articles (the Copdess initiative) and by launching Mendeley Data. We believe it is beneficial to align with others in the FAIR Service Provider consortium to avoid reinventing the wheel and maximise the potential for collaboration</i> “ - Wouter Haak, Elsevier</p>
+                           </div>
                           
-                          <h2 id="Membership" style="text-align: left;">What does joining entail</h2><br>
+                       <div class="col-md-7">   
+                          <h2 id="Membership" style="text-align: left;">Joining the FSPC</h2><br>
                         
                           <p style="text-align: left;">We expected the following of parties that join the consortium: </p>
                           <!--Dit is de lijst met phortos consultants bullets-->
+                          
+                          
                           
                                 <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                                     
@@ -225,11 +232,23 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                                  
                               <li>Contribute to help develop and grow the consortium</li> 
                                     
-                              <li>Share experiences and approaches regarding development of FAIR competence</li> 
+                              <li>Share experiences and approaches regarding development <br>of FAIR competence</li> 
                             </ul>
-                          <br>
-                             <p style="text-align: left;">If you want to join, please contact us at  <a href="Contact" class="btn btn-success" style="padding: 5px 45px; font-size: 20px;">Here</a><!--Dit de contact knop--></p>
+                </div>
+                          <div id="Quote-1" class="col-md-4" style="background-color: #30866f ; padding: 20px; border-radius: 10px; width: 40%; margin-top: 8%;">
+                           <p style="text-align: left; color: white; font-size: 13px;">“<i>In a world where every interaction is becoming a digital transaction it becomes critical to organize trust to share data between individuals, companies and institutions. But without the right ecosystem to collaborate, protect and share this data, organisations are faced with increasing and exponentially increasing risks. At INNOPAY we see FAIR data as an essential building block to organize this trust and the consortium provides the important capabilities to realize this.</i> “ - Douwe Lycklama, Innopay </p>
+                           </div>
                           
+                          
+                          
+                          <br>
+                           <div class="col-md-12">   
+                          <p style="text-align: left;">For more information or if you want to join the consortium, please <a href="Contact" style="color:#68baa5">contact us here</a>.</p>
+                               
+                               <div id="Quote-mobiel" style="background-color: #30866f ; padding: 20px; border-radius: 10px;">
+                           <p style="text-align: left; color: white; font-size: 14px;">“<i>In a world where every interaction is becoming a digital transaction it becomes critical to organize trust to share data between individuals, companies and institutions. But without the right ecosystem to collaborate, protect and share this data, organisations are faced with increasing and exponentially increasing risks. At INNOPAY we see FAIR data as an essential building block to organize this trust and the consortium provides the important capabilities to realize this.</i> “ - Douwe Lycklama, Innopay </p>
+                           </div>
+                         
                             <h2 id="Offerings" style="text-align: left;">Examples of activities and offerings of current FSPC partners</h2><br>
                           
                              <p style="text-align: left;">FAIR tools and services have already been created by FSPC partners. As part of the consortium additional (types of) services and tools can be (co)developed or initiated. Also collaboration opportunities based on combining portfolios or (sub)licensing are available.</p>
@@ -237,8 +256,9 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                            <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                                     
-                              <h4>Services</h4>
-                                    
+                              <h4>Services</h4><br>
+                              
+                              
                               <li>FAIR Readiness Requirements studies</li>
                              
                               <li>FAIR Data Stewardship Planning</li>
@@ -259,40 +279,26 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                               
                               <li>FAIR Value Events</li>  
                               
-                              <h4>Tooling</h4>
+                              <h4>Tooling</h4><br>
+                              
                               
                               <li>Co-development of FAIR tooling</li>  
+                              
+                              <li>Data Steward Wizard - Create a FAIR compliant stewardship plan</li>  
+                              
+                              <li>OntoUML - Find and build semantic (meta)data models</li>  
+                              
+                              <li>FAIRifier - Transform (meta)data records into FAIR RDF</li>  
+                              
+                              <li>FAIR Data Point - Make FAIR data accessible and findable</li>  
+                              
+                              <li>FAIR search engine - Find FAIR Data Points</li> 
+                              
+                              <li>FAIR Metrics Evaluator - Determine the level of FAIRness of data sets</li>  
                             </ul>
-                          <br>
-                           <table id="t01">  <!--Dit is de eerste kolom-->
-                              <tr>
-                                <th style="font-size: 17px;">Plan</th>
-                                <th style="font-size: 17px;">Model</th> 
-                                <th style="font-size: 17px;">Create</th>
-                                <th style="font-size: 17px;">Publish</th>
-                                <th style="font-size: 17px;">Find</th>
-                                <th style="font-size: 17px;">Evaluate</th>
-                              </tr>
-                              <tr><!--Dit is de tweede kolom-->
-                                <td style="font-size: 15px;">Create data stewardship plan</td>
-                                <td style="font-size: 15px;">Find/build semantic (meta)data model</td>
-                                <td style="font-size: 15px;">Transform (meta)data records into RDF</td>
-                                <td style="font-size: 15px;">Publishin FAIR data points</td>
-                                <td style="font-size: 15px;">Finding FAIR data points</td>
-                                <td style="font-size: 15px;">Determine FAIR level of data point for certification</td>
-                              </tr>
-                           <!--   <tr>
-                                <td bgcolor="#30866f";></td>
-                                <td style="font-size: 17px;">Hier komen logo's</td>
-                                <td><img src="images/Logo.svg"></td>
-                                <td bgcolor="#30866f";></td>
-                                <td bgcolor="#30866f";></td>
-                                <td bgcolor="#30866f";></td>
-                              </tr>
-                            -->
-                            </table><br>
+                         <br> 
                           
-                            <h2 id="Partners" style="text-align: left;">The current partners:</h2><br>
+                            <h2 id="Partners" style="text-align: left;">Current partners</h2><br></div>
                           
                           <!-- de eerste rij van partners -->
                          <div class="col-md-4"><a href="https://www.purplepolarbear.nl/" target="_blank"><img src="images/Partners/logo%20-%20purple%20polar%20bears.jpeg" style="width: 250px; height: 250px; object-fit:scale-down;"></a></div>
@@ -343,36 +349,28 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                           <div class="col-md-4"><a href="http://codevence.com/" target="_blank"><img src="images/Partners/logo%20-%20codevence.png" style="width: 250px; height: 250px; object-fit:scale-down;"></a></div>
                           
                           <!-- de vijfde rij van partners -->
-                          
-                           <div class="col-md-6"><a href="https://www.elsevier.com/" target="_blank"><img src="images/Partners/logo%20-%20elsevier.png" style="width: 250px;
-                          height: 250px; object-fit:scale-down; "></a></div>
-                          
-                          
-                          <div class="col-md-6"><a href="https://www.castoredc.com/" target="_blank"><img src="images/Partners/logo%20-%20castor.png" style="width: 250px; height: 250px; object-fit:scale-down; margin-bottom: 25%;"></a></div>
-                          
-                          <h2 style="text-align: left;">AND GROWING</h2><br>
+                          <div class="container-fluid">
+
+                           <div class="col-md-4" ><a href="https://www.elsevier.com/" target="_blank"><img src="images/Partners/logo%20-%20elsevier.png" style="width: 250px;
+                          height: 250px; object-fit:scale-down; "></a></div><br>
                           
                           
+                          <div class="col-md-4"><a href="https://www.castoredc.com/" target="_blank"><img src="images/Partners/logo%20-%20castor.png" style="width: 250px; height: 250px; object-fit:scale-down; margin-bottom: 25%;"></a></div>
+                          
+                          </div>
                           
                           
-                          <h4 style="text-align: left;">For more info or to join: contact us at  <a href="mailto:info@phortosconsultants.com" style="color:#68baa5">info@phortosconsultants.com</a></h4><br>
                           
-                          <h4 style="text-align: left;">Quotes:</h4><br>
                           
-                           <p style="text-align: left;">Innopay:</p>
                           
-                           <p style="text-align: left;">“<i>In a world where every interaction is becoming a digital transaction it becomes critical to organize trust to share data between individuals, companies and institutions. But without the right ecosystem to collaborate, protect and share this data, organisations are faced with increasing and exponentially increasing risks. At INNOPAY we see FAIR data as an essential building block to organize this trust and the consortium provides the important capabilities to realize this.</i> “ - Douwe Lycklama </p><br>
-                           
-                           <p style="text-align: left;">Elsevier:</p>
-                          
-                           <p style="text-align: left;">“<i>FAIR is important to Elsevier, and we were a contributor when the FAIR initiative got started. We continue to support the research community in this area, for instance by making article-data relationships available and usable (Scholix.org), standardising data availability statements in articles (the Copdess initiative) and by launching Mendeley Data. We believe it is beneficial to align with others in the FAIR Service Provider consortium to avoid reinventing the wheel and maximise the potential for collaboration</i> “ - Wouter Haak</p>
+                           <h4 style="text-align: left;">For more information or if you want to join the consortium, please <a href="Contact" style="color:#68baa5">contact us here</a>.</h4>
                           
 
                        </div>
 
                      <div class="col-md-2"><br><!--Dit de andere 25% met de knop en de datum voor events wat eerder werdt vermeld-->
                       
-                         <h4 style="text-align: left;">Navigation:</h4><br>
+                         <a href="Contact" class="btn btn-success" style="padding: 5px 56px; font-size: 20px; margin-top: 20%;  ">Join</a><!--Dit de contact knop--></p>
                          
                          <p style="text-align: left;"><b><a href="#Consortium" style="color:#68baa5">Consortium</a></b></p>
                          <p style="text-align: left;"><b><a href="#Aims" style="color:#68baa5">Aims</a></b></p>

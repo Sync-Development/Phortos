@@ -158,7 +158,7 @@ function filterFunction() {
 						<div class="pt-box pt-box-consult text-center pt-equal" style="">
 							<h2>FAIR Services</h2>
                             <br>
-                            <p style="text-align: middle;">Phortos Consultants offers a variety of services ranging from strategic consulting, end  <a href="Fair-training" style="color:#68baa5">user training</a> and services to actively making data FAIR, providing the basis for analytics driven capabilities.</p>   
+                            <p style="text-align: middle;">Phortos Consultants offers a variety of services ranging from strategic consulting,  <a href="Fair-training" style="color:#68baa5">training</a> and data FAIRification services that provide the basis for analytics driven capabilities.</p>   
                             
                             
                         </div>
@@ -176,9 +176,9 @@ function filterFunction() {
                     
                   <div class="col-md-6"><!--Dit is de tweede content blok voor de consulting pagina met de helft van de breedte-->
 						<div class="pt-box pt-box-consult2 text-center pt-equal" style="">
-							<h2>Strategic Consulting.</h2>
+							<h2>Strategic Consulting</h2>
                             <br><!--De link in de tekst zal je doorverwijzen naar de go-fair website-->
-                            <p style="text-align: left;">We offer a variety of strategic consulting services. PC has been instrumental in the process of developing the FAIR principles through moderating the first FAIR UNConference at the Lorentz center in 2014. Since then Phortos Consultants was intricately involved in the birth of  <a href="https://www.go-fair.org/" style="color:#68baa5">GO FAIR</a> as a kick start implementation process for the European Open Science Cloud (EOSC).</p>
+                            <p style="text-align: left;">We offer a variety of strategic consulting services. PC has been instrumental in the process of developing the FAIR principles through moderating the first FAIR UNConference at the Lorentz center in 2014. Since then Phortos Consultants was intricately involved in the birth of  <a href="https://www.go-fair.org/"  target="_blank" style="color:#68baa5">GO FAIR</a> as a kick start implementation process for the European Open Science Cloud (EOSC).</p>
                             
 							
                         </div>
@@ -188,7 +188,7 @@ function filterFunction() {
 						<div class="pt-box pt-box-consult2 text-center pt-equal" style="">
                             <h2>Organisational FAIR Readiness</h2>
                             <br><!--De linkjes in deze tekts zal je doorverwijzen naar twee andere pagina's van de website-->
-                            <p style="text-align: left;">We offer a fully fledged FAIR Readiness program for institutions and corporations intending to join the GO FAIR ecosystem. This program involves <a href="Fair-training" style="color:#68baa5">training of internal teams</a> and organizational adoption of the FAIR principles as well as <a href="Fair-services" style="color:#68baa5">enabling services</a> such as FAIRification of data and a unique use case driven FAIR Value demonstration program.</p>
+                            <p style="text-align: left;">We offer a fully fledged FAIR Readiness program for institutions and corporations intending to join the GO FAIR ecosystem. This program involves <a href="Fair-training" style="color:#68baa5">training of internal teams</a> and organizational adoption of the FAIR principles as well as enabling services such as FAIRification of data and a unique use case driven FAIR Value demonstration program.</p>
                         </div>
 					</div>
             </div>
@@ -212,7 +212,7 @@ function filterFunction() {
                              
                               <li>The results will be published as a (private or public) FAIR Data Point.</li>  
                                  
-                              <li>In case of life sciences data, your FAIR data can be integrated in the <a href="http://www.euretos.com/euretos-ai-platform-for-target-and-biomarker-discovery-and-validation.php" style="color:#68baa5">Euretos AI Platform</a> for knowledge discovery.</li>  
+                              <li>In case of life sciences data, your FAIR data can be integrated in the <a href="http://www.euretos.com/euretos-ai-platform-for-target-and-biomarker-discovery-and-validation.php"  target="_blank" style="color:#68baa5">Euretos AI Platform</a> for knowledge discovery.</li>  
                             </ul>
                              <!--Dit is het tweede stukje tekst van de contentblok-->
                             <h2 style="margin-top: 3%;">FAIR Data Value Event</h2>
