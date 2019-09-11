@@ -27,9 +27,9 @@
 <link rel="stylesheet" type="text/css" href="landscape.css">
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
 <link rel="stylesheet"  media="(max-width: 690px) and (orientation: portrait)" href="mobile.css">
-<link rel="stylesheet" media="(max-width: 750px) and (orientation: landscape)" href="css/mobile-landscape.css">
-<link rel="stylesheet" media="(max-width: 780px) and (orientation: portrait)" href="css/ipad.css">
-<link rel="stylesheet" media="(min-width: 790px) and (orientation: portrait)" href="css/ipad-pro.css">
+<link rel="stylesheet" media="(max-width: 850px) and (orientation: landscape)" href="css/mobile-landscape.css">
+<link rel="stylesheet" media="(max-width: 980px) and (orientation: portrait)" href="css/ipad.css">
+<link rel="stylesheet" media="(min-width: 990px) and (orientation: portrait)" href="css/ipad-pro.css">
 <link rel="stylesheet" media="(max-width: 1370px) and (orientation: landscape)" href="css/Ipad-landscape.css">
 <link href="https://fonts.googleapis.com/css?family=Tauri" rel="stylesheet"> 
 </head>
@@ -140,13 +140,14 @@ $(document).on('click', 'a[href^="#"]', function (event) {
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
 });
-</script>   
+</script>  
+ 
     
-    <div class="pt-page-header"><!--Dit stukje code is de tekst dat wordt gedisplayed op de banner van de Fair management-->
+    <div class="pt-page-header" ><!--Dit stukje code is de tekst dat wordt gedisplayed op de banner van de Fair management-->
 	<div class="container">
 		<div class="pt-page-header-wrapper">
 			<div class="pt-header-content">
-				<h1 class="page-title">Collaborating to provide FAIR capacity, services and tools</h1>
+				<h1 class="page-title" style="font-size: 42px; ">Collaborating to provide FAIR capacity, services and tools</h1>
 
 				<div class="page-description">
                     <p class="page-description">A global consortium covering the full spectrum of FAIR capabilities</p>
@@ -180,13 +181,13 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                               <li>Enable the development of professional FAIR support capacity in terms of services and tooling </li>
                              
-                              <li>Develop tooling preferably as a multi-tenant cloud-based FAIR As A Service (FAAS)</li>
+                              <li>Develop tooling preferably as a multi-tenant cloud-based FAIR As A Service (FaaS)</li>
                              
                               <li>Help guide the professionalisation of tools and services </li>  
                                  
-                              <li>Stimulate the adoption of FAIR principles and their implementati</li> 
+                              <li>Stimulate the adoption of FAIR principles and their implementation</li> 
                               
-                              <li>Co-develop market opportunities, including licensing to build or expand services portfolio</li>  
+                              <li>Co-develop market opportunities, including licensing, to build or expand services portfolio</li>  
                               
                               <li>Develop best practices for FAIR implementations</li>  
                               
@@ -196,7 +197,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                             </ul>
                           <br>
                         
-                          <p style="text-align: left;">For concrete examples of tooling and services offered by current FSPC partners <a href="#Offerings" style="color:#68baa5">Click here</a> </p>
+                          <p style="text-align: left;">For concrete examples of tooling and services offered by current FSPC partners <a href="#Offerings" style="color:#68baa5">click here</a> </p>
                           
                             <h2 id="Benefits" style="text-align: left;">Benefits of being a FSPC partner</h2>
                           <br>
@@ -204,9 +205,9 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                              <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
                              <li>Develop a competitive advantage: there is at present only a limited number of companies that can offer professional FAIR services supporting the quickly emerging trend that FAIR data is highly needed in innovation which in turn increases the need for new products supporting the analytics possible with machine readable data. </li><br>
                             
-                             <li>GO FAIR certification: the GO FAIR Foundation is developing and will offer certification for FAIR professionals, tooling and organizations. The consortium is able to help parties in this process.</li><br>
+                                 <li>GO FAIR certification: the <a href="https://gofairfoundation.org" target="_blank">GO FAIR Foundation</a> is developing and will offer certification for FAIR professionals, tooling and organizations. The consortium is able to help parties in this process.</li><br>
                                  
-                             <li>Broker access to scarce FAIR expertise from front line professionals </li><br>
+                             <li>Broker access to scarce FAIR expertise from front line professionals.</li><br>
                                  
                              <li>Stimulate re-use and co-development with existing public sector FAIR initiatives and academic parties.</li>
                           </ul>
@@ -217,7 +218,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                        <div class="col-md-7">   
                           <h2 id="Membership" style="text-align: left;">Joining the FSPC</h2><br>
                         
-                          <p style="text-align: left;">We expected the following of parties that join the consortium: </p>
+                          <p style="text-align: left;">We expect the following of parties that join the consortium: </p>
                           <!--Dit is de lijst met phortos consultants bullets-->
                           
                           
@@ -226,17 +227,17 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                                     
                               <li>Agree to the GO FAIR Rules of Engagement</li>
                              
-                              <li>Allow permission to add the logo</li>
+                              <li>Allow permission to add its logo</li>
                              
                               <li>Engage in consortium meetings</li>  
                                  
                               <li>Contribute to help develop and grow the consortium</li> 
                                     
-                              <li>Share experiences and approaches regarding development <br>of FAIR competence</li> 
+                              <li>Share experiences and approaches regarding development of FAIR competence</li> 
                             </ul>
                 </div>
-                          <div id="Quote-1" class="col-md-4" style="background-color: #30866f ; padding: 20px; border-radius: 10px; width: 40%; margin-top: 8%;">
-                           <p style="text-align: left; color: white; font-size: 13px;">“<i>In a world where every interaction is becoming a digital transaction it becomes critical to organize trust to share data between individuals, companies and institutions. But without the right ecosystem to collaborate, protect and share this data, organisations are faced with increasing and exponentially increasing risks. At INNOPAY we see FAIR data as an essential building block to organize this trust and the consortium provides the important capabilities to realize this.</i> “ - Douwe Lycklama, Innopay </p>
+                          <div id="Quote-1" class="col-md-4">
+                           <p style="text-align: left; color: white; font-size: 13px;">“<i>In a world where every interaction is becoming a digital transaction it becomes critical to organize trust to share data between individuals, companies and institutions. But without the right ecosystem to collaborate, protect and share this data, organisations are faced with increasing and exponentially increasing risks. At INNOPAY we see FAIR data as an essential building block to organize this trust and the consortium provides the important capabilities to realize this.</i> “<br> - Douwe Lycklama, Innopay </p>
                            </div>
                           
                           
@@ -244,14 +245,11 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                           <br>
                            <div class="col-md-12">   
                           <p style="text-align: left;">For more information or if you want to join the consortium, please <a href="Contact" style="color:#68baa5">contact us here</a>.</p>
-                               
-                               <div id="Quote-mobiel" style="background-color: #30866f ; padding: 20px; border-radius: 10px;">
-                           <p style="text-align: left; color: white; font-size: 14px;">“<i>In a world where every interaction is becoming a digital transaction it becomes critical to organize trust to share data between individuals, companies and institutions. But without the right ecosystem to collaborate, protect and share this data, organisations are faced with increasing and exponentially increasing risks. At INNOPAY we see FAIR data as an essential building block to organize this trust and the consortium provides the important capabilities to realize this.</i> “ - Douwe Lycklama, Innopay </p>
-                           </div>
+
                          
                             <h2 id="Offerings" style="text-align: left;">Examples of activities and offerings of current FSPC partners</h2><br>
                           
-                             <p style="text-align: left;">FAIR tools and services have already been created by FSPC partners. As part of the consortium additional (types of) services and tools can be (co)developed or initiated. Also collaboration opportunities based on combining portfolios or (sub)licensing are available.</p>
+                             <p style="text-align: left;">FAIR tools and services have already been created by FSPC partners. As part of the consortium's, additional (types of) services and tools can be (co)developed or initiated. Also collaboration opportunities based on combining portfolios or (sub)licensing are available.</p>
                           
                            <!--Dit is de lijst met phortos consultants bullets-->
                           <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
@@ -263,7 +261,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                              
                               <li>FAIR Data Stewardship Planning</li>
                              
-                              <li>FAIRificationservices</li>  
+                              <li>FAIRification services</li>  
                                  
                               <li>Semantic and Ontology Modeling</li> 
                               
@@ -369,7 +367,8 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                        </div>
 
                      <div class="col-md-2"><br><!--Dit de andere 25% met de knop en de datum voor events wat eerder werdt vermeld-->
-                      
+                         
+                      <div class="header" id="myHeader">
                          <a href="Contact" class="btn btn-success" style="padding: 5px 56px; font-size: 20px; margin-top: 20%;  ">Join</a><!--Dit de contact knop--></p>
                          
                          <p style="text-align: left;"><b><a href="#Consortium" style="color:#68baa5">Consortium</a></b></p>
@@ -378,11 +377,24 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                          <p style="text-align: left;"><b><a href="#Membership" style="color:#68baa5">Membership</a></b></p>
                          <p style="text-align: left;"><b><a href="#Offerings" style="color:#68baa5">Offerings</a></b></p>
                          <p style="text-align: left;"><b><a href="#Partners" style="color:#68baa5">Partners</a></b></p>
-                         
+                      </div>
                    </div>
-              </div>
-          </div>
-        </div>
+                <script>
+                   window.onscroll = function() {myFunction()};
+                  
+                   var header = document.getElementById("myHeader");
+                   var sticky = header.offsetTop;
+
+                   function myFunction() {
+                   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+                      header.classList.add("sticky");
+                   } else {
+                      header.classList.remove("sticky");
+                   }
+                  }
+               </script>   
+             </div>
+         </div>
     <br> <br> <br>
 </section>             
               

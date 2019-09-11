@@ -7305,3 +7305,22 @@ ul li ul li {
 #Quote-mobiel{
     display:none;
 }
+
+#Quote-1{
+    background-color: #30866f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 8%;
+}
+
+.header {
+  
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+}
+
+

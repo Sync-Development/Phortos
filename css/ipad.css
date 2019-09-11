@@ -21,9 +21,12 @@ footer {
 }
 
 #Quote-1{
-    display:none;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 8%;
 }
 
-#Quote-mobiel{
-    display:block;
+.sticky{
+    display:none;
 }
