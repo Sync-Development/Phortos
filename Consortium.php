@@ -203,7 +203,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                           <br>
                            <p style="text-align: left;">Joining the FSPC provides multiple benefits including:</p>
                              <ul class="Ontology-list" style="color: gray; font-family: 'Tauri', sans-serif; font-size: 17px; text-align: left">
-                             <li>Develop a competitive advantage: there is at present only a limited number of companies that can offer professional FAIR services supporting the quickly emerging trend that FAIR data is highly needed in innovation which in turn increases the need for new products supporting the analytics possible with machine readable data. </li><br>
+                             <li>Develop a competitive advantage: there is at present only a limited number of companies that can offer the professional FAIR services that research driven organisations are increasingly asking for.</li><br>
                             
                                  <li>GO FAIR certification: the <a href="https://gofairfoundation.org" target="_blank">GO FAIR Foundation</a> is developing and will offer certification for FAIR professionals, tooling and organizations. The consortium is able to help parties in this process.</li><br>
                                  
@@ -211,10 +211,11 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                                  
                              <li>Stimulate re-use and co-development with existing public sector FAIR initiatives and academic parties.</li>
                           </ul>
+                          <br><br>
                           <div id="" style="background-color: #30866f ; padding: 20px; border-radius: 10px;">
                            <p style="text-align: left; color: white; font-size: 14px;">“<i>FAIR is important to Elsevier, and we were a contributor when the FAIR initiative got started. We continue to support the research community in this area, for instance by making article-data relationships available and usable (Scholix.org), standardising data availability statements in articles (the Copdess initiative) and by launching Mendeley Data. We believe it is beneficial to align with others in the FAIR Service Provider consortium to avoid reinventing the wheel and maximise the potential for collaboration</i> “ - Wouter Haak, Elsevier</p>
                            </div>
-                          
+                          <br>
                        <div class="col-md-7">   
                           <h2 id="Membership" style="text-align: left;">Joining the FSPC</h2><br>
                         
@@ -237,14 +238,14 @@ $(document).on('click', 'a[href^="#"]', function (event) {
                             </ul>
                 </div>
                           <div id="Quote-1" class="col-md-4">
-                           <p style="text-align: left; color: white; font-size: 13px;">“<i>In a world where every interaction is becoming a digital transaction it becomes critical to organize trust to share data between individuals, companies and institutions. But without the right ecosystem to collaborate, protect and share this data, organisations are faced with increasing and exponentially increasing risks. At INNOPAY we see FAIR data as an essential building block to organize this trust and the consortium provides the important capabilities to realize this.</i> “<br> - Douwe Lycklama, Innopay </p>
+                           <p style="text-align: left; color: white; font-size: 13px;">“<i>In a world where every interaction is becoming a digital transaction it becomes critical to organize trust to share data between individuals, companies and institutions. Without the right ecosystem to collaborate, protect and share this data, organisations are faced with exponentially increasing risks. At INNOPAY we see FAIR data as an essential building block to organize this trust and the consortium provides the important capabilities to realize this.</i> “<br>- Douwe Lycklama, INNOPAY</p>
                            </div>
                           
                           
                           
                           <br>
                            <div class="col-md-12">   
-                          <p style="text-align: left;">For more information or if you want to join the consortium, please <a href="Contact" style="color:#68baa5">contact us here</a>.</p>
+                          <p style="text-align: left;">For information or joining the consortium <a href="Contact" style="color:#68baa5">contact us here</a>.</p>
 
                          
                             <h2 id="Offerings" style="text-align: left;">Examples of activities and offerings of current FSPC partners</h2><br>
